@@ -1,0 +1,253 @@
+.home_header {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 4 !important;
+}
+
+.carousel_opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(5, 43, 64, .7);
+}
+
+.carousel_opacity2 {
+    background: rgba(16, 38, 51, .8);
+    color: #052B40;
+    z-index: 2;
+    position: absolute;
+    width: 45%;
+    height: 100%;
+}
+
+.home_carousel {
+    width: 100%;
+    height: 100%;
+
+}
+
+.home_carousel .carousel-indicators {
+    display: none;
+}
+
+.home_header .carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.home_header .carousel-item {
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+
+.home_header .carousel-item .carousel_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home_header .carousel-caption {
+    position: absolute;
+    z-index: 5 !important;
+    top: 30% !important;
+    left: 0% !important;
+    right: 0 !important;
+    text-align: left;
+
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+        display: none;
+    }
+    to {
+        transform: translateX(0);
+        display: flex;
+    }
+}
+
+.animate-left {
+    transform: translateX(-100%);
+
+    animation: slideFromLeft 1s ease forwards;
+}
+
+@keyframes slideFromTop {
+    from {
+        transform: translateY(100%);
+
+        display: none;
+        z-index: -1;
+    }
+    to {
+        transform: translateY(0);
+
+        display: flex;
+        z-index: 3;
+    }
+}
+
+.animate-top {
+    transform: translateY(100%);
+
+    z-index: -1;
+    animation: slideFromTop 1s ease forwards;
+}
+
+
+.h-header-top {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h-header-top_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-wrap: nowrap;
+}
+
+.h-header-top_icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.h-header-top_icon p {
+    margin: 0;
+    font-size: 20px;
+    color: RGBA(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+}
+
+.h-header-top-text h1 {
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 90px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+}
+
+.h-header-top-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.h-header-top-btns a {
+    text-decoration: none;
+    padding: 16px 39px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.h-header-top-btns a:first-child {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.h-header-top-btns a:last-child {
+    background: #FFAA01;
+    border: none;
+    color: #052B40;
+}
+
+.h-header-top-btns a:last-child:hover {
+    background: #fff;
+    border: none;
+    color: #052B40;
+}
+
+.h-header-top-btns a:first-child:hover {
+    background: white;
+    color: #052B40;
+}
+
+.h-header-bottom {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.h-header-bottom_box {
+
+    display: flex;
+    gap: 10px;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+.h-header-bottom_box h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.h-header-bottom_box_icon {
+    background: #FFAA01;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.h-header-bottom_box_icon svg {
+    font-size: 70px;
+    fill: #052B40;
+}
+
+.h-caption {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .h-header-top-text h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .h-header-top, .h-header-bottom {
+        width: 100%;
+    }
+
+    .h-caption {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home_header .carousel-caption {
+        top: 15% !important;
+    }
+
+    .h-header-top-btns a {
+        padding: 16px 20px;
+    }
+    .h-header-bottom_box_icon{
+        width: 80px;
+        height: 80px;
+    }
+    .home_carousel .carousel-control-prev, .home_carousel .carousel-control-next{
+        display: none;
+    }
+}

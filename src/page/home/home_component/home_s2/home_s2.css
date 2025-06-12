@@ -1,0 +1,48 @@
+.h_2{
+    margin-top: 100px;
+    background: url("@/assets/home/home_s2/globe-bg.png") #F7A603 bottom no-repeat;
+    min-height: 40vh;
+}
+.h_2_item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h_2_item:hover .h_2_item_top svg{
+    transform: rotateY(360deg);
+    transition: .8s;
+}
+
+.h_2_item_bottom , .h_2_item_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h_2_item_top{
+    border: 1px solid #002C42;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.h_2_item_top svg{
+    font-size: 50px;
+    color: #002C42;
+}
+
+.h_2_item_bottom h2{
+    font-size: 46px;
+    color: #002C42;
+    font-weight: 700;
+}
+.h_2_item_bottom p{
+    font-size: 18px;
+    color: #002C42;
+    font-weight: 500;
+}
