@@ -3,6 +3,7 @@ import {Route, Routes, useLocation} from "react-router-dom";
 import {Index_Router} from "./utils/consts.jsx";
 import AOS from "aos";
 import Navbar from "@/component/navbar/navbar.jsx";
+import Footer from "@/component/footer/footer.jsx";
 
 function App() {
     const location = useLocation();
@@ -18,6 +19,7 @@ function App() {
                 <Route path={Path} element={<>
                     <Navbar/>
                     <Component/>
+                    <Footer/>
                 </>} key={index}/>
             ))}
         </Routes>
