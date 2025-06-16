@@ -7,6 +7,12 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import h_s1_img from "@/assets/home/home_s1/single-imge01.jpg"
 import {Link} from "react-router-dom"
 
+import xlopzavod from "@/assets/home/home_s1/cotton.png"
+import fabric from "@/assets/home/home_s1/fabric.png"
+import eco from "@/assets/home/home_s1/eco-friendly.png"
+import yarn from "@/assets/home/home_s1/yarn-ball.png"
+
+
 const HomeS1 = () => {
     return (
         <div className={"h_s1 container"}>
@@ -14,13 +20,13 @@ const HomeS1 = () => {
             <div className="h_s1_top">
                 <div className="h_s1_top_item">
                     <div className="h_s1_top_item_left">
-                        <LocalPrintshopOutlinedIcon/>
+                        <img src={xlopzavod} alt=""/>
                     </div>
                     <div className="h_s1_top_item_right">
                         <div className="h_s1_top_item_right_content">
                             <div className="h_s1_top_item_right_content_text">
-                                <p>RAYON FABRIC</p>
-                                <h3>The Global Fabrics Distributor</h3>
+                                <p>Хлопзавод</p>
+                                <h3> Чисто. Надёжно. Инновационно.</h3>
                             </div>
                             <div className="h_s1_top_item_right_content_arrow">
                                 <ArrowRightAltIcon/>
@@ -30,13 +36,47 @@ const HomeS1 = () => {
                 </div>
                 <div className="h_s1_top_item">
                     <div className="h_s1_top_item_left">
-                        <LocalPrintshopOutlinedIcon/>
+                        <img src={yarn} alt=""/>
                     </div>
                     <div className="h_s1_top_item_right">
                         <div className="h_s1_top_item_right_content">
                             <div className="h_s1_top_item_right_content_text">
-                                <p>RAYON FABRIC</p>
-                                <h3>The Global Fabrics Distributor</h3>
+                                <p>Пряжа</p>
+                                <h3>Основа будущей ткани</h3>
+                            </div>
+                            <div className="h_s1_top_item_right_content_arrow">
+                                <ArrowRightAltIcon/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="h_s1_top h_s1_top_2" >
+                <div className="h_s1_top_item">
+                    <div className="h_s1_top_item_left">
+                        <img src={fabric} alt=""/>
+                    </div>
+                    <div className="h_s1_top_item_right">
+                        <div className="h_s1_top_item_right_content">
+                            <div className="h_s1_top_item_right_content_text">
+                                <p>Ткани</p>
+                                <h3>Комфорт начинается здесь</h3>
+                            </div>
+                            <div className="h_s1_top_item_right_content_arrow">
+                                <ArrowRightAltIcon/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="h_s1_top_item">
+                    <div className="h_s1_top_item_left">
+                        <img src={eco} alt=""/>
+                    </div>
+                    <div className="h_s1_top_item_right">
+                        <div className="h_s1_top_item_right_content">
+                            <div className="h_s1_top_item_right_content_text">
+                                <p>Эко сумка</p>
+                                <h3>Сумка с пользой</h3>
                             </div>
                             <div className="h_s1_top_item_right_content_arrow">
                                 <ArrowRightAltIcon/>
@@ -53,28 +93,31 @@ const HomeS1 = () => {
                     </div>
                     <div className="col-lg-7">
                         <div className="h_s1_content_box">
-                            <span className={"subtitle"}>About Fablio</span>
-                            <h2>The Best Solution for all Industrial & Factory Businesses</h2>
-                            <p>Since more than 40 years, FABLIO is operating in the textile market manufacture and
-                                trader. As years go by, the range of produced textiles has been increased, besides the
-                                regular production became the largest exporter.</p>
+                            <span className={"subtitle"}>Тканый путь</span>
+                            <h2>Создаём ткани с честностью и заботой</h2>
+                            <p>Наша миссия — быть лидером в текстильной отрасли.
+                                Мы создаём продукцию полного цикла: от выращивания хлопка до производства высококачественных, экологичных тканей и изделий.
+                                Работаем с уважением к клиентам и к природе — честно, надёжно, с душой.
+                            </p>
 
                             <div className="h_s1_content_box_bottom">
                                 <div className="h_s1_content_box_bottom_left">
                                     <ul>
-                                        <li><CheckIcon/>Experienced Attorneys Professional.</li>
-                                        <li><CheckIcon/>Experienced Attorneys Professional.</li>
-                                        <li><CheckIcon/>Experienced Attorneys Professional.</li>
-                                        <li><CheckIcon/>Experienced Attorneys Professional.</li>
+                                        <li><CheckIcon/>
+                                            Чистота. Прочность. Истоки.
+                                        </li>
+                                        <li><CheckIcon/>Точность. Гибкость. Форма.</li>
+                                        <li><CheckIcon/>Комфорт. Долговечность. Стиль.</li>
+                                        <li><CheckIcon/>Устойчивость. Осознанность. Дизайн.</li>
                                     </ul>
-                                    <Link to={"#"} className="h_s1_content_box_bottom_left_link">View more!</Link>
+                                    <Link to={"#"} className="h_s1_content_box_bottom_left_link">Свяжитесь</Link>
                                 </div>
                                 <div className="h_s1_content_box_bottom_right">
                                         <div className="h_s1_content_box_bottom_right_element"></div>
                                         <div className="h_s1_content_box_bottom_right_element_2">
                                             <HomeOutlinedIcon/>
-                                            <h2>4567</h2>
-                                            <p>Happy Clients.</p>
+                                            <h2>15+ </h2>
+                                            <p>лет на рынке</p>
                                         </div>
                                 </div>
                             </div>

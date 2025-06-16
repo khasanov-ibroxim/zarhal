@@ -12,8 +12,8 @@ const HomeS5 = () => {
     return (
         <div className={"h_5 container"}>
             <div className="h5_title">
-                <span className={"subtitle"}>OUR WORKING PROCESS</span>
-                <h1>Simple Step To Get Textile?</h1>
+                <span className={"subtitle"}>Проект будущего</span>
+                <h1>Чем важен полный цикл текстиля для Узбекистана сегодня?</h1>
             </div>
 
             <div className="h5_content">
@@ -25,8 +25,8 @@ const HomeS5 = () => {
                                 <div className="h_5_item_top_element">01</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Production of Fabric</h2>
-                                <p>We Produce the best quality of fabric covered all aspects</p>
+                                <h2>Полный цикл</h2>
+                                <p>Производство 65 млн м² тканей и 400 тонн окрашенной пряжи в год.</p>
                             </div>
                         </div>
                     </div>
@@ -34,11 +34,11 @@ const HomeS5 = () => {
                         <div className="h_5_item">
                             <div className="h_5_item_top">
                                 <img src={iconWool}/>
-                                <div className="h_5_item_top_element">01</div>
+                                <div className="h_5_item_top_element">02</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Exportation Globally</h2>
-                                <p>We not only export locally but all over the world</p>
+                                <h2>Экспортный фокус</h2>
+                                <p>Современные станки — ткани до 360 см для Европы и США.</p>
                             </div>
                         </div>
                     </div>
@@ -46,11 +46,11 @@ const HomeS5 = () => {
                         <div className="h_5_item">
                             <div className="h_5_item_top">
                                 <img src={iconWest}/>
-                                <div className="h_5_item_top_element">01</div>
+                                <div className="h_5_item_top_element">03</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Digital Shop Available</h2>
-                                <p>Showcased digitally our all the products for best reach</p>
+                                <h2>Готовый продукт</h2>
+                                <p>8 млн текстильных изделий ежегодно + потребность в фабрике окраски.</p>
                             </div>
                         </div>
                     </div>
@@ -58,11 +58,11 @@ const HomeS5 = () => {
                         <div className="h_5_item">
                             <div className="h_5_item_top">
                                 <img src={iconTshirt}/>
-                                <div className="h_5_item_top_element">01</div>
+                                <div className="h_5_item_top_element">04</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Great Client Support</h2>
-                                <p>our front desk is available for clients for 24*7!</p>
+                                <h2>Новые рабочие места</h2>
+                                <p>Более 1000 человек заняты через касаначилик в регионах.</p>
                             </div>
                         </div>
                     </div>
@@ -73,9 +73,8 @@ const HomeS5 = () => {
                 <div className="h5_box_left">
                     <img src={h5_img} alt="Zarhal"/>
                     <div className="h5_box_left_item">
-                        <h1>Fablio is Operating In The Textile <br/>
-                            Market Manufacture</h1>
-                        <Link to={"#"}>More service</Link>
+                        <h1>Наше оборудование — ключ к качеству и эффективности на каждом этапе</h1>
+                        <Link to={"#"}>Свяжитесь</Link>
                     </div>
                 </div>
                 <div className="h5_box_right">
@@ -84,25 +83,25 @@ const HomeS5 = () => {
                             <img src={iconWool} alt=""/>
                         </div>
                         <div className="h5_box_right_item_content">
-                            <h1>Fabric Products & Accessories</h1>
-                            <p>We have built a strong alliance with some of industry tech giants to build a most
-                                efficient data analysis and processing.</p>
+                            <h1>Для переработки и пряжи</h1>
+                            <p>Оборудование от Trützschler и Rieter обеспечивает первичную очистку и прядение с высокой
+                                точностью и стабильностью. Это залог однородной, прочной нити без дефектов.</p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
-                        <div className="h5_box_right_element"> <img src={iconSilk} alt=""/></div>
+                        <div className="h5_box_right_element"><img src={iconSilk} alt=""/></div>
                         <div className="h5_box_right_item_content">
-                            <h1>Fabric Products & Accessories</h1>
-                            <p>We have built a strong alliance with some of industry tech giants to build a most
-                                efficient data analysis and processing.</p>
+                            <h1> Для ткачества и жаккарда</h1>
+                            <p>Станки Picanol, Itema и Bonas позволяют выпускать сложные узорчатые и технические ткани.
+                                Высокая скорость и гибкость — преимущество для крупных заказов.</p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
-                        <div className="h5_box_right_element"> <img src={iconWest} alt=""/></div>
+                        <div className="h5_box_right_element"><img src={iconWest} alt=""/></div>
                         <div className="h5_box_right_item_content">
-                            <h1>Fabric Products & Accessories</h1>
-                            <p>We have built a strong alliance with some of industry tech giants to build a most
-                                efficient data analysis and processing.</p>
+                            <h1> Для отделки и агроэтапа</h1>
+                            <p>Оборудование Karl Mayer отвечает за финишную обработку и усиление текстиля. А John Deere
+                                используется на стадии агрообработки хлопка — от посева до сбора урожая.</p>
                         </div>
                     </div>
                 </div>

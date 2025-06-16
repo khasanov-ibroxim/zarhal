@@ -13,8 +13,8 @@ const Footer = () => {
             <div className="container">
                 <div className="footer_title">
                     <span className="footer_title_left">
-                        <span className="subtitle">READY TO GET STARTED?</span>
-                        <h2>Get in touch, or create an account.</h2>
+                        <span className="subtitle">Связь с нами</span>
+                        <h2>Откройте диалог — начнём сотрудничество</h2>
                     </span>
                     <span className="footer_title_right">
                         <Link to={"#"}>Contact Us</Link>
@@ -26,8 +26,7 @@ const Footer = () => {
                         <div className="col-lg-3">
                             <div className="footer_item_1">
                                 <img src={logo} alt="Zarhal"/>
-                                <p>Fablio industry is operating in the textile market, as the manufacture and trader
-                                    from many years.</p>
+                                <p>Заполните форму или свяжитесь напрямую — мы готовы обсудить ваш проект и предложить лучшее решение.</p>
                                 <div className="footer_social">
                                     <Link to={"#"} className="footer_social_item"><InstagramIcon/></Link>
                                     <Link to={"#"} className="footer_social_item"><TelegramIcon/></Link>
@@ -44,9 +43,9 @@ const Footer = () => {
                                 </div>
 
                                 <div className="footer_item_content">
-                                    <a href="#" className={"footer_tell"}>+998 99 304 54 75</a>
-                                    <a href="#" className={"footer_email"}>info@zarhalgroup.uz</a>
-                                    <p>66 Broklyn Street New York United States of America</p>
+                                    <a href="#" className={"footer_tell"}>+998 65 222 07 07</a>
+                                    <a href="#" className={"footer_email"}>zarhalgroup.uz@gmail.com</a>
+                                    <p>главный офис – Саноатчилар кучаси 2-уй</p>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +75,7 @@ const Footer = () => {
                                 </div>
 
                                 <div className="footer_item_content">
-                                    <Link to={"#"} className={"footer_link_contact"}>Contact</Link>
+                                    <Link to={"#"} className={"footer_link_contact"}>Всегда на связи</Link>
                                 </div>
                             </div>
                         </div>

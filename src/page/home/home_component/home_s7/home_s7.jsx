@@ -15,14 +15,12 @@ const HomeS7 = () => {
         <div className={"h_7 container"}>
             <div className="h7_title">
                 <div className="h7_title_left">
-                    <span className={"subtitle"}>NEW BLOGS</span>
-                    <h1>Latest News And Articles!</h1>
+                    <span className={"subtitle"}>Контроль на каждом этапе</span>
+                    <h1>От хлопка до готового изделия — всё в одних руках</h1>
                 </div>
                 <div className="h7_title_right">
-                    <p>
-                        Since more than 40 years, FABLIO is operating in the textile market manufacture and trader. As
-                        years go by, the range of produced textiles has been increased.
-                    </p>
+                    <p>Мы обеспечиваем полный производственный цикл с экологичным подходом, современным оборудованием и
+                        вниманием к запросам заказчика.</p>
                 </div>
             </div>
 
@@ -54,12 +52,11 @@ const HomeS7 = () => {
                             </div>
                             <div className="h7_item_bottom">
                                 <div className="h7_item_bottom_element">
-                                   <span>15</span>
-                                   <span>Feb</span>
+                                    <span>15</span>
+                                    <span>Feb</span>
                                 </div>
-                                <h1>One stop solution for textiles fabrics materials</h1>
-                                <p> Purus non enim praesent elementum facilisis. Eget mi proin sed libero enim sed
-                                    faucib... </p>
+                                <h1>Своё сырьё</h1>
+                                <p>Мы выращиваем хлопок — это позволяет нам контролировать качество с самых первых этапов.</p>
                                 <Link to={"#"}>Read more</Link>
                             </div>
                         </div>
@@ -71,12 +68,11 @@ const HomeS7 = () => {
                             </div>
                             <div className="h7_item_bottom">
                                 <div className="h7_item_bottom_element">
-                                   <span>15</span>
-                                   <span>Feb</span>
+                                    <span>15</span>
+                                    <span>Feb</span>
                                 </div>
-                                <h1>One stop solution for textiles fabrics materials</h1>
-                                <p> Purus non enim praesent elementum facilisis. Eget mi proin sed libero enim sed
-                                    faucib... </p>
+                                <h1>Технологичное производство</h1>
+                                <p>Современное оборудование гарантирует точность и стабильность на всех стадиях — от волокна до ткани.</p>
                                 <Link to={"#"}>Read more</Link>
                             </div>
                         </div>
@@ -88,12 +84,11 @@ const HomeS7 = () => {
                             </div>
                             <div className="h7_item_bottom">
                                 <div className="h7_item_bottom_element">
-                                   <span>15</span>
-                                   <span>Feb</span>
+                                    <span>15</span>
+                                    <span>Feb</span>
                                 </div>
-                                <h1>One stop solution for textiles fabrics materials</h1>
-                                <p> Purus non enim praesent elementum facilisis. Eget mi proin sed libero enim sed
-                                    faucib... </p>
+                                <h1>Экологичность</h1>
+                                <p>Ответственный подход к ресурсам, минимизация отходов и устойчивые методы переработки.</p>
                                 <Link to={"#"}>Read more</Link>
                             </div>
                         </div>
@@ -105,50 +100,16 @@ const HomeS7 = () => {
                             </div>
                             <div className="h7_item_bottom">
                                 <div className="h7_item_bottom_element">
-                                   <span>15</span>
-                                   <span>Feb</span>
+                                    <span>15</span>
+                                    <span>Feb</span>
                                 </div>
-                                <h1>One stop solution for textiles fabrics materials</h1>
-                                <p> Purus non enim praesent elementum facilisis. Eget mi proin sed libero enim sed
-                                    faucib... </p>
+                                <h1>Индивидуальный подход</h1>
+                                <p>Гибкость в производстве даёт возможность выпускать продукцию по требованиям конкретного клиента.</p>
                                 <Link to={"#"}>Read more</Link>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="h7_item">
-                            <div className="h7_item_top">
-                                <img src={h7_1} alt=""/>
-                            </div>
-                            <div className="h7_item_bottom">
-                                <div className="h7_item_bottom_element">
-                                   <span>15</span>
-                                   <span>Feb</span>
-                                </div>
-                                <h1>One stop solution for textiles fabrics materials</h1>
-                                <p> Purus non enim praesent elementum facilisis. Eget mi proin sed libero enim sed
-                                    faucib... </p>
-                                <Link to={"#"}>Read more</Link>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="h7_item">
-                            <div className="h7_item_top">
-                                <img src={h7_1} alt=""/>
-                            </div>
-                            <div className="h7_item_bottom">
-                                <div className="h7_item_bottom_element">
-                                   <span>15</span>
-                                   <span>Feb</span>
-                                </div>
-                                <h1>One stop solution for textiles fabrics materials</h1>
-                                <p> Purus non enim praesent elementum facilisis. Eget mi proin sed libero enim sed
-                                    faucib... </p>
-                                <Link to={"#"}>Read more</Link>
-                            </div>
-                        </div>
-                    </SwiperSlide>
+
                 </Swiper>
             </div>
         </div>

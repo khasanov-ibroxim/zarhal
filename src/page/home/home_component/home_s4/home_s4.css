@@ -9,9 +9,10 @@
     padding: 20px;
 }
 .h4_item_text h2{
-    font-size: 60px;
+    font-size: 35px;
     color: #002C42;
     font-weight: 600;
+    margin-top: 10px;
 }
 .h4_item_text p{
     font-size: 18px;

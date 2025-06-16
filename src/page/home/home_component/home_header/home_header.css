@@ -124,7 +124,7 @@
 
 .h-header-top_icon p {
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     color: RGBA(255, 255, 255, 0.7);
     text-transform: uppercase;
     font-weight: 500;
@@ -134,9 +134,9 @@
 }
 
 .h-header-top-text h1 {
-    font-size: 85px;
+    font-size: 50px;
     font-weight: 600;
-    line-height: 90px;
+    line-height: 50px;
     vertical-align: baseline;
     letter-spacing: normal;
 }

@@ -30,16 +30,18 @@
     width: 80px;
     height: 80px;
     border-radius: 10px;
+    padding: 10px;
 }
-.h_2_item_top svg{
-    font-size: 50px;
-    color: #002C42;
+.h_2_item_top img{
+    width: 100%;
+    height: 100%;
 }
 
 .h_2_item_bottom h2{
     font-size: 46px;
     color: #002C42;
     font-weight: 700;
+    text-align: center;
 }
 .h_2_item_bottom p{
     font-size: 18px;

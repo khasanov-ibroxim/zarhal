@@ -1,6 +1,11 @@
 import React from 'react';
 import "./home_s2.css"
 import CheckroomOutlinedIcon from '@mui/icons-material/CheckroomOutlined';
+import izdeliya from "@/assets/home/home_s2/izdeliya.png"
+import siryo from "@/assets/home/home_s2/siryo.png"
+import tkan from "@/assets/home/home_s2/tkan.png"
+import volokna from "@/assets/home/home_s2/volokna.png"
+
 
 const HomeS2 = () => {
     return (
@@ -10,44 +15,44 @@ const HomeS2 = () => {
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <CheckroomOutlinedIcon />
+                                <img src={siryo} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>350</h2>
-                                <p>Trusted Clients</p>
+                                <h2>10 000 тонн</h2>
+                                <p>Сырьё</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <CheckroomOutlinedIcon />
+                                <img src={volokna} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>350</h2>
-                                <p>Trusted Clients</p>
+                                <h2>3 500 тонн</h2>
+                                <p>Волокно</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <CheckroomOutlinedIcon />
+                                <img src={tkan} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>350</h2>
-                                <p>Trusted Clients</p>
+                                <h2>24 млн м²</h2>
+                                <p>Ткань</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <CheckroomOutlinedIcon />
+                                <img src={izdeliya} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>350</h2>
-                                <p>Trusted Clients</p>
+                                <h2>14 млн шт</h2>
+                                <p>Изделия</p>
                             </div>
                         </div>
                     </div>
