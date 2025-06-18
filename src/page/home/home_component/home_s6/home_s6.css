@@ -85,9 +85,7 @@
 
 }
 @media screen and (max-width: 800px){
-    .h_6{
-        height: 85vh;
-    }
+
     .h_6_content .h5_title h1{
         font-size: 25px !important;
     }
