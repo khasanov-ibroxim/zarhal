@@ -1,11 +1,12 @@
 import React from 'react';
 import "./home_s6.css"
 import {Swiper, SwiperSlide} from "swiper/react";
-import h6_1 from "@/assets/home/home_s6/h6_1.jpg"
-import h6_2 from "@/assets/home/home_s6/h6_2.jpg"
-import h6_3 from "@/assets/home/home_s6/h6_3.jpg"
-import h6_4 from "@/assets/home/home_s6/h6_4.jpg"
-import h6_5 from "@/assets/home/home_s6/h6_5.jpg"
+import h6_1 from "@/assets/home/home_s6/1.jpg"
+import h6_2 from "@/assets/home/home_s6/2.jpg"
+import h6_3 from "@/assets/home/home_s6/3.jpg"
+import h6_4 from "@/assets/home/home_s6/4.jpg"
+import h6_5 from "@/assets/home/home_s6/5.jpg"
+import h6_6 from "@/assets/home/home_s6/6.jpg"
 import {Autoplay} from "swiper/modules";
 import {Link} from "react-router-dom"
 const HomeS6 = () => {
@@ -42,54 +43,41 @@ const HomeS6 = () => {
                         <SwiperSlide>
                             <div className="h_6_swiper_item">
                                 <img src={h6_1} alt="Zarhal"/>
-                                <div className="h_6_swiper_item_content">
-                                    <h4>Georgette Fabric</h4>
-                                    <p>Hand loom, Machine made</p>
-                                </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="h_6_swiper_item">
-                                <img src={h6_1} alt="Zarhal"/>
-                                <div className="h_6_swiper_item_content">
-                                    <h4>Georgette Fabric</h4>
-                                    <p>Hand loom, Machine made</p>
-                                </div>
+                                <img src={h6_2} alt="Zarhal"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="h_6_swiper_item">
-                                <img src={h6_1} alt="Zarhal"/>
-                                <div className="h_6_swiper_item_content">
-                                    <h4>Georgette Fabric</h4>
-                                    <p>Hand loom, Machine made</p>
-                                </div>
+                                <img src={h6_3} alt="Zarhal"/>
+
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="h_6_swiper_item">
-                                <img src={h6_1} alt="Zarhal"/>
-                                <div className="h_6_swiper_item_content">
-                                    <h4>Georgette Fabric</h4>
-                                    <p>Hand loom, Machine made</p>
-                                </div>
+                                <img src={h6_4} alt="Zarhal"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="h_6_swiper_item">
-                                <img src={h6_1} alt="Zarhal"/>
-                                <div className="h_6_swiper_item_content">
-                                    <h4>Georgette Fabric</h4>
-                                    <p>Hand loom, Machine made</p>
-                                </div>
+                                <img src={h6_5} alt="Zarhal"/>
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="h_6_swiper_item">
+                                <img src={h6_6} alt="Zarhal"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div className="h6_links">
-                    <Link className="h6_links_1" to={"#"}>More Projects!</Link>
-                    <Link className="h6_links_2" to={"#"}>More Service!</Link>
-                </div>
+                {/*<div className="h6_links">*/}
+                {/*    <Link className="h6_links_1" to={"#"}>More Projects!</Link>*/}
+                {/*    <Link className="h6_links_2" to={"#"}>More Service!</Link>*/}
+                {/*</div>*/}
             </div>
         </div>
     );

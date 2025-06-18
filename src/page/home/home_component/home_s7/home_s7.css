@@ -109,4 +109,7 @@
     .h7_title_left , .h7_title_right{
         width: 100%;
     }
-}
+    .h7_title_left h1 {
+        font-size: 30px;
+    }
+    }

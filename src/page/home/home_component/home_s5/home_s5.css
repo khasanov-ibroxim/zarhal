@@ -186,6 +186,9 @@
 }
 }
 @media  screen and  (max-width: 1000px){
+    .h5_box_left_item h1{
+        font-size: 18px;
+    }
     .h5_box{
         flex-direction: column;
         height: max-content;

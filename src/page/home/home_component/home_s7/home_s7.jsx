@@ -2,11 +2,8 @@ import React from 'react';
 import "./home_s7.css"
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
-import h7_1 from "@/assets/home/home_s6/h6_1.jpg"
-import h7_2 from "@/assets/home/home_s6/h6_2.jpg"
-import h7_3 from "@/assets/home/home_s6/h6_3.jpg"
-import h7_4 from "@/assets/home/home_s6/h6_4.jpg"
-import h7_5 from "@/assets/home/home_s6/h6_5.jpg"
+import h7_1 from "@/assets/home/home_s5/col-img-02.png"
+
 
 import {Link} from "react-router-dom"
 

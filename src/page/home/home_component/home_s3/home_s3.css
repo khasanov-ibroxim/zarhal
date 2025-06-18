@@ -130,4 +130,7 @@
     .h3_title_right {
         margin-top: 30px;
     }
-}
+    .h3_title h2 {
+        font-size: 30px;
+    }
+    }

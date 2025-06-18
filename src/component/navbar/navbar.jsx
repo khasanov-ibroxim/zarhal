@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import "./nabar.css"
-import logo from "./logo-light.svg"
+import logo from "@/assets/logoZarhal.png"
 import EmailIcon from '@mui/icons-material/Email';
 import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 import CallIcon from '@mui/icons-material/Call';

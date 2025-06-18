@@ -227,6 +227,13 @@
 }
 
 @media screen and (max-width: 800px) {
+    .h-header-top {
+        margin-top: 50px;
+    }
+        .h-header-top-text h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
     .h-header-top, .h-header-bottom {
         width: 100%;
     }

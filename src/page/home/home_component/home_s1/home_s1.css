@@ -234,6 +234,10 @@
     top: 100px !important;
 }
 @media screen and (max-width: 1000px){
+    .h_s1_content_box h2{
+        line-height: 30px;
+        font-size: 30px;
+    }
     .h_s1_content{
         padding-top: 50px;
     }

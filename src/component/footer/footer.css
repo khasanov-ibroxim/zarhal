@@ -46,8 +46,8 @@ footer{
     padding: 50px 0;
 }
 .footer_item_1 img{
-    width: 150px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 .footer_item_1 p{
     font-size: 19px;
@@ -150,5 +150,8 @@ footer{
 @media screen and (max-width: 1000px){
     .footer_title_right{
         display: none;
+    }
+    .footer_title_left h2{
+        font-size: 30px;
     }
 }

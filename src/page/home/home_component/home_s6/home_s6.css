@@ -1,8 +1,9 @@
 .h_6{
     background: #002C42;
     width: 100%;
-    height: 100vh;
+    height: max-content;
     padding-top: 20%;
+    padding-bottom: 20px;
 }
 .h_6_content .h5_title h1{
     color: white;
@@ -83,10 +84,17 @@
     .h_6{
         height: 85vh;
     }
+
 }
 @media screen and (max-width: 800px){
     .h_6{
         height: 85vh;
+    }
+    .h_6_content .h5_title h1{
+        font-size: 25px !important;
+    }
+    .h5_title h1{
+        font-size: 30px;
     }
     .h_6_content{
         margin-top: 20px;
