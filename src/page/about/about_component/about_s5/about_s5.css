@@ -1,0 +1,124 @@
+.about_s5 {
+    padding: 50px 0;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.about_s5_left {
+    width: 60%;
+    background: #002C42;
+    padding: 150px 150px 150px 10%;
+}
+
+.about_s5_right {
+    width: 50%;
+    height: 100%;
+    margin-left: -80px;
+    margin-bottom: -30px;
+}
+
+.about_s5_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_s5_left_title h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.about_s5_left_title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: RGBA(255, 255, 255, 0.8);
+}
+
+.about_s5_bottom {
+    margin-top: 50px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.about_s5_bottom_item {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+    height: 10px;
+}
+
+.about_s5_bottom_item p {
+    position: absolute;
+    top: -40px;
+    font-size: 20px;
+}
+
+.about_s5_bottom_item_bar {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    background: #F7A603;
+    height: 100%;
+}
+
+.about_s5_bottom_item_bar span {
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    margin-top: -50px;
+    text-shadow: none;
+    font-size: 18px;
+    background: transparent;
+    padding: 4px 7px;
+    border-radius: 0;
+    margin-left: -24px;
+    text-align: center;
+    top: 0;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_s5_bottom_item_bar span:before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid #ffaa01;
+    border-left: 10px solid rgba(255, 255, 255, 0);
+    right: 0px;
+    top: 30px;
+}
+
+.about_s5_bottom_item_bar span:after {
+    content: " ";
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    right: 0;
+    top: 0;
+    background-color: #ffaa01;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1000px) {
+    .about_s5 {
+        flex-direction: column;
+    }
+
+    .about_s5_left {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .about_s5_right {
+        width: 100%;
+        margin: 0;
+        height: 500px;
+    }
+}

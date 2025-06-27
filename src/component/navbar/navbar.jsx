@@ -4,7 +4,7 @@ import logo from "@/assets/logoZarhal.png"
 import EmailIcon from '@mui/icons-material/Email';
 import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 import CallIcon from '@mui/icons-material/Call';
-import {CONTACT, HOME} from "@/utils/consts.jsx";
+import {ABOUT, CONTACT, HOME} from "@/utils/consts.jsx";
 import {Link, useLocation} from "react-router-dom"
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -91,13 +91,18 @@ const Navbar = () => {
                                     Home
                                     <span></span>
                                 </Link>
-                                <div className="nav_menu_item">
-                                    Page
+                                <Link to={ABOUT} className="nav_menu_item">
+                                    About
                                     <span></span>
-                                </div>
-                                <div className="nav_menu_item">
+                                </Link>
+                                <div className="nav_menu_item submenu">
                                     Services
                                     <span></span>
+                                    <ul className="nav_menu_subitem_box">
+                                        <li><Link to={"#"}>Fabrik</Link></li>
+                                        <li><Link to={"#"}>Fabrik</Link></li>
+                                        <li><Link to={"#"}>Fabrik</Link></li>
+                                    </ul>
                                 </div>
                                 <div className="nav_menu_item">
                                     Projects

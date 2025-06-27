@@ -1,0 +1,121 @@
+.about_s3{
+    padding: 30px 0;
+}
+
+.about_s3_box{
+    display: flex;
+}
+
+.about_s3_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+.about_s3_title h1{
+    color: #002C42;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about_s3_item{
+    width: calc(100% / 4);
+    box-shadow: 0 0 30px 0 rgb(27 68 163 / 7%);
+    background-color: #fff;
+    padding: 30px 30px 30px;
+    position: relative;
+    text-align: left;
+    margin-right: 30px;
+}
+.about_s3_item:nth-child(odd):before{
+    top: 100%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(194, 225, 245, 0);
+    border-top-color: #fff;
+    border-width: 16px;
+    left: 25px;
+}
+.about_s3_item:nth-child(even):before{
+    bottom: 100%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #fff;
+    border-width: 16px;
+    left: 25px;
+}
+.about_s3_item:nth-child(even){
+    margin-top: 65px;
+}
+.about_s3_item:nth-child(odd){
+    margin-bottom: 65px;
+}
+.about_s3_item_content img{
+    width: 48px;
+    height: 48px;
+}
+
+.about_s3_item_num{
+    position: absolute;
+    top: 0px;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: #fff;
+    line-height: 39px;
+    text-align: center;
+    left: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222d35;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.about_s3_item:hover .about_s3_item_num{
+    background: #F7A603;
+}
+.about_s3_item:nth-child(even) .about_s3_item_num{
+    top: -65px;
+}
+.about_s3_item:nth-child(odd) .about_s3_item_num{
+    top: auto;
+    bottom: -65px;
+}
+
+
+.about_s3_item_content h1{
+    font-size: 25px;
+    color: #002C42;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.about_s3_item_content p{
+    font-size: 18px;
+    color: #7F8284;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1000px){
+    .about_s3_item{
+        width: calc(100%/1);
+        margin-right: 0;
+    }
+    .about_s3_box{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}
