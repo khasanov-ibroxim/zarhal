@@ -24,7 +24,7 @@ const AboutS5 = () => {
                     <div className="about_s5_bottom_item">
                         <p>Textile</p>
                         <div className="about_s5_bottom_item_bar" style={{width:"80%"}}>
-                            <span >90%</span>
+                            <span >80%</span>
                         </div>
                     </div>
                 </div>
