@@ -4,10 +4,11 @@ import logo from "@/assets/logoZarhal.png"
 import EmailIcon from '@mui/icons-material/Email';
 import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 import CallIcon from '@mui/icons-material/Call';
-import {ABOUT, CONTACT, HOME} from "@/utils/consts.jsx";
+import {ABOUT, CONTACT, HOME, PRODUCTION} from "@/utils/consts.jsx";
 import {Link, useLocation} from "react-router-dom"
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
+import {Production_db} from "@/page/production/production_db.jsx";
 
 const Navbar = () => {
     const location = useLocation()
@@ -15,6 +16,13 @@ const Navbar = () => {
     const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 1000px)').matches);
     const [scrollDirection, setScrollDirection] = useState(false);
     const [atTop, setAtTop] = useState(true);
+
+
+    const production_pages = Production_db
+        .map(item => ({
+            id: item.id,
+            page_name: item.page_name
+        }));
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -88,31 +96,25 @@ const Navbar = () => {
                             <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                                 <Link to={HOME}
                                       className={`nav_menu_item ${location.pathname === HOME && "activeLink"}`}>
-                                    Home
+                                    Главная
                                     <span></span>
                                 </Link>
                                 <Link to={ABOUT} className="nav_menu_item">
-                                    About
+                                    О нас
                                     <span></span>
                                 </Link>
                                 <div className="nav_menu_item submenu">
-                                    Services
+                                    производства
                                     <span></span>
                                     <ul className="nav_menu_subitem_box">
-                                        <li><Link to={"#"}>Fabrik</Link></li>
-                                        <li><Link to={"#"}>Fabrik</Link></li>
-                                        <li><Link to={"#"}>Fabrik</Link></li>
+                                        {production_pages.map((itemProduction , index)=>(
+                                            <li><Link to={PRODUCTION.replace(":id" , itemProduction.id)}>{itemProduction.page_name}</Link></li>
+                                        ))}
                                     </ul>
                                 </div>
-                                <div className="nav_menu_item">
-                                    Projects
-                                    <span></span>
-                                </div>
-                                <div className="nav_menu_item">
-                                    Blog
-                                    <span></span></div>
+
                                 <Link to={CONTACT} className="nav_menu_item">
-                                    Contact us
+                                    Контакты
                                     <span></span>
                                 </Link>
                             </div>

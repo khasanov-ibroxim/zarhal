@@ -1,0 +1,124 @@
+.production_box{
+    padding: 50px 0;
+}
+
+.sidebar_tabs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tab_item{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid rgba(0,0,0,.1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.tab_item_line{
+    position: absolute;
+    left: 0;
+    height: 0;
+    width: 5px;
+    background: #F7A603;
+}
+.tab_item:hover .tab_item_line{
+    height: 100%;
+}
+.tab_item:hover h1 , .tab_item:hover svg{
+    color: #F7A603;
+}
+.tab_item h1 , .tab_item svg{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #002C42;
+}
+
+.tab_item.active .tab_item_line{
+    height: 100%;
+}
+.tab_item.active h1 , .tab_item.active svg{
+    color: #F7A603;
+}
+
+
+.sidebar_question{
+    background: url("@/assets/production/production_sidebar/imgi_8_service_detail.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.sidebar_question_text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 20px;
+    color: white;
+}
+
+.sidebar_question_text h1{
+    font-size: 26px;
+    font-weight: 600;
+    color: #F7A603;
+}
+.sidebar_question_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.sidebar_question_tell{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.sidebar_contact{
+    padding: 20px;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.sidebar_contact h1{
+    color: #002C42;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.sidebar_contact_item{
+    display: flex;
+    gap: 15px;
+}
+.sidebar_contact_item svg{
+    color: #F7A603;
+    font-size: 30px;
+}
+.sidebar_contact_item p{
+    color: #7F8284;
+    font-size: 18px;
+
+}
+
+.sidebar_contact_line{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    height: 3px;
+    background: #F7A603;
+    left: 10%;
+
+}
