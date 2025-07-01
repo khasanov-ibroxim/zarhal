@@ -10,11 +10,11 @@ const ProductionS1 = ({item}) => {
                 <div className="contact_opacity"></div>
                 <img src={header_img} alt="contact"/>
                 <div className="about_header_title">
-                    <h1>{item.page_name}</h1>
+                    <h1>{item.page_title}</h1>
                     <div className="about_header_subtitle">
-                        <Link to={HOME}>Home</Link>
+                        <Link to={HOME}>Главная</Link>
                         <span></span>
-                        <Link to={"#"}>Production</Link>
+                        <Link to={"#"}>Продукция</Link>
                         <span></span>
                         <Link to={"#"} className={"activeText"}>{item.page_name}</Link>
                     </div>

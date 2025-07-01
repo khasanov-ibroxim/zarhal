@@ -23,10 +23,12 @@
     height: 100%;
     position: relative;
     z-index: 1;
+    border-radius: 20px;
     cursor: pointer;
 }
 
 .about_s6_item img {
+    border-radius: 20px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -54,6 +56,7 @@
     padding-top: 20px;
     box-shadow: 0 0 5px rgba(0,0,0,.4);
 transition: .5s ease-out;
+    border-radius: 20px;
 }
 .about_s6_item_content h1{
     font-size: 20px;

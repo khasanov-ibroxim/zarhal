@@ -27,8 +27,9 @@ const ProductionSidebar = () => {
     return (
         <div>
             <div className="sidebar_tabs">
-                {pageNames.map((item , index)=>(
-                    <Link to={PRODUCTION.replace(":id" , item.id)} key={index} className={`tab_item ${item.id === Number(id) && "active"}`}>
+                {pageNames.map((item, index) => (
+                    <Link to={PRODUCTION.replace(":id", item.id)} key={index}
+                          className={`tab_item ${item.id === Number(id) && "active"}`}>
                         <div className="tab_item_line"></div>
                         <h1>{item.page_name}</h1>
                         <KeyboardArrowRightIcon/>
@@ -38,30 +39,29 @@ const ProductionSidebar = () => {
 
             <div className="sidebar_question">
                 <div className="sidebar_question_text">
-                    <h1>Have Questions?</h1>
-                    <p>Our Client Care Managers Are On Call 24/7 To Answer Your Question.</p>
-                    <div className="sidebar_question_tell"><PhoneIcon/> +998 99 999 99 99</div>
+                    <h1>Как нас найти?</h1>
+                    <p>Наше производство удобно расположено — <br/> к нам легко добраться.
+                    </p>
+                    <div className="sidebar_question_tell"><PhoneIcon/> +998 65 222 07 07</div>
                 </div>
             </div>
 
             <div className="sidebar_contact">
-                <h1>Get in touch</h1>
+                <h1>Контакты</h1>
                 <div className="sidebar_contact_item">
                     <FmdGoodOutlinedIcon/>
                     <p>
-                        Honey Business Center <br/>
-                        24 Fifth st., Los Angeles, <br/>
-                        USA
+                        Республика Узбекистан, г.Бухара, у.Алпамыш 331
                     </p>
 
                 </div>
                 <div className="sidebar_contact_item">
                     <MailOutlineOutlinedIcon/>
-                    <p>info@example.com</p>
+                    <p>zarhalgroup.uz@gmail.com</p>
                 </div>
                 <div className="sidebar_contact_item">
                     <PhoneIphoneOutlinedIcon/>
-                    <p>+998 99 999 99 99</p>
+                    <p>+998 65 222 07 07</p>
                 </div>
                 <div className="sidebar_contact_item">
                     <AccessAlarmOutlinedIcon/>

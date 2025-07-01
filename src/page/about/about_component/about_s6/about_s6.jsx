@@ -43,8 +43,8 @@ const AboutS6 = () => {
         <div className={"about_s6"}>
             <div className="container">
                 <div className="about_s6_title">
-                    <div className="subtitle">TeamMembers</div>
-                    <h1>The Textiles Experts!</h1>
+                    <div className="subtitle">Прогресс</div>
+                    <h1>Наша команда в работе!</h1>
                 </div>
 
                 <Swiper

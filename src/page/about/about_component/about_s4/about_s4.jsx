@@ -11,40 +11,34 @@ const AboutS4 = () => {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="about_s4_left">
-                            <h1>Stone Work Embroidery</h1>
-                            <p>Consequat mauris nunc congue nisi vitae suscipit tellus mauris.</p>
-                            <Link to={"#"}>Read more</Link>
+                            <h1>Производство реактивного крашения</h1>
+                            <p>Полный цикл: от сырья до готовой текстильной продукции.</p>
+                            <Link to={"#"}>Свяжитесь</Link>
                         </div>
                     </div>
                     <div className="col-lg-8">
                         <div className="about_s4_right">
                             <div className="about_s4_item">
                                 <div className="about_s4_item_top">
-                                    <EmojiEventsOutlinedIcon/> <h1>45+</h1>
+                                    <EmojiEventsOutlinedIcon/> <h1>65 млн+</h1>
                                 </div>
                                 <div className="about_s4_item_bottom">
-                                    Different kind texttile
-                                    products
+                                    Квадратных метров тканей в год
                                 </div>
                             </div>
 
                             <div className="about_s4_item">
                                 <div className="about_s4_item_top">
-                                    <AllInclusiveOutlinedIcon/> <h1>25+</h1>
+                                    <AllInclusiveOutlinedIcon/> <h1>8 млн+</h1>
                                 </div>
-                                <div className="about_s4_item_bottom">
-                                    Years Of Working Experience
-                                </div>
+                                <div className="about_s4_item_bottom">Единиц швейной продукции в год</div>
                             </div>
 
                             <div className="about_s4_item">
                                 <div className="about_s4_item_top">
-                                    <Diversity1OutlinedIcon/> <h1>325+</h1>
+                                    <Diversity1OutlinedIcon/> <h1>20 млн+</h1>
                                 </div>
-                                <div className="about_s4_item_bottom">
-                                    Trusted Satisfied
-                                    Clients
-                                </div>
+                                <div className="about_s4_item_bottom">Евро ежегодного экспорта</div>
                             </div>
 
                         </div>

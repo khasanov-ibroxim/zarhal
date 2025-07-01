@@ -6,6 +6,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import logo from "@/assets/logoZarhal.png"
+import {CONTACT} from "@/utils/consts.jsx";
 
 const Footer = () => {
     return (
@@ -17,7 +18,7 @@ const Footer = () => {
                         <h2>Откройте диалог — начнём сотрудничество</h2>
                     </span>
                     <span className="footer_title_right">
-                        <Link to={"#"}>Contact Us</Link>
+                        <Link to={CONTACT}>Свяжитесь</Link>
                     </span>
                 </div>
 

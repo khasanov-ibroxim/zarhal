@@ -19,26 +19,28 @@ const AboutS2 = () => {
                     <div className="col-lg-7">
                         <div className="about_s2_left">
                             <div className="about_s2_left_title">
-                                <div className="subtitle">Who We Are</div>
-                                <h1>An Ultimate Textile Brand in Market since 1970</h1>
-                                <p>Indian weavers of designer of furnishing fabrics is a textile manufacturer founded in
-                                    1970 and renowned for new and stylish interpretations of natural & organic
-                                    fabrics.</p>
+                                <div className="subtitle">Высокое качество</div>
+                                <h1>От хлопка до готовой продукции — под полным контролем</h1>
+                                <p>Наша компания — это производственный комплекс полного цикла, обеспечивающий выпуск
+                                    экологичных текстильных изделий мирового уровня. Мы объединяем современные
+                                    технологии, глубокую экспертизу и социальную ответственность, чтобы создавать
+                                    текстиль, соответствующий ожиданиям клиентов по всему миру.</p>
                             </div>
                             <div className="about_s2_body">
                                 <img src={left_img} alt=""/>
-                                <p>Our Fabric Textiles Services Manufacture <br/>
-                                    Found In 1996</p>
+                                <p>Мы создаём текстиль с полным циклом производства — от хлопка до готового изделия</p>
                             </div>
                             <div className="about_s2_footer">
                                 <ul>
-                                    <li><CheckIcon/>We check for your current dental situation and decide treatment</li>
-                                    <li><CheckIcon/>Our specialists will take care of your smile with dedication</li>
-                                    <li><CheckIcon/>We run periodic check-ups to ensure your teeth are good</li>
+                                    <li><CheckIcon/>
+                                        Выращиваем и перерабатываем хлопок, обеспечивая стабильное качество на всех этапах.
+                                    </li>
+                                    <li><CheckIcon/>Используем современное оборудование и экологичные краски, соответствующие международным стандартам.</li>
+                                    <li><CheckIcon/>Создаём рабочие места в регионах и поддерживаем развитие надомного труда.</li>
                                 </ul>
                                 <div className="about_s2_footer_btns">
-                                    <Link to={"#"} className={"about_s2_footer_btn_1"}>View more!</Link>
-                                    <Link to={CONTACT} className={"about_s2_footer_btn_2"}>Contact</Link>
+                                    <Link to={"#"} className={"about_s2_footer_btn_1"}>Свяжитесь</Link>
+                                    <Link to={CONTACT} className={"about_s2_footer_btn_2"}>Контакты</Link>
                                 </div>
                             </div>
                         </div>

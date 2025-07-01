@@ -11,11 +11,11 @@ const AboutS1 = () => {
                 <div className="contact_opacity"></div>
                 <img src={header_img} alt="contact"/>
                 <div className="about_header_title">
-                    <h1>About Us</h1>
+                    <h1>О нас</h1>
                     <div className="about_header_subtitle">
-                        <Link to={HOME}>Home</Link>
+                        <Link to={HOME}>Главная</Link>
                         <span></span>
-                        <Link to={ABOUT} className={"activeText"}>About Us</Link>
+                        <Link to={ABOUT} className={"activeText"}>О нас</Link>
                     </div>
                 </div>
             </div>
