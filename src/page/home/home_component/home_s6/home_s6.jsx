@@ -9,6 +9,9 @@ import h6_5 from "@/assets/home/home_s6/5.jpg"
 import h6_6 from "@/assets/home/home_s6/6.jpg"
 import {Autoplay} from "swiper/modules";
 import {Link} from "react-router-dom"
+import { Image } from 'antd';
+
+
 const HomeS6 = () => {
     return (
         <div className={'h_6'}>
@@ -19,60 +22,64 @@ const HomeS6 = () => {
                 </div>
 
                 <div className="h_6_swiper_box">
-                    <Swiper
-                        spaceBetween={"20"}
-                        slidesPerView={"4"}
-                        loop={true}
-                        autoplay={{delay:2000}}
-                        modules={[Autoplay]}
-                        breakpoints={{
-                            320: {
-                                slidesPerView: 1,
-                            },
-                            576: {
-                                slidesPerView: 2,
-                            },
-                            768: {
-                                slidesPerView: 3,
-                            },
-                            992: {
-                                slidesPerView: 4,
-                            },
-                        }}
-                    >
-                        <SwiperSlide>
-                            <div className="h_6_swiper_item">
-                                <img src={h6_1} alt="Zarhal"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="h_6_swiper_item">
-                                <img src={h6_2} alt="Zarhal"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="h_6_swiper_item">
-                                <img src={h6_3} alt="Zarhal"/>
+                    <Image.PreviewGroup>
+                        <Swiper
+                            spaceBetween={"20"}
+                            slidesPerView={"4"}
+                            loop={true}
+                            autoplay={{delay:2000}}
+                            modules={[Autoplay]}
+                            breakpoints={{
+                                320: {
+                                    slidesPerView: 1,
+                                },
+                                576: {
+                                    slidesPerView: 2,
+                                },
+                                768: {
+                                    slidesPerView: 3,
+                                },
+                                992: {
+                                    slidesPerView: 4,
+                                },
+                            }}
+                        >
 
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="h_6_swiper_item">
-                                <img src={h6_4} alt="Zarhal"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="h_6_swiper_item">
-                                <img src={h6_5} alt="Zarhal"/>
+                            <SwiperSlide>
+                                <div className="h_6_swiper_item">
+                                    <Image src={h6_1} alt="Zarhal"/>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="h_6_swiper_item">
+                                    <Image src={h6_2} alt="Zarhal"/>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="h_6_swiper_item">
+                                    <Image src={h6_3} alt="Zarhal"/>
 
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="h_6_swiper_item">
-                                <img src={h6_6} alt="Zarhal"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="h_6_swiper_item">
+                                    <Image src={h6_4} alt="Zarhal"/>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="h_6_swiper_item">
+                                    <Image src={h6_5} alt="Zarhal"/>
+
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="h_6_swiper_item">
+                                    <Image src={h6_6} alt="Zarhal"/>
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </Image.PreviewGroup>
+
                 </div>
                 {/*<div className="h6_links">*/}
                 {/*    <Link className="h6_links_1" to={"#"}>More Projects!</Link>*/}

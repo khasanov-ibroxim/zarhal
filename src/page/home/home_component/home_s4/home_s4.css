@@ -3,6 +3,7 @@
     width: 100%;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
     background: white;
+    border-radius: 20px;
 }
 
 .h4_item{

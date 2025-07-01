@@ -67,7 +67,7 @@ const Navbar = () => {
                             <div className="nav_top_right_item_icon"><EmailIcon/></div>
                             <div className="nav_top_right_item_text">
                                 <p>Send email</p>
-                                <h4>info@example.com</h4>
+                                <h4>zarhalgroup.uz@gmail.com</h4>
                             </div>
                         </div>
                         <div className="nav_top_right_item">
@@ -81,7 +81,7 @@ const Navbar = () => {
                             <div className="nav_top_right_item_icon"><CallIcon/></div>
                             <div className="nav_top_right_item_text">
                                 <p>Have any Questions?</p>
-                                <h4>+123 795 9841</h4>
+                                <h4>+998652220707</h4>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
 
                 <div className="nav_container">
                     <div className={`nav_box ${isMobile && !atTop && "active"}`}
-                         style={atTop ? {position: "absolute"} : {position: "fixed", top: 0, left: 0}}
+                         style={atTop ? {position: "absolute"} : {position: "fixed", top: 0, left: 0 , width:"100%" , borderRadius:"0"}}
                     >
                         <div
                             className={`d-flex justify-content-between align-items-center w-100 ${!atTop && 'container'}`}>
@@ -104,7 +104,7 @@ const Navbar = () => {
                                     <span></span>
                                 </Link>
                                 <div className="nav_menu_item submenu">
-                                    производства
+                                    производство
                                     <span></span>
                                     <ul className="nav_menu_subitem_box">
                                         {production_pages.map((itemProduction , index)=>(

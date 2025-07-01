@@ -41,6 +41,7 @@
     position: relative;
     z-index: 2;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 .h_5_item:hover .h_5_item_top_element {
@@ -117,15 +118,18 @@
     right: 0;
     background: #F7A603;
     padding: 50px 100px;
+    border-radius: 20px;
 }
 
 .h5_box_right_item {
+
     position: relative;
     padding: 15px 0;
     border-bottom: 1px solid rgba(0, 44, 68, .1);
 }
 
 .h5_box_right_element {
+    border-radius: 20px;
     position: absolute;
     left: -33%;
     background: #002C42;
@@ -173,6 +177,7 @@
     padding: 10px 35px;
     width: max-content;
     text-decoration: none;
+    border-radius: 20px;
 }
 .h5_box_left_item a:hover{
     background: white;

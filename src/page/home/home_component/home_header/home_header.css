@@ -6,6 +6,7 @@
 
 .carousel-control-prev, .carousel-control-next {
     z-index: 4 !important;
+    display: none !important;
 }
 
 .carousel_opacity {
@@ -152,6 +153,7 @@
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
+    border-radius: 20px;
 }
 
 .h-header-top-btns a:first-child {
@@ -205,6 +207,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .h-header-bottom_box_icon svg {

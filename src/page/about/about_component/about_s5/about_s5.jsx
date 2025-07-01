@@ -29,7 +29,7 @@ const AboutS5 = () => {
                     </div>
                 </div>
             </div>
-            <div className="about_s5_right">
+            <div className="about_s5_right ">
                 <img src={r_img} alt=""/>
             </div>
         </div>

@@ -64,7 +64,7 @@ const Contact = () => {
                                                 </div>
                                                 <div className="contact_info_item_right">
                                                     <h4>Адрес</h4>
-                                                    <p>Республика Узбекистан, г.Бухара, улица Алпамыша 331</p>
+                                                    <p>Республика Узбекистан, г.Бухара, у.Алпамыш 331</p>
                                                 </div>
                                             </div>
                                             <div className="contact_info_item">

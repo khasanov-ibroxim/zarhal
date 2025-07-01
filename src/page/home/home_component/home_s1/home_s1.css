@@ -22,6 +22,7 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .h_s1_top_item_left {
@@ -223,6 +224,7 @@
     color: #002C42;
     font-size: 19px;
     font-weight: 700;
+    border-radius: 20px;
 }
 
 .h_s1_content_box_bottom_left_link:hover{

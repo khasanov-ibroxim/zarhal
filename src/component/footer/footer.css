@@ -34,6 +34,7 @@ footer{
     color: white;
     text-decoration: none;
     text-wrap: nowrap;
+    border-radius: 20px;
 }
 
 .footer_title_right a:hover{
@@ -130,6 +131,7 @@ footer{
 }
 
 .footer_link_contact{
+    border-radius: 20px;
     width: 100%;
     background: #F7A603;
     color: #FFFFFF;

@@ -27,6 +27,7 @@
     text-decoration: none;
     background: transparent;
     text-wrap: nowrap;
+    border-radius: 20px;
 }
 .h3_title_right a:hover{
     background: #002C42;
@@ -43,6 +44,7 @@
     flex-direction: column;
     gap: 10px;
     position: relative;
+    border-radius: 20px;
 }
 .h3_item img{
     width: 50px;
@@ -76,6 +78,7 @@
     left: 0;
     top: 0;
     z-index: 1;
+    border-radius: 20px;
 }
 
 .h3_item img {
