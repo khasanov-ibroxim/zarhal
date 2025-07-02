@@ -40,7 +40,9 @@ const AboutS2 = () => {
                                 </ul>
                                 <div className="about_s2_footer_btns">
                                     <Link to={"#"} className={"about_s2_footer_btn_1"}>Свяжитесь</Link>
-                                    <Link to={CONTACT} className={"about_s2_footer_btn_2"}>Контакты</Link>
+                                    <Link to={CONTACT}
+                                          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                          className={"about_s2_footer_btn_2"}>Контакты</Link>
                                 </div>
                             </div>
                         </div>

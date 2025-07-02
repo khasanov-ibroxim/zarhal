@@ -6,7 +6,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import logo from "@/assets/logoZarhal.png"
-import {CONTACT} from "@/utils/consts.jsx";
+import {ABOUT, CONTACT, HOME, PRODUCTION} from "@/utils/consts.jsx";
 
 const Footer = () => {
     return (
@@ -53,17 +53,16 @@ const Footer = () => {
                         <div className="col-lg-3">
                             <div className="footer_item_3">
                                 <div className="footer_item_title">
-                                    <h1>Textile Services</h1>
+                                    <h1>Меню</h1>
                                     <span></span>
                                 </div>
 
                                 <div className="footer_item_content">
                                    <ul>
-                                       <li><Link to={'#'}>Patch Fabric Works</Link></li>
-                                       <li><Link to={'#'}>Garment Stitching</Link></li>
-                                       <li><Link to={'#'}>Pattern, Art Making</Link></li>
-                                       <li><Link to={'#'}>Stone Work Embroidery</Link></li>
-                                       <li><Link to={'#'}>Computerised Embroidery</Link></li>
+                                       <li><Link to={HOME}>Главная</Link></li>
+                                       <li><Link to={ABOUT}>О нас</Link></li>
+                                       <li><Link to={PRODUCTION.replace(":id" , 1)}>Продукция</Link></li>
+                                       <li><Link to={CONTACT}>Контакты</Link></li>
                                    </ul>
                                 </div>
                             </div>
@@ -71,12 +70,17 @@ const Footer = () => {
                         <div className="col-lg-3">
                             <div className="footer_item_4">
                                 <div className="footer_item_title">
-                                    <h1>Sign up for newsletter</h1>
+                                    <h1>Производство</h1>
                                     <span></span>
                                 </div>
 
                                 <div className="footer_item_content">
-                                    <Link to={"#"} className={"footer_link_contact"}>Всегда на связи</Link>
+                                    <ul>
+                                        <li><Link to={PRODUCTION.replace(":id" , 1)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Хлопок</Link></li>
+                                        <li><Link to={PRODUCTION.replace(":id" , 2)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Пряжа</Link></li>
+                                        <li><Link to={PRODUCTION.replace(":id" , 3)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Ткани</Link></li>
+                                        <li><Link to={PRODUCTION.replace(":id" , 4)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Постельное белье</Link></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

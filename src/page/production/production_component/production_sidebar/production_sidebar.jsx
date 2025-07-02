@@ -29,6 +29,7 @@ const ProductionSidebar = () => {
             <div className="sidebar_tabs">
                 {pageNames.map((item, index) => (
                     <Link to={PRODUCTION.replace(":id", item.id)} key={index}
+                          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                           className={`tab_item ${item.id === Number(id) && "active"}`}>
                         <div className="tab_item_line"></div>
                         <h1>{item.page_name}</h1>
@@ -65,8 +66,7 @@ const ProductionSidebar = () => {
                 </div>
                 <div className="sidebar_contact_item">
                     <AccessAlarmOutlinedIcon/>
-                    <p>Mon to Sat - 9:00am to 6:00pm
-                        (Sunday Closed)</p>
+                    <p>Пн-Сб с 09:00 до 19:00</p>
                 </div>
                 <div className="sidebar_contact_line"></div>
             </div>

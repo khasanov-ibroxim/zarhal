@@ -66,21 +66,21 @@ const Navbar = () => {
                         <div className="nav_top_right_item">
                             <div className="nav_top_right_item_icon"><EmailIcon/></div>
                             <div className="nav_top_right_item_text">
-                                <p>Send email</p>
+                                <p>Отправить письмо</p>
                                 <h4>zarhalgroup.uz@gmail.com</h4>
                             </div>
                         </div>
                         <div className="nav_top_right_item">
                             <div className="nav_top_right_item_icon"><QueryBuilderIcon/></div>
                             <div className="nav_top_right_item_text">
-                                <p>Working Hours</p>
-                                <h4>Mon-Sat 09:00 am to 07:00 pm</h4>
+                                <p>Часы работы</p>
+                                <h4>Пн-Сб с 09:00 до 19:00</h4>
                             </div>
                         </div>
                         <div className="nav_top_right_item">
                             <div className="nav_top_right_item_icon"><CallIcon/></div>
                             <div className="nav_top_right_item_text">
-                                <p>Have any Questions?</p>
+                                <p>Есть вопросы?</p>
                                 <h4>+998652220707</h4>
                             </div>
                         </div>
@@ -95,11 +95,14 @@ const Navbar = () => {
                             className={`d-flex justify-content-between align-items-center w-100 ${!atTop && 'container'}`}>
                             <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                                 <Link to={HOME}
+                                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                                       className={`nav_menu_item ${location.pathname === HOME && "activeLink"}`}>
                                     Главная
                                     <span></span>
                                 </Link>
-                                <Link to={ABOUT} className="nav_menu_item">
+                                <Link
+                                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                    to={ABOUT} className="nav_menu_item">
                                     О нас
                                     <span></span>
                                 </Link>
@@ -108,12 +111,16 @@ const Navbar = () => {
                                     <span></span>
                                     <ul className="nav_menu_subitem_box">
                                         {production_pages.map((itemProduction , index)=>(
-                                            <li><Link to={PRODUCTION.replace(":id" , itemProduction.id)}>{itemProduction.page_name}</Link></li>
+                                            <li><Link
+                                                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                                to={PRODUCTION.replace(":id" , itemProduction.id)}>{itemProduction.page_name}</Link></li>
                                         ))}
                                     </ul>
                                 </div>
 
-                                <Link to={CONTACT} className="nav_menu_item">
+                                <Link to={CONTACT}
+                                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                      className="nav_menu_item">
                                     Контакты
                                     <span></span>
                                 </Link>
@@ -122,7 +129,7 @@ const Navbar = () => {
                                 <img src={logo} alt=""/>
                             </div>
                             <div className="nav_end">
-                                <Link to={"#"} style={isMobile ? { display: "none" } : { display: "flex" }}>Get Quote</Link>
+                                <Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={isMobile ? { display: "none" } : { display: "flex" }}>Свяжитесь</Link>
 
                                 <div className="navburger" onClick={toggleMenu}>
                                     {isMenuOpen ? <CloseIcon /> : <MenuIcon />}
