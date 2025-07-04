@@ -39,14 +39,15 @@ const Footer = () => {
                         <div className="col-lg-3">
                             <div className="footer_item_2">
                                 <div className="footer_item_title">
-                                    <h1>Get Free Estimate</h1>
+                                    <h1>Контакты</h1>
                                     <span></span>
                                 </div>
 
                                 <div className="footer_item_content">
                                     <a href="#" className={"footer_tell"}>+998 65 222 07 07</a>
                                     <a href="#" className={"footer_email"}>zarhalgroup.uz@gmail.com</a>
-                                    <p>главный офис – Саноатчилар кучаси 2-уй</p>
+                                    <p>Бухарская область, г. Бухара <br/>
+                                        ул. Саноатчилар, 2</p>
                                 </div>
                             </div>
                         </div>
