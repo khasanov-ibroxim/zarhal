@@ -26,7 +26,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-3">
                             <div className="footer_item_1">
-                                <img src={logo} alt="Zarhal"/>
+                                <img src={logo} alt="Zarhal" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}/>
                                 <p>Заполните форму или свяжитесь напрямую — мы готовы обсудить ваш проект и предложить лучшее решение.</p>
                                 <div className="footer_social">
                                     <Link to={"#"} className="footer_social_item"><InstagramIcon/></Link>
@@ -60,10 +60,10 @@ const Footer = () => {
 
                                 <div className="footer_item_content">
                                    <ul>
-                                       <li><Link to={HOME}>Главная</Link></li>
-                                       <li><Link to={ABOUT}>О нас</Link></li>
-                                       <li><Link to={PRODUCTION.replace(":id" , 1)}>Продукция</Link></li>
-                                       <li><Link to={CONTACT}>Контакты</Link></li>
+                                       <li><Link to={HOME} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Главная</Link></li>
+                                       <li><Link to={ABOUT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>О нас</Link></li>
+                                       <li><Link to={PRODUCTION.replace(":id" , 1)} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Продукция</Link></li>
+                                       <li><Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Контакты</Link></li>
                                    </ul>
                                 </div>
                             </div>
