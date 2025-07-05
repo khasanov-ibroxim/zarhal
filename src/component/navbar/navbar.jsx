@@ -80,7 +80,7 @@ const Navbar = () => {
                         <div className="nav_top_right_item">
                             <div className="nav_top_right_item_icon"><CallIcon/></div>
                             <div className="nav_top_right_item_text">
-                                <p>Есть вопросы?</p>
+                                <p>Есть вопросы ?</p>
                                 <h4>+998652220707</h4>
                             </div>
                         </div>
