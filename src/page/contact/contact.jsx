@@ -1,6 +1,6 @@
 import React from 'react';
 import "./contact.css"
-import header_img from "@/assets/home/home_header/portfolio-4.jpg"
+import header_img from "@/assets/contact/DSC02904.jpg"
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 

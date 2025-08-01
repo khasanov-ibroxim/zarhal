@@ -60,7 +60,7 @@
 
 .h_s1_top_item_left svg {
     font-size: 40px;
-    color: #F7A603;
+    color: #5BC679;
 }
 
 .h_s1_top_item_right {
@@ -82,7 +82,7 @@
     border-left: 1px rgba(0, 0, 0, .1) solid;
 }
 .h_s1_top_item:hover .h_s1_top_item_right_content_arrow{
-    background: #F7A603;
+    background: #5BC679;
     border: none;
 }
 .h_s1_top_item:hover .h_s1_top_item_right_content_arrow svg{
@@ -90,7 +90,7 @@
 }
 .h_s1_top_item_right_content_arrow svg {
     font-size: 35px;
-    color: #F7A603;
+    color: #5BC679;
 }
 
 .h_s1_top_item_right_content_text p, .h_s1_top_item_right_content_text h3 {
@@ -99,7 +99,7 @@
 
 .h_s1_top_item_right_content_text p {
     font-size: 13px;
-    color: #ffaa01;
+    color: #5BC679;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 3px;
@@ -160,7 +160,7 @@
     font-weight: 500;
 }
 .h_s1_content_box_bottom_left ul li svg{
-    color: #F7A603;
+    color: #5BC679;
 }
 
 .h_s1_content_box_bottom_right{
@@ -180,7 +180,7 @@
 .h_s1_content_box_bottom_right_element{
     width: 2px;
     height: 50%;
-    background: #F7A603;
+    background: #5BC679;
     position: absolute;
     left: 0;
 }
@@ -194,7 +194,7 @@
 }
 .h_s1_content_box_bottom_right_element_2 svg{
     font-size: 60px;
-    color: #F7A603;
+    color: #5BC679;
 }
 .h_s1_content_box_bottom_right_element_2 h2{
     font-size: 35px;

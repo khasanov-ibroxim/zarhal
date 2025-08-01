@@ -50,7 +50,7 @@ nav {
 
 .nav_top_right_item_icon svg {
     font-size: 30px;
-    color: #F7A603;
+    color: #5BC679;
 }
 
 .nav_top_right_item_text p, .nav_top_right_item_text h4 {
@@ -77,7 +77,7 @@ nav {
 .nav_box {
     position: absolute;
     width: 60%;
-    background: #F7A603;
+    background: #5BC679;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +94,7 @@ nav {
 
 .nav_menu_item {
     font-size: 16px;
-    color: #002C42;
+    color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
@@ -153,11 +153,11 @@ nav {
 }
 
 .nav_menu_subitem_box li:hover {
-    border-bottom: 1px solid #F7A603;
+    border-bottom: 1px solid #002C42;
 }
 
 .nav_menu_subitem_box li:hover a {
-    color: #F7A603;
+    color: #002C42;
 }
 
 
@@ -180,7 +180,7 @@ nav {
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 600;
-    color: RGB(255, 170, 1);
+    color: #fff;
     text-decoration: none;
     text-wrap: nowrap;
     border-radius: 20px;
@@ -188,6 +188,7 @@ nav {
 
 .nav_end a:hover {
     background: #fff;
+    color: #5BC679;
 }
 
 @media screen and (max-width: 1000px) {
@@ -256,7 +257,7 @@ nav {
         position: absolute;
         flex-direction: column;
         top: 0;
-        background: #F7A603;
+        background: #5BC679;
         width: 100%;
         z-index: 9999;
         left: 0;
@@ -264,7 +265,7 @@ nav {
     }
 
     .nav_menu.open .nav_menu_item {
-        background: #F7A603;
+        background: #5BC679;
         width: 100%;
         padding: 15px 30px;
     }

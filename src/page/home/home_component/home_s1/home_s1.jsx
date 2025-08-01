@@ -4,7 +4,7 @@ import LocalPrintshopOutlinedIcon from '@mui/icons-material/LocalPrintshopOutlin
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import CheckIcon from '@mui/icons-material/Check';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
-import h_s1_img from "@/assets/home/home_s1/single-imge01.jpg"
+import h_s1_img from "@/assets/home/home_s1/DSC03502.jpg"
 import {Link} from "react-router-dom"
 
 import xlopzavod from "@/assets/home/home_s1/cotton.png"

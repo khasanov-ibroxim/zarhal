@@ -39,6 +39,8 @@ const ProductionSidebar = () => {
             </div>
 
             <div className="sidebar_question">
+                <div className="sidebar_question_img"></div>
+                <div className="sidebar_question_opacity"></div>
                 <div className="sidebar_question_text">
                     <h1>Как нас найти?</h1>
                     <p>Наше производство удобно расположено — <br/> к нам легко добраться.

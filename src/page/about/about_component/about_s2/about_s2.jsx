@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about_s2.css"
-import right_img from "@/assets/about/about_s2/about_s2_right.jpg"
-import left_img from "@/assets/about/about_s2/about_s2_left.jpg"
+import right_img from "@/assets/about/about_s2/DSC03398.jpg"
+import left_img from "@/assets/about/about_s2/DSC03520.jpg"
 import CheckIcon from '@mui/icons-material/Check';
 import {CONTACT} from "@/utils/consts.jsx";
 import {Link} from "react-router-dom"

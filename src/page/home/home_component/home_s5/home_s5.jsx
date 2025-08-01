@@ -4,7 +4,7 @@ import iconSilk from "@/assets/home/home_s5/iconSilk.svg"
 import iconTshirt from "@/assets/home/home_s5/iconTshirt.svg"
 import iconWest from "@/assets/home/home_s5/iconWest.svg"
 import iconWool from "@/assets/home/home_s5/iconWool.svg"
-import h5_img from "@/assets/home/home_s5/col-img-02.png"
+import h5_img from "@/assets/home/home_s5/DSC03323.jpg"
 
 import {Link} from "react-router-dom"
 

@@ -1,11 +1,10 @@
 import React from 'react';
 import "./about_s6.css"
 import {Swiper, SwiperSlide} from "swiper/react";
-import img_1 from "@/assets/about/about_s6/imgi_4_team-3-450x500.jpg"
-import img_2 from "@/assets/about/about_s6/imgi_5_team-8-450x500.jpg"
-import img_3 from "@/assets/about/about_s6/imgi_6_team-6-450x500.jpg"
-import img_4 from "@/assets/about/about_s6/imgi_7_teqm-2-450x500.jpg"
-import img_5 from "@/assets/about/about_s6/imgi_8_team-4-450x500.jpg"
+import img_1 from "@/assets/about/about_s6/DSC03779.jpg"
+import img_2 from "@/assets/about/about_s6/DSC03060.jpg"
+import img_3 from "@/assets/about/about_s6/DSC03349.jpg"
+
 import {Autoplay} from "swiper/modules";
 
 
@@ -24,16 +23,6 @@ const AboutS6 = () => {
         },
         {
             item_img: img_3,
-            item_name: "James Pamment",
-            item_job: "Employee"
-        },
-        {
-            item_img: img_4,
-            item_name: "James Pamment",
-            item_job: "Employee"
-        },
-        {
-            item_img: img_5,
             item_name: "James Pamment",
             item_job: "Employee"
         },
@@ -76,10 +65,10 @@ const AboutS6 = () => {
                             <div className="about_s6_item">
                                 <img src={item.item_img} alt=""/>
                                 <div className="about_s6_item_text">
-                                    <div className="about_s6_item_content">
-                                        <h1>{item.item_name}</h1>
-                                        <p>{item.item_job}</p>
-                                    </div>
+                                    {/*<div className="about_s6_item_content">*/}
+                                    {/*    <h1>{item.item_name}</h1>*/}
+                                    {/*    <p>{item.item_job}</p>*/}
+                                    {/*</div>*/}
 
                                 </div>
                             </div>

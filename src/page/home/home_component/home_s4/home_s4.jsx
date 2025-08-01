@@ -1,7 +1,7 @@
 import React from 'react';
 import "./home_s4.css"
 import {Link} from "react-router-dom"
-import h4_img from "@/assets/home/home_s4/portfolio-3.jpg"
+import h4_img from "@/assets/home/home_s4/DSC02973.jpg"
 
 const HomeS4 = () => {
     return (

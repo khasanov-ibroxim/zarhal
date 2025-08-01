@@ -64,10 +64,10 @@
     cursor: pointer;
 }
  .h7_item_bottom h1:hover{
-    color: #F7A603;
+    color: #5BC679;
 }
  .h7_item_bottom a:hover{
-    color: #F7A603;
+    color: #5BC679;
 }
 .h7_item_bottom p{
     font-size: 18px;
@@ -90,7 +90,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #F7A603;
+    background: #5BC679;
     width: 70px;
     height: 70px;
     font-size: 18px;

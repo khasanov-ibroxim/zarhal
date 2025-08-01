@@ -1,5 +1,5 @@
 import React from 'react';
-import header_img from "@/assets/about/about_s1/about_header.jpg";
+import header_img from "@/assets/about/about_s1/DSC03588.jpg";
 import {Link} from "react-router-dom";
 import {ABOUT, HOME} from "@/utils/consts.jsx";
 

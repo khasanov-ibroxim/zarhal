@@ -10,7 +10,7 @@
     font-size: 60px !important;
 }
 .h_6_content .h5_title span{
-    color: #F7A603;
+    color: #5BC679;
     font-size: 16px;
 }
 
@@ -36,7 +36,7 @@
     z-index: 10;
     bottom: -100%;
     padding: 20px;
-    background: #F7A603;
+    background: #5BC679;
     width: 100%;
     transition: .8s;
 }
@@ -66,7 +66,7 @@
 }
 .h6_links_2{
     padding: 10px 35px;
-    background: #F7A603;
+    background: #5BC679;
     font-size: 18px;
     font-weight: 600;
     color: white;

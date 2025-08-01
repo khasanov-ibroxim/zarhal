@@ -2,7 +2,9 @@ import React from 'react';
 import "./home_s7.css"
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
-import h7_1 from "@/assets/home/home_s5/col-img-02.png"
+import h7_1 from "@/assets/home/home_s7/DSC02763.jpg"
+import h7_2 from "@/assets/home/home_s7/DSC02794.jpg"
+import h7_3 from "@/assets/home/home_s7/DSC02935.jpg"
 
 
 import {Link} from "react-router-dom"
@@ -61,7 +63,7 @@ const HomeS7 = () => {
                     <SwiperSlide>
                         <div className="h7_item">
                             <div className="h7_item_top">
-                                <img src={h7_1} alt=""/>
+                                <img src={h7_2} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
                                 <div className="h7_item_bottom_element">
@@ -77,7 +79,7 @@ const HomeS7 = () => {
                     <SwiperSlide>
                         <div className="h7_item">
                             <div className="h7_item_top">
-                                <img src={h7_1} alt=""/>
+                                <img src={h7_3} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
                                 <div className="h7_item_bottom_element">
@@ -90,23 +92,6 @@ const HomeS7 = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="h7_item">
-                            <div className="h7_item_top">
-                                <img src={h7_1} alt=""/>
-                            </div>
-                            <div className="h7_item_bottom">
-                                <div className="h7_item_bottom_element">
-                                    <span>15</span>
-                                    <span>Feb</span>
-                                </div>
-                                <h1>Индивидуальный подход</h1>
-                                <p>Гибкость в производстве даёт возможность выпускать продукцию по требованиям конкретного клиента.</p>
-                                <Link to={"#"}>Подробно</Link>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
                 </Swiper>
             </div>
         </div>

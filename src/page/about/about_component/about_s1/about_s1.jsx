@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about_s1.css"
-import header_img from "@/assets/about/about_s1/about_header.jpg";
+import header_img from "@/assets/about/about_s1/DSC03588.jpg";
 import {ABOUT, HOME} from "@/utils/consts.jsx";
 import {Link} from "react-router-dom"
 

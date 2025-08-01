@@ -60,7 +60,7 @@
     width: 60%;
     height: 60%;
     object-fit: contain;
-    fill: #F7A603;
+    fill: #5BC679;
 }
 
 .h_5_item_top .h_5_item_top_element {
@@ -116,7 +116,7 @@
     position: absolute;
     width: 50%;
     right: 0;
-    background: #F7A603;
+    background: #5BC679;
     padding: 50px 100px;
     border-radius: 20px;
 }

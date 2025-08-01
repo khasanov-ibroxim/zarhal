@@ -86,7 +86,7 @@
 }
 
 .about_s3_item:hover .about_s3_item_num{
-    background: #F7A603;
+    background: #5BC679;
 }
 .about_s3_item:nth-child(even) .about_s3_item_num{
     top: -65px;

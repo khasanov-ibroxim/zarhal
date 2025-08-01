@@ -64,7 +64,7 @@
     font-size: 19px;
 }
 .about_s2_footer ul li svg{
-    color: #F7A603;
+    color: #5BC679;
 }
 
 .about_s2_footer_btns{
@@ -73,7 +73,7 @@
     gap: 20px;
 }
 .about_s2_footer_btn_1{
-    background: #F7A603;
+    background: #5BC679;
     width: 150px;
     display: flex;
     justify-content: center;

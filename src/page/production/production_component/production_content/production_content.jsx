@@ -1,8 +1,6 @@
 import React from 'react';
 import "./production_content.css"
-import img_top from "@/assets/production/imgi_2_4-min.jpg"
-import img_1 from "@/assets/production/imgi_3_detail-3.jpg"
-import img_2 from "@/assets/production/imgi_18_detailed-4-300x154.jpg"
+
 import CheckIcon from '@mui/icons-material/Check';
 
 

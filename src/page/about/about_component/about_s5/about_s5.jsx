@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about_s5.css"
-import r_img from "@/assets/about/about_s5/imgi_11_col-bg-005.jpg"
+import r_img from "@/assets/about/about_s5/DSC03091.jpg"
 
 const AboutS5 = () => {
     return (

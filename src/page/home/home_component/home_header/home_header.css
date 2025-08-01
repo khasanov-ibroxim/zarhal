@@ -163,7 +163,7 @@
 }
 
 .h-header-top-btns a:last-child {
-    background: #FFAA01;
+    background: #5BC679;
     border: none;
     color: #052B40;
 }
@@ -200,7 +200,7 @@
     color: white;
 }
 .h-header-bottom_box_icon {
-    background: #FFAA01;
+    background: #5BC679;
     width: 100px;
     height: 100px;
     display: flex;
