@@ -71,6 +71,7 @@ const HomeS5 = () => {
 
             <div className="h5_box">
                 <div className="h5_box_left">
+                    <div className="h5_box_left_opacity"></div>
                     <img src={h5_img} alt="Zarhal"/>
                     <div className="h5_box_left_item">
                         <h1>Наше оборудование — ключ к качеству и эффективности на каждом этапе</h1>
