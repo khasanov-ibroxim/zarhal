@@ -50,10 +50,6 @@ const HomeS7 = () => {
                                 <img src={h7_1} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
-                                <div className="h7_item_bottom_element">
-                                    <span>15</span>
-                                    <span>Feb</span>
-                                </div>
                                 <h1>Своё сырьё</h1>
                                 <p>Мы выращиваем хлопок — это позволяет нам контролировать качество с самых первых этапов.</p>
                                 <Link to={"#"}>Подробно</Link>
@@ -66,10 +62,6 @@ const HomeS7 = () => {
                                 <img src={h7_2} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
-                                <div className="h7_item_bottom_element">
-                                    <span>15</span>
-                                    <span>Feb</span>
-                                </div>
                                 <h1>Технологичное производство</h1>
                                 <p>Современное оборудование гарантирует точность и стабильность на всех стадиях — от волокна до ткани.</p>
                                 <Link to={"#"}>Подробно</Link>
@@ -82,10 +74,6 @@ const HomeS7 = () => {
                                 <img src={h7_3} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
-                                <div className="h7_item_bottom_element">
-                                    <span>15</span>
-                                    <span>Feb</span>
-                                </div>
                                 <h1>Экологичность</h1>
                                 <p>Ответственный подход к ресурсам, минимизация отходов и устойчивые методы переработки.</p>
                                 <Link to={"#"}>Подробно</Link>

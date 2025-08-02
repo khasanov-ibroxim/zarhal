@@ -1,19 +1,23 @@
 
-import top_1 from "@/assets/production/1/ret.jpg"
-import img_1_1 from "@/assets/production/1/DSC03037.jpg"
-import img_1_2 from "@/assets/production/1/DSC03048.jpg"
+import header_1 from "@/assets/production/1/sunset-meadow-wildflowers-bloom-dusk-generated-by-ai.jpg"
+import top_1 from "@/assets/production/1/bunch-white-cotton-branch.jpg"
+import img_1_1 from "@/assets/production/1/cotton-plants-still-life (2).jpg"
+import img_1_2 from "@/assets/production/1/cotton-plants-still-life (3).jpg"
 
-import top_2 from "@/assets/production/2/DSC03552.jpg"
-import img_2_1 from "@/assets/production/2/DSC03496.jpg"
-import img_2_2 from "@/assets/production/2/DSC03531.jpg"
+import header_2 from "@/assets/production/2/DSC03015.jpg"
+import top_2 from "@/assets/production/2/DSC02973.jpg"
+import img_2_1 from "@/assets/production/2/DSC02814.jpg"
+import img_2_2 from "@/assets/production/2/DSC02892.jpg"
 
+import header_3 from "@/assets/about/about_s1/DSC03588.jpg"
 import top_3 from "@/assets/production/3/DSC03321.jpg"
 import img_3_1 from "@/assets/production/3/DSC03426.jpg"
 import img_3_2 from "@/assets/production/3/DSC03332.jpg"
 
-import top_4 from "@/assets/production/4/egipet_cotton_2.jpg"
-import img_4_1 from "@/assets/production/4/397787689.jpg"
-import img_4_2 from "@/assets/production/4/61a8b68bdbfee7a56bfef88854a6145e.jpeg"
+import header_4 from "@/assets/production/4/sh/DSC03784.jpg"
+import top_4 from "@/assets/production/4/sh/DSC03773.jpg"
+import img_4_1 from "@/assets/production/4/sh/DSC03921.jpg"
+import img_4_2 from "@/assets/production/4/sh/DSC03791.jpg"
 
 export const Production_db = [
     {
@@ -30,6 +34,7 @@ export const Production_db = [
         h_4:"Контроль без компромиссов",
         p_3:`Мы используем современные технологии и автоматизированные линии, которые обеспечивают стабильность качества на каждом этапе. Это позволяет нам гибко адаптироваться под запросы клиентов и производить продукцию мирового уровня.`,
 
+        header_img:header_1,
         img_top:top_1,
         img_1:img_1_1,
         img_2:img_1_2
@@ -48,6 +53,7 @@ export const Production_db = [
         h_4:"Готовность к окрашиванию",
         p_3:`Каждая партия пряжи проверяется на соответствие ключевым параметрам: равномерность, прочность, влажность. Это обеспечивает бесперебойную работу в дальнейшем производственном цикле.`,
 
+        header_img:header_2,
         img_top:top_2,
         img_1:img_2_1,
         img_2:img_2_2
@@ -66,13 +72,14 @@ export const Production_db = [
         h_4:"Гибкость и масштаб",
         p_3:`Мерсеризация, цифровая обработка и инновационные методы отделки позволяют создавать ткани премиального уровня. Мы идём в ногу с трендами, сохраняя при этом традиции качества. Производим ткани как малыми, так и крупными партиями, учитывая пожелания каждого клиента. Гибкость — наша ключевая особенность в работе с B2B и частными заказами.`,
 
+        header_img:header_3,
         img_top:top_3,
         img_1:img_3_1,
         img_2:img_3_2
     },
     {
         id:4,
-        page_name:"Постельное бельё ",
+        page_name:"Постельное бельё",
         page_title:"Постельное бельё ",
         h_1:`Элитное постельное бельё`,
         p_1:`Мы создаём постельное бельё из 100% высококачественного египетского хлопка, обеспечивая непревзойдённую мягкость, долговечность и комфорт. Контроль на каждом этапе производства гарантирует идеальное качество каждой нити.`,
@@ -84,6 +91,7 @@ export const Production_db = [
         h_4:"Индивидуальный подход",
         p_3:`Благодаря мерсеризации и современным методам обработки, ткани приобретают не только внешний блеск, но и устойчивость к износу. Постельное бельё сохраняет первозданный вид даже после множества стирок. Мы учитываем пожелания клиентов при выборе ткани, цвета и размеров. Подходит как для домашнего использования, так и для отелей премиум-класса.`,
 
+        header_img:header_4,
         img_top:top_4,
         img_1:img_4_1,
         img_2:img_4_2

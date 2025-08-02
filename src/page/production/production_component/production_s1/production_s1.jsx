@@ -1,5 +1,4 @@
 import React from 'react';
-import header_img from "@/assets/about/about_s1/DSC03588.jpg";
 import {Link} from "react-router-dom";
 import {ABOUT, HOME} from "@/utils/consts.jsx";
 
@@ -8,7 +7,7 @@ const ProductionS1 = ({item}) => {
         <div>
             <div className="contact_header">
                 <div className="contact_opacity"></div>
-                <img src={header_img} alt="contact"/>
+                <img src={item.header_img} alt="contact"/>
                 <div className="about_header_title">
                     <h1>{item.page_title}</h1>
                     <div className="about_header_subtitle">
