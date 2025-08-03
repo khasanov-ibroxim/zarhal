@@ -45,7 +45,7 @@ const Footer = () => {
 
                                 <div className="footer_item_content">
                                     <a href="#" className={"footer_tell"}>+998 65 222 07 07</a>
-                                    <a href="#" className={"footer_email"}>zarhalgroup.uz@gmail.com</a>
+                                    <a href="#" className={"footer_email"}>info@zarhalgroup.uz</a>
                                     <p>Бухарская область, г. Бухара <br/>
                                         ул. Саноатчилар, 2</p>
                                 </div>

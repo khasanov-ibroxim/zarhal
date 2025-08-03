@@ -67,7 +67,7 @@ const Navbar = () => {
                             <div className="nav_top_right_item_icon"><EmailIcon/></div>
                             <div className="nav_top_right_item_text">
                                 <p>Отправить письмо</p>
-                                <h4>zarhalgroup.uz@gmail.com</h4>
+                                <h4>info@zarhalgroup.uz</h4>
                             </div>
                         </div>
                         <div className="nav_top_right_item">

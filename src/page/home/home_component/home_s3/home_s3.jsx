@@ -15,7 +15,7 @@ const HomeS3 = () => {
                 <div className="h3_title">
                     <div className="h3_title_left">
                         <span className={"subtitle"}>Производство & Цикл</span>
-                        <h2>Замкнутый и экологичный цикл от поля до продукции</h2>
+                        <h2>Замкнутый и экологичный цикл от поля до готовой продукции</h2>
                     </div>
                     <div className="h3_title_right">
                         <Link to={"#"}>Контакты </Link>

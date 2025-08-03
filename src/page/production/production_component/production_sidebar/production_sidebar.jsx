@@ -53,14 +53,12 @@ const ProductionSidebar = () => {
                 <h1>Контакты</h1>
                 <div className="sidebar_contact_item">
                     <FmdGoodOutlinedIcon/>
-                    <p>
-                        Республика Узбекистан, г.Бухара, у.Алпамыш 331
-                    </p>
+                    <p>Республика Узбекистан, г.Бухара, ул.Саноатчилар 2</p>
 
                 </div>
                 <div className="sidebar_contact_item">
                     <MailOutlineOutlinedIcon/>
-                    <p>zarhalgroup.uz@gmail.com</p>
+                    <p>info@zarhalgroup.uz</p>
                 </div>
                 <div className="sidebar_contact_item">
                     <PhoneIphoneOutlinedIcon/>

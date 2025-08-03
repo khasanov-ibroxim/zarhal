@@ -28,20 +28,33 @@ const AboutS2 = () => {
                             </div>
                             <div className="about_s2_body">
                                 <img src={left_img} alt=""/>
-                                <p>Мы создаём текстиль с полным циклом производства — от хлопка до готового изделия</p>
+                                <p>Zarhalgroup объединяет ведущие текстильные компании, в том числе:</p>
                             </div>
                             <div className="about_s2_footer">
                                 <ul>
                                     <li><CheckIcon/>
-                                        Выращиваем и перерабатываем хлопок, обеспечивая стабильное качество на всех этапах.
+                                        <div>
+                                            Kamalak Shabnam Teks, в состав которой входит немецкий бренд Curt Bauer — с
+                                            более чем 140-летней историей производства элитного домашнего текстиля.
+                                            <br/> Подробнее:
+                                            <br/> <a href="http://curt-bauer-group.de">http://curt-bauer-group.de</a>
+                                            <br/> <a href="https://t.me/uzbekCTM/535">https://t.me/uzbekCTM/535</a>
+                                        </div>
+
                                     </li>
-                                    <li><CheckIcon/>Используем современное оборудование и экологичные краски, соответствующие международным стандартам.</li>
-                                    <li><CheckIcon/>Создаём рабочие места в регионах и поддерживаем развитие надомного труда.</li>
+                                    <li><CheckIcon/>
+                                        <div>
+                                            Leichter Kamalak Textilien, официальный партнёр и правопреемник немецкого
+                                            бренда Langheinrich, признанного в Европе за качество столового и
+                                            гостиничного текстиля.
+                                            <br/>Подробнее: <a href="https://langheinrich.de">https://langheinrich.de</a>
+                                        </div>
+                                    </li>
                                 </ul>
                                 <div className="about_s2_footer_btns">
                                     <Link to={"#"} className={"about_s2_footer_btn_1"}>Свяжитесь</Link>
                                     <Link to={CONTACT}
-                                          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                          onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
                                           className={"about_s2_footer_btn_2"}>Контакты</Link>
                                 </div>
                             </div>
