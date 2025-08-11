@@ -2,7 +2,7 @@ import React from 'react';
 import "./home_s7.css"
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
-import h7_1 from "@/assets/home/home_s7/DSC02763.jpg"
+import h7_1 from "@/assets/home/home_s7/IMG_7405.jpg"
 import h7_2 from "@/assets/home/home_s7/DSC02794.jpg"
 import h7_3 from "@/assets/home/home_s7/DSC02935.jpg"
 
