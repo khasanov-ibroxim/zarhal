@@ -1,23 +1,23 @@
 
 import header_1 from "@/assets/production/1/sunset-meadow-wildflowers-bloom-dusk-generated-by-ai.jpg"
-import top_1 from "@/assets/production/1/bunch-white-cotton-branch.jpg"
+import top_1 from "@/assets/production/1/krasota_organiceskogo_rosta_zakatnogo_luga_v_prirode_sozdannaa_iskusstvennym.jpg"
 import img_1_1 from "@/assets/production/1/cotton-plants-still-life (2).jpg"
 import img_1_2 from "@/assets/production/1/cotton-plants-still-life (3).jpg"
 
 import header_2 from "@/assets/production/2/DSC03015.jpg"
 import top_2 from "@/assets/production/2/DSC02973.jpg"
 import img_2_1 from "@/assets/production/2/DSC02814.jpg"
-import img_2_2 from "@/assets/production/2/DSC02892.jpg"
+import img_2_2 from "@/assets/production/2/DSC03015.jpg"
 
 import header_3 from "@/assets/about/about_s1/DSC03588.jpg"
 import top_3 from "@/assets/production/3/DSC03321.jpg"
 import img_3_1 from "@/assets/production/3/DSC03426.jpg"
 import img_3_2 from "@/assets/production/3/DSC03332.jpg"
 
-import header_4 from "@/assets/production/4/sh/DSC03784.jpg"
-import top_4 from "@/assets/production/4/sh/DSC03773.jpg"
-import img_4_1 from "@/assets/production/4/sh/DSC03921.jpg"
-import img_4_2 from "@/assets/production/4/sh/DSC03791.jpg"
+import header_4 from "@/assets/production/4/DSC03784.jpg"
+import top_4 from "@/assets/production/4/DSC03839.jpg"
+import img_4_1 from "@/assets/production/4/DSC03921.jpg"
+import img_4_2 from "@/assets/production/4/DSC03791.jpg"
 
 export const Production_db = [
     {
