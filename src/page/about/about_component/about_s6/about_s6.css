@@ -2,13 +2,44 @@
     padding: 50px 0;
 }
 
+.about_brand_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+.about_s6_brand_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.about_s6_brand_row img{
+    width: calc(50%/3);
+    height: 100%;
+}
+.about_brand_title{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 45px;
+    color: #002C42;
+    font-weight: 600;
+    text-align: center;
+}
 .about_s6_title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0 50px;
 }
 
 .about_s6_title h1 {
