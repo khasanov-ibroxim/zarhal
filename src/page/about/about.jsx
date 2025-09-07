@@ -14,7 +14,7 @@ const About = () => {
             <About_s2/>
             <div className="about_grey_bg">
                 <About_s3/>
-                <About_s4/>
+                {/*<About_s4/>*/}
                 <About_s5/>
                 <About_s6/>
             </div>

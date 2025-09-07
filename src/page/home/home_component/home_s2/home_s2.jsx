@@ -18,8 +18,19 @@ const HomeS2 = () => {
                                 <img src={siryo} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>10 000 тонн</h2>
-                                <p>Сырьё</p>
+                                <h2>12 000 тонн</h2>
+                                <p>хлопкового сырца</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-3 mb-4">
+                        <div className="h_2_item">
+                            <div className="h_2_item_top">
+                                <img src={volokna} alt=""/>
+                            </div>
+                            <div className="h_2_item_bottom">
+                                <h2>4 000 тонн</h2>
+                                <p>хлопкового волокна</p>
                             </div>
                         </div>
                     </div>
@@ -30,7 +41,7 @@ const HomeS2 = () => {
                             </div>
                             <div className="h_2_item_bottom">
                                 <h2>3 500 тонн</h2>
-                                <p>Волокно</p>
+                                <p>пряжи</p>
                             </div>
                         </div>
                     </div>
@@ -40,7 +51,7 @@ const HomeS2 = () => {
                                 <img src={tkan} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>24 млн м²</h2>
+                                <h2>32 млн м²</h2>
                                 <p>Ткань</p>
                             </div>
                         </div>
@@ -51,8 +62,8 @@ const HomeS2 = () => {
                                 <img src={izdeliya} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>14 млн шт</h2>
-                                <p>Изделия</p>
+                                <h2>10 млн штук </h2>
+                                <p>готовых швейных изделий</p>
                             </div>
                         </div>
                     </div>

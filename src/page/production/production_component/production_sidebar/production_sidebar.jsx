@@ -62,11 +62,12 @@ const ProductionSidebar = () => {
                 </div>
                 <div className="sidebar_contact_item">
                     <PhoneIphoneOutlinedIcon/>
-                    <p>+998 65 222 07 07</p>
+                    <p><a href="tel:+998652220707">+99865-222-07-07</a> <br/>
+                        <a href="tel:+998772729922">+99877-272-99-22</a></p>
                 </div>
                 <div className="sidebar_contact_item">
                     <AccessAlarmOutlinedIcon/>
-                    <p>Пн-Сб с 09:00 до 19:00</p>
+                    <p>Пн – Пт с 09-00 до 18-00</p>
                 </div>
                 <div className="sidebar_contact_line"></div>
             </div>

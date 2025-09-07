@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="footer_title">
                     <span className="footer_title_left">
                         <span className="subtitle">Связь с нами</span>
-                        <h2>Откройте диалог — начнём сотрудничество</h2>
+                        <h2>Свяжитесь с нами — мы подберём оптимальное решение под ваши задачи.</h2>
                     </span>
                     <span className="footer_title_right">
                         <Link to={CONTACT}>Свяжитесь</Link>
@@ -27,8 +27,7 @@ const Footer = () => {
                         <div className="col-lg-3">
                             <div className="footer_item_1">
                                 <img src={logo} alt="Zarhal" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}/>
-                                <p>Заполните форму или свяжитесь напрямую — мы готовы обсудить ваш проект и предложить лучшее решение.</p>
-                                <div className="footer_social">
+                                <div className="footer_social mt-5">
                                     <Link to={"#"} className="footer_social_item"><InstagramIcon/></Link>
                                     <Link to={"#"} className="footer_social_item"><TelegramIcon/></Link>
                                     <Link to={"#"} className="footer_social_item"><FacebookIcon/></Link>
@@ -46,7 +45,7 @@ const Footer = () => {
                                 <div className="footer_item_content">
                                     <a href="#" className={"footer_tell"}>+998 65 222 07 07</a>
                                     <a href="#" className={"footer_email"}>info@zarhalgroup.uz</a>
-                                    <p>Бухарская область, г. Бухара <br/>
+                                    <p>Узбекистан , г.Бухара <br/>
                                         ул. Саноатчилар, 2</p>
                                 </div>
                             </div>

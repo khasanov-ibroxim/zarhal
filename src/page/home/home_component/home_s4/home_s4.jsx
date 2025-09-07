@@ -12,12 +12,12 @@ const HomeS4 = () => {
                         <div className="h4_item">
                             <div className="h4_item_text">
                                 <span className="subtitle">Качество & Масштаб</span>
-                                <h2>Мы растём вместе с доверием наших партнёров и объёмами производства</h2>
+                                <h2>Мы растём вместе с доверием наших партнёров и устойчивым расширением производства — сохраняя качество, на котором строятся долгосрочные отношения.</h2>
                                 <p>Каждое изделие — результат точности, устойчивости и полного контроля на всех этапах</p>
                             </div>
                             <div className="h4_item_box">
                                 <div className="h4_item_box_item">
-                                    <div className="h4_item_box_item_top">+10 000 хлопок ежегодно</div>
+                                    <div className="h4_item_box_item_top">12 000 тн – хлопкового сырца</div>
                                     <div className="h4_item_box_item_line">
                                         <div className="h4_line">
                                             <span className={"h4_line_text"}></span>
@@ -26,11 +26,38 @@ const HomeS4 = () => {
                                     </div>
                                 </div>
                                 <div className="h4_item_box_item">
-                                    <div className="h4_item_box_item_top">+14 000 000  единиц текстиля в год</div>
+                                    <div className="h4_item_box_item_top">4 000 тн хлопкового волокна</div>
                                     <div className="h4_item_box_item_line">
                                         <div className="h4_line" style={{width:"100%"}}>
                                             <span className={"h4_line_text"} ></span>
-                                            <span className={"h4_line_bg"} style={{width:"92%"}}></span>
+                                            <span className={"h4_line_bg"} style={{width:"80%"}}></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="h4_item_box_item">
+                                    <div className="h4_item_box_item_top">3 500 тн  пряжи</div>
+                                    <div className="h4_item_box_item_line">
+                                        <div className="h4_line" style={{width:"100%"}}>
+                                            <span className={"h4_line_text"} ></span>
+                                            <span className={"h4_line_bg"} style={{width:"90%"}}></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="h4_item_box_item">
+                                    <div className="h4_item_box_item_top">32 млн м2  ткань</div>
+                                    <div className="h4_item_box_item_line">
+                                        <div className="h4_line" style={{width:"100%"}}>
+                                            <span className={"h4_line_text"} ></span>
+                                            <span className={"h4_line_bg"} style={{width:"100%"}}></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="h4_item_box_item">
+                                    <div className="h4_item_box_item_top">10 млн штук  готовых швейных изделий</div>
+                                    <div className="h4_item_box_item_line">
+                                        <div className="h4_line" style={{width:"100%"}}>
+                                            <span className={"h4_line_text"} ></span>
+                                            <span className={"h4_line_bg"} style={{width:"100%"}}></span>
                                         </div>
                                     </div>
                                 </div>

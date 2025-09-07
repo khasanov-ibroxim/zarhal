@@ -6,6 +6,10 @@ import iconWest from "@/assets/home/home_s5/iconWest.svg"
 import iconWool from "@/assets/home/home_s5/iconWool.svg"
 import h5_img from "@/assets/home/home_s5/DSC03323.jpg"
 
+import icon2 from "@/assets/home/home_s5/return.png"
+import icon3 from "@/assets/home/home_s5/quality-product.png"
+import icon4 from "@/assets/home/home_s5/product.png"
+
 import {Link} from "react-router-dom"
 
 const HomeS5 = () => {
@@ -26,7 +30,7 @@ const HomeS5 = () => {
                             </div>
                             <div className="h_5_item_bottom">
                                 <h2>Полный цикл</h2>
-                                <p>Производство 65 млн м² тканей и 400 тонн окрашенной пряжи в год.</p>
+                                <p>Производство 60 млн м² суровых и крашенных тканей в год.</p>
                             </div>
                         </div>
                     </div>
@@ -38,19 +42,7 @@ const HomeS5 = () => {
                             </div>
                             <div className="h_5_item_bottom">
                                 <h2>Экспортный фокус</h2>
-                                <p>Современные станки — ткани до 360 см для Европы и США.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 col-md-4 col-lg-3">
-                        <div className="h_5_item">
-                            <div className="h_5_item_top">
-                                <img src={iconWest}/>
-                                <div className="h_5_item_top_element">03</div>
-                            </div>
-                            <div className="h_5_item_bottom">
-                                <h2>Готовый продукт</h2>
-                                <p>8 млн текстильных изделий ежегодно + потребность в фабрике окраски.</p>
+                                <p>Современные станки — ткани до 420 см для мирового рынка.</p>
                             </div>
                         </div>
                     </div>
@@ -58,11 +50,23 @@ const HomeS5 = () => {
                         <div className="h_5_item">
                             <div className="h_5_item_top">
                                 <img src={iconTshirt}/>
+                                <div className="h_5_item_top_element">03</div>
+                            </div>
+                            <div className="h_5_item_bottom">
+                                <h2>Готовый продукт</h2>
+                                <p>10 млн текстильных изделий ежегодно.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-3">
+                        <div className="h_5_item">
+                            <div className="h_5_item_top">
+                                <img src={iconWest}/>
                                 <div className="h_5_item_top_element">04</div>
                             </div>
                             <div className="h_5_item_bottom">
                                 <h2>Новые рабочие места</h2>
-                                <p>Более 1000 человек заняты через касаначилик в регионах.</p>
+                                <p>Более 1000 человек заняты в регионах.</p>
                             </div>
                         </div>
                     </div>
@@ -84,25 +88,29 @@ const HomeS5 = () => {
                             <img src={iconWool} alt=""/>
                         </div>
                         <div className="h5_box_right_item_content">
+                            <h1>Для агро-обработки</h1>
+                            <p> John Deere, New Holland используется для агро-обработки хлопка — от посева до сбора урожая.</p>
+                        </div>
+                    </div>
+                    <div className="h5_box_right_item">
+                        <div className="h5_box_right_element"><img src={icon2} alt=""/></div>
+                        <div className="h5_box_right_item_content">
                             <h1>Для переработки и пряжи</h1>
-                            <p>Оборудование от Trützschler и Rieter обеспечивает первичную очистку и прядение с высокой
-                                точностью и стабильностью. Это залог однородной, прочной нити без дефектов.</p>
+                            <p>Оборудование от Trutzschler и Rieter обеспечивает первичную очистку и прядение с высокой точностью и стабильностью. Это залог однородной, прочной нити без дефектов.</p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
-                        <div className="h5_box_right_element"><img src={iconSilk} alt=""/></div>
+                        <div className="h5_box_right_element"><img src={icon3} alt=""/></div>
                         <div className="h5_box_right_item_content">
-                            <h1> Для ткачества и жаккарда</h1>
-                            <p>Станки Picanol, Itema и Bonas позволяют выпускать сложные узорчатые и технические ткани.
-                                Высокая скорость и гибкость — преимущество для крупных заказов.</p>
+                            <h1>Для качества и жаккарда</h1>
+                            <p>Станки Picanol, Itema и Staubli позволяют выпускать сложные узорчатые, жаккардовые и технические ткани. Высокая скорость и гибкость преимущество для крупных заказов.</p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
-                        <div className="h5_box_right_element"><img src={iconWest} alt=""/></div>
+                        <div className="h5_box_right_element"><img src={icon4} alt=""/></div>
                         <div className="h5_box_right_item_content">
-                            <h1> Для отделки и агроэтапа</h1>
-                            <p>Оборудование Karl Mayer отвечает за финишную обработку и усиление текстиля. А John Deere
-                                используется на стадии агрообработки хлопка — от посева до сбора урожая.</p>
+                            <h1>Для отделки</h1>
+                            <p>Оборудование Beninger, Monforst, Ostoff, Ramisch Guarneri отвечает за финишную обработку и усиление текстиля. </p>
                         </div>
                     </div>
                 </div>

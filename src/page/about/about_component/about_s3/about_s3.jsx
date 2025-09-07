@@ -19,7 +19,7 @@ const AboutS3 = () => {
                       <div className="about_s3_item_content">
                           <img src={icon_1} alt=""/>
                           <h1>Экспортный потенциал</h1>
-                          <p>Готовая продукция ориентирована на рынки США и Европы с ежегодным объёмом до 20 млн евро.</p>
+                          <p>Ежегодно мы поставляем продукцию на рынки Европы и СНГ, достигая объёма до 20 млн евро в год — благодаря качеству, которому доверяют.</p>
                       </div>
                       <div className="about_s3_item_num">01</div>
                   </div>
@@ -27,25 +27,20 @@ const AboutS3 = () => {
                       <div className="about_s3_item_content">
                           <img src={icon_2} alt=""/>
                           <h1>Гибкость в производстве</h1>
-                          <p>Можем выпускать ткани разной плотности и ширины — от 100 до 350 г/м², до 360 см.</p>
+                          <p>Можем выпускать ткани разной плотности — от 100 до 350 г/м², и шириной до 400 см.</p>
                       </div>
                       <div className="about_s3_item_num">02</div>
                   </div>
-                  <div className="about_s3_item">
-                      <div className="about_s3_item_content">
-                          <img src={icon_3} alt=""/>
-                          <h1>Социальный вклад</h1>
-                          <p>Благодаря проекту более 1000 жителей сельских районов получат стабильную занятость.</p>
-                      </div>
-                      <div className="about_s3_item_num">03</div>
-                  </div>
+
                   <div className="about_s3_item">
                       <div className="about_s3_item_content">
                           <img src={icon_4} alt=""/>
                           <h1>Экологичный подход</h1>
-                          <p>Во всех этапах производства применяются безопасные красители и технологии с заботой об окружающей среде.</p>
+                          <p>Экологичность в деталях: <br/>
+                              Только безопасные красители и современные технологии, щадящие природу — на всех этапах производства.
+                          </p>
                       </div>
-                      <div className="about_s3_item_num">04</div>
+                      <div className="about_s3_item_num">03</div>
                   </div>
               </div>
             </div>

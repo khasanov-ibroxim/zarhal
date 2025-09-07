@@ -51,7 +51,7 @@ const HomeS1 = () => {
                     </div>
                 </div>
             </div>
-            <div className="h_s1_top h_s1_top_2" >
+            <div className="h_s1_top h_s1_top_2">
                 <div className="h_s1_top_item">
                     <div className="h_s1_top_item_left">
                         <img src={fabric} alt=""/>
@@ -76,7 +76,7 @@ const HomeS1 = () => {
                         <div className="h_s1_top_item_right_content">
                             <div className="h_s1_top_item_right_content_text">
                                 <p>Эко сумка</p>
-                                <h3>Сумка с пользой</h3>
+                                <h3>Готовое изделие, в которое вложены душа и ответственность.</h3>
                             </div>
                             <div className="h_s1_top_item_right_content_arrow">
                                 <ArrowRightAltIcon/>
@@ -93,11 +93,20 @@ const HomeS1 = () => {
                     </div>
                     <div className="col-lg-7">
                         <div className="h_s1_content_box">
-                            <span className={"subtitle"}>Тканый путь</span>
-                            <h2>Создаём ткани с честностью и заботой</h2>
-                            <p>Наша миссия — быть лидером в текстильной отрасли.
-                                Мы создаём продукцию полного цикла: от выращивания хлопка до производства высококачественных, экологичных тканей и изделий.
-                                Работаем с уважением к клиентам и к природе — честно, надёжно, с душой.
+                            {/*<span className={"subtitle"}>Тканый путь</span>*/}
+                            <h2>Тканый Путь — от земли к душе</h2>
+                            <p>Мы — компания полного текстильного цикла, которая объединяет традиции и инновации. <br/>
+                                Наша история начинается с хлопкового поля и продолжается в готовых тканях и изделиях,
+                                созданных с уважением к природе, человеку и будущему. <br/>
+                                Всё, что мы делаем, пронизано честностью, вниманием к деталям и осознанным подходом. <br/>
+                                Мы верим, что ткань — это больше, чем материал. Это носитель смысла, отражение ценностей
+                                и заботы.
+                            </p>
+                            <p>Наша миссия</p>
+                            <p>Создавать экологичные и высококачественные ткани и изделия, проходящие полный путь от
+                                выращивания сырья до готового продукта. <br/>
+                                Мы стремимся быть лидером устойчивого текстиля в мировом рынке, объединяя качество,
+                                прозрачность и ответственность.
                             </p>
 
                             <div className="h_s1_content_box_bottom">
@@ -113,12 +122,12 @@ const HomeS1 = () => {
                                     <Link to={"#"} className="h_s1_content_box_bottom_left_link">Свяжитесь</Link>
                                 </div>
                                 <div className="h_s1_content_box_bottom_right">
-                                        <div className="h_s1_content_box_bottom_right_element"></div>
-                                        <div className="h_s1_content_box_bottom_right_element_2">
-                                            <HomeOutlinedIcon/>
-                                            <h2>15+ </h2>
-                                            <p>лет на рынке</p>
-                                        </div>
+                                    <div className="h_s1_content_box_bottom_right_element"></div>
+                                    <div className="h_s1_content_box_bottom_right_element_2">
+                                        <HomeOutlinedIcon/>
+                                        <h2>20+ </h2>
+                                        <p>лет на рынке</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ const HomeS6 = () => {
             <div className="h_6_content">
                 <div className="h5_title">
                     <span className={"subtitle"}>Современные технологии</span>
-                    <h1>Надёжность и точность на каждом этапе производства</h1>
+                    <h1>Точность и ответственность — на каждом этапе.</h1>
                 </div>
 
                 <div className="h_6_swiper_box">

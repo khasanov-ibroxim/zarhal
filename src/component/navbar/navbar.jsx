@@ -74,7 +74,7 @@ const Navbar = () => {
                             <div className="nav_top_right_item_icon"><QueryBuilderIcon/></div>
                             <div className="nav_top_right_item_text">
                                 <p>Часы работы</p>
-                                <h4>Пн-Сб с 09:00 до 19:00</h4>
+                                <h4>Пн – Пт с 09-00 до 18-00</h4>
                             </div>
                         </div>
                         <div className="nav_top_right_item">

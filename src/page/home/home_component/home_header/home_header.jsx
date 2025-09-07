@@ -26,7 +26,7 @@ const HomeHeader = () => {
                                 <p>Качество. Экология</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Всё — от сырья до готового изделия,<br/> на одном производстве!</h1>
+                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={"#"}>Производство</Link>
@@ -35,7 +35,7 @@ const HomeHeader = () => {
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Создадим нечто <br/> выдающееся вместе!</h3>
+                                <h3>Производим с душой <br/> и уважением к будущему</h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>
@@ -53,7 +53,7 @@ const HomeHeader = () => {
                                 <p>Качество. Экология</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Всё — от сырья до готового изделия,<br/> на одном производстве!</h1>
+                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={"#"}>Производство</Link>
@@ -62,7 +62,7 @@ const HomeHeader = () => {
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Создадим нечто <br/> выдающееся вместе!</h3>
+                                <h3>Производим с душой <br/> и уважением к будущему</h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>
@@ -80,7 +80,7 @@ const HomeHeader = () => {
                                 <p>Качество. Экология</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Всё — от сырья до готового изделия,<br/> на одном производстве!</h1>
+                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={"#"}>Производство</Link>
@@ -89,7 +89,7 @@ const HomeHeader = () => {
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Создадим нечто <br/> выдающееся вместе!</h3>
+                                <h3>Производим с душой <br/> и уважением к будущему</h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>
@@ -107,7 +107,7 @@ const HomeHeader = () => {
                                 <p>Качество. Экология</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Всё — от сырья до готового изделия,<br/> на одном производстве!</h1>
+                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={"#"}>Производство</Link>
@@ -116,7 +116,7 @@ const HomeHeader = () => {
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Создадим нечто <br/> выдающееся вместе!</h3>
+                                <h3>Производим с душой <br/> и уважением к будущему</h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>

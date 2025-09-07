@@ -131,6 +131,11 @@
     display: flex;
     gap: 15px;
 }
+.sidebar_contact_item a{
+    text-decoration: none;
+    color: #7F8284;
+    font-size: 18px;
+}
 .sidebar_contact_item svg{
     color: #5BC679;
     font-size: 30px;

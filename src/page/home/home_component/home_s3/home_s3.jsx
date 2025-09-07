@@ -15,7 +15,7 @@ const HomeS3 = () => {
                 <div className="h3_title">
                     <div className="h3_title_left">
                         <span className={"subtitle"}>Производство & Цикл</span>
-                        <h2>Замкнутый и экологичный цикл от поля до готовой продукции</h2>
+                        <h2>Каждый этап под контролем —<br/> от поля до продукта.</h2>
                     </div>
                     <div className="h3_title_right">
                         <Link to={"#"}>Контакты </Link>
@@ -24,39 +24,48 @@ const HomeS3 = () => {
 
                 <div className="h3_container">
                     <div className="row">
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={siryo} alt={"zarhal siryo"}/>
                                 <h2>Приём сырья</h2>
-                                <p>Каждый год мы принимаем до 10 000 тонн высококачественного хлопка для переработки.</p>
+                                <p>Каждый год мы принимаем до 12 000 тонн высококачественного-органического хлопка для переработки.</p>
                                 <Link to={"#"}>Свяжитесь</Link>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={volokna} alt={"zarhal siryo"}/>
                                 <h2> Изготовление волокна</h2>
-                                <p>На современных мощностях мы получаем до 3 500 тонн прочного и чистого волокна.</p>
+                                <p>На современных мощностях мы получаем в год более 4000 тонн прочного и чистого волокна.</p>
                                 <Link to={"#"}>Свяжитесь</Link>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt-4">
+                            <div className="h3_item">
+                                <div className="h3_item_element"></div>
+                                <img src={volokna} alt={"zarhal siryo"}/>
+                                <h2>Изготовление пряжи</h2>
+                                <p>На современном оборудовании мы получаем в год до 3500 тонн чистого и прочного волокна.</p>
+                                <Link to={"#"}>Свяжитесь</Link>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={proizvodstva} alt={"zarhal siryo"}/>
                                 <h2>Производство ткани</h2>
-                                <p>Из собственного сырья изготавливаем 24 млн м² качественной ткани разных типов.</p>
+                                <p>Из собственного сырья мы изготавливаем в год 32 млн м² качественной ткани разных типов.</p>
                                 <Link to={"#"}>Свяжитесь</Link>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={product} alt={"zarhal siryo"}/>
                                 <h2>Готовая продукция</h2>
-                                <p>Благодаря швейным цехам мы выпускаем до 14 млн единиц одежды и текстильных изделий в год.</p>
+                                <p>Благодаря швейным цехам мы выпускаем до 10 млн единиц швейных изделий в год.</p>
                                 <Link to={"#"}>Свяжитесь</Link>
                             </div>
                         </div>
