@@ -6,11 +6,12 @@ import img_2 from "@/assets/about/about_s6/DSC03060.jpg"
 import img_3 from "@/assets/about/about_s6/DSC03349.jpg"
 
 import l1 from "@/assets/about/about_s6/brand/bosso.png"
-import l2 from "@/assets/about/about_s6/brand/bzt.png"
+import l2 from "@/assets/logoZarhal.png"
 import l3 from "@/assets/about/about_s6/brand/bodimax.png"
 import l4 from "@/assets/about/about_s6/brand/ksht.png"
 import l5 from "@/assets/about/about_s6/brand/langheinrich.png"
 import l6 from "@/assets/about/about_s6/brand/oc.png"
+import l7 from "@/assets/about/about_s6/brand/GS.png"
 
 
 import {Autoplay} from "swiper/modules";
@@ -52,6 +53,7 @@ const AboutS6 = () => {
                         <img src={l4} alt=""/>
                         <img src={l5} alt=""/>
                         <img src={l6} alt=""/>
+                        <img src={l7} alt=""/>
                     </div>
                 </div>
 

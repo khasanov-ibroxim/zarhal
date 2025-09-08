@@ -48,7 +48,7 @@ footer{
 }
 .footer_item_1 img{
     width: 100px;
-    height: 100px;
+    height: auto;
 }
 .footer_item_1 p{
     font-size: 19px;
