@@ -20,62 +20,39 @@ const AboutS2 = () => {
                         <div className="about_s2_left">
                             <div className="about_s2_left_title">
                                 {/*<div className="subtitle">Высокое качество</div>*/}
-                                <h1>“ZARHAL GROUP” kompaniyasi tekstil sohasidagi faoliyati 2002-yildan boshlangan.</h1>
-                                <p>Kompaniya tashkil topgan ilk kunlardanoq sifat, ishonch va zamonaviy yondashuvni
-                                    ustuvor tamoyil sifatida tanlab, o‘z faoliyatini yuritib kelmoqda.</p>
+                                <h1>Деятельность компании «ZARHAL GROUP» в текстильной отрасли началась в 2002
+                                    году.</h1>
+                                <p>С первых дней своего основания компания выбрала приоритетными принципами качество,
+                                    доверие и современный подход, на основе которых успешно ведёт свою деятельность.</p>
                             </div>
                             <div className="about_s2_body">
                                 <img src={left_img} alt=""/>
-                                <p>Hozirgi kunda, “ZARHAL GROUP” tarkibida bir nechta asosiy korxonalar faoliyat
-                                    yuritmoqda. Jumladan:</p>
+                                <p>В настоящее время в состав «ZARHAL GROUP» входят несколько ключевых предприятий. В
+                                    частности:</p>
                             </div>
                             <div className="about_s2_footer">
                                 <ul>
                                     <li><CheckIcon/>
-                                        <div>
-                                            “Kamalak Shabnam teks” MCHJ 2010-yilda ish faoliyatini boshlab, bugungi
-                                            kunda “Kamalak Shabnam teks” MChJning ishlab chiqarish quvvati yiliga 3.500
-                                            tonna ip kalava, 32,0 mln kv.metr gazlama matolari ishlab chiqarishni
-                                            tashkil etmoqda.
+                                        <div>ООО «Kamalak Shabnam teks» начало свою деятельность в 2010 году. На
+                                            сегодняшний день производственная мощность предприятия составляет 3 500 тонн
+                                            пряжи и 32,0 млн кв. метров тканых материалов в год.
                                         </div>
 
                                     </li>
                                     <li><CheckIcon/>
-                                        <div>2015-yilda “Buxoro Zarhal teks” MCHJ paxta to’qimachilik klasteri
-                                            faoliyatini yo’lga qo’yildi. Kompaniya paxtachilik yo‘nalishida ilg‘or
-                                            agrotexnik yondashuvlar asosida yiliga 12.000 tonna ekologik toza organik
-                                            paxta xom-ashyosini qayta ishlash natijasida 4000 tonna tola ishlab
-                                            chiqarish quvatiga ega barqaror ishlab chiqarish tizimini shakllantirdi.
-                                        </div>
+                                        <div>В 2015 году был создан хлопкоперерабатывающий кластер ООО «Buxoro Zarhal teks». Компания на основе передовых агротехнических подходов обеспечивает переработку 12 000 тонн экологически чистого органического хлопка в год, в результате чего формируется устойчивая производственная система с мощностью выпуска 4 000 тонн волокна.</div>
                                     </li>
                                     <li><CheckIcon/>
-                                        <div>2020-yilda esa “Olot spinner” MCHJ to’quv ishlab chiqarish korxonasi
-                                            tashkil etilib, u erda ilg‘or texnologiyalar va zamonaviy dastgohlar joriy
-                                            etilishi bilan mato ishlab chiqarish salohiyati sezilarli darajada kengayib,
-                                            yiliga 20 mln.m2 mahsulot ishlab chiqarish hajmi bilan yangi bosqichga
-                                            ko‘tarildi.
-                                        </div>
+                                        <div>В 2020 году было основано ткацкое предприятие ООО «Olot spinner», где внедрение передовых технологий и современного оборудования позволило значительно расширить производственный потенциал. Сегодня мощность предприятия составляет 20 млн кв. метров продукции в год, что вывело его на новый уровень.</div>
                                     </li>
                                     <li><CheckIcon/>
-                                        <div>2021-yilda tikuvchilik sohasiga qadam qo‘yib, “Bosso Teks” MChJga asos
-                                            solinib, o‘z ishlab chiqarishini yangi bosqichga olib chiqdi. Kompaniya
-                                            endilikda nafaqat mato, balki tayyor restoran va mehmonxonalar uchun maxsus
-                                            skatert, salfetkalar, yuqori sifatli uy tekstil mahsulotlarini ham
-                                            yaratmoqda.
-                                        </div>
+                                        <div>В 2021 году компания сделала шаг в сферу швейного производства, создав ООО «Bosso Teks», и вышла на новый этап развития. Теперь компания производит не только ткани, но и готовые изделия: специальные скатерти и салфетки для ресторанов и гостиниц, а также высококачественные товары для домашнего текстиля.</div>
                                     </li>
                                     <li><CheckIcon/>
-                                        <div>2022-yilda “LEICHTER KAMALAK TEXTILIEN” MCHJ O’zbekiston-Germaniya qo’shma
-                                            korxonasi tashkil etildi. Xorijlik hamkorlarimiz bilan hamkorlikda,
-                                            Yevropaning ilg‘or zamonaviy texnologiyalarini joriy etish orqali yuqori
-                                            sifatli paxta ipi va nafis dizaynga ega tayyor mahsulotlar eksporti
-                                            muvaffaqiyatli yo‘lga qo‘yildi.
-                                        </div>
+                                        <div>В 2022 году было создано совместное узбекско-германское предприятие ООО «LEICHTER KAMALAK TEXTILIEN». В сотрудничестве с зарубежными партнёрами успешно налажен экспорт высококачественной хлопковой пряжи и готовой продукции с изысканным дизайном, благодаря внедрению передовых европейских технологий.</div>
                                     </li>
                                 </ul>
-                                <p>Biz to‘xtamaymiz — kompaniyamiz tezkor sur’atlarda o‘sib, doimiy ravishda yangi
-                                    yutuqlar sari intilmoqda. Biz bilan qoling va yaqin orada taqdim etiladigan ajoyib
-                                    yangiliklar va imkoniyatlar kutmoqda!</p>
+                                <p>Мы не останавливаемся на достигнутом — компания стремительно развивается и постоянно движется к новым успехам. Оставайтесь с нами — впереди вас ждут новые яркие проекты и возможности!</p>
                                 <div className="about_s2_footer_btns">
                                     <Link to={"#"} className={"about_s2_footer_btn_1"}>Свяжитесь</Link>
                                     <Link to={CONTACT}

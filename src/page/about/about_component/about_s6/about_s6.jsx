@@ -40,9 +40,17 @@ const AboutS6 = () => {
     return (
         <div className={"about_s6"}>
             <div className="container">
-<div className="about_brand_title">
-    Наши фабрики
-</div>
+
+                <iframe width="100%" height="500px"
+                        style={{borderRadius:"25px" , border:"none" , outline:"none"}}
+                        src="https://www.youtube.com/embed/h1tzuNdNXaY?si=BaVs9Rm13XDUzPo5"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+                <div className="about_brand_title">
+                    Наши фабрики
+                </div>
                 <div className="about_brand_box">
                     <div className="about_s6_brand_row">
                         <img src={l1} alt=""/>
@@ -58,7 +66,6 @@ const AboutS6 = () => {
                 </div>
 
 
-
                 <div className="about_s6_title">
                     <div className="subtitle">Прогресс</div>
                     <h1>Наша команда в работе!</h1>
@@ -67,7 +74,7 @@ const AboutS6 = () => {
                 <Swiper
                     spaceBetween={20}
                     slidesPerView={3}
-                    autoplay={{delay:2000}}
+                    autoplay={{delay: 2000}}
                     modules={[Autoplay]}
                     className={"about_s6_swiper"}
                     breakpoints={{
