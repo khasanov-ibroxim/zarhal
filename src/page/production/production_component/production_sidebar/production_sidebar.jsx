@@ -53,7 +53,7 @@ const ProductionSidebar = () => {
                 <h1>Контакты</h1>
                 <div className="sidebar_contact_item">
                     <FmdGoodOutlinedIcon/>
-                    <p>Республика Узбекистан, г.Бухара, ул.Саноатчилар 2</p>
+                    <p>Республика Узбекистан, г.Бухара</p>
 
                 </div>
                 <div className="sidebar_contact_item">
@@ -62,8 +62,8 @@ const ProductionSidebar = () => {
                 </div>
                 <div className="sidebar_contact_item">
                     <PhoneIphoneOutlinedIcon/>
-                    <p><a href="tel:+998652220707">+99865-222-07-07</a> <br/>
-                        <a href="tel:+998772729922">+99877-272-99-22</a></p>
+                    <p><a href="tel:+998652220707">+998652220707</a> <br/>
+                        <a href="tel:+998772729922">+998772729922</a></p>
                 </div>
                 <div className="sidebar_contact_item">
                     <AccessAlarmOutlinedIcon/>
