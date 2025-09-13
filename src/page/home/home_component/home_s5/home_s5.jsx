@@ -89,28 +89,28 @@ const HomeS5 = () => {
                         </div>
                         <div className="h5_box_right_item_content">
                             <h1>Для агро-обработки</h1>
-                            <p> John Deere, New Holland используется для агро-обработки хлопка — от посева до сбора урожая.</p>
+                            <p> <span className={"roboto"}>John Deere</span>, <span className={"roboto"}>New Holland</span>  используется для агро-обработки хлопка — от посева до сбора урожая.</p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
                         <div className="h5_box_right_element"><img src={icon2} alt=""/></div>
                         <div className="h5_box_right_item_content">
                             <h1>Для переработки и пряжи</h1>
-                            <p>Оборудование от Trutzschler и Rieter обеспечивает первичную очистку и прядение с высокой точностью и стабильностью. Это залог однородной, прочной нити без дефектов.</p>
+                            <p>Оборудование от <span className="roboto">Trutzschler</span>  и <span className="roboto">Rieter</span>  обеспечивает первичную очистку и прядение с высокой точностью и стабильностью. Это залог однородной, прочной нити без дефектов.</p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
                         <div className="h5_box_right_element"><img src={icon3} alt=""/></div>
                         <div className="h5_box_right_item_content">
                             <h1>Для качества и жаккарда</h1>
-                            <p>Станки Picanol, Itema и Staubli позволяют выпускать сложные узорчатые, жаккардовые и технические ткани. Высокая скорость и гибкость преимущество для крупных заказов.</p>
+                            <p>Станки <span className={"roboto"}>Picanol</span>, <span className="roboto">Itema</span>  и <span className="roboto">Staubli</span>  позволяют выпускать сложные узорчатые, жаккардовые и технические ткани. Высокая скорость и гибкость преимущество для крупных заказов.</p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
                         <div className="h5_box_right_element"><img src={icon4} alt=""/></div>
                         <div className="h5_box_right_item_content">
                             <h1>Для отделки</h1>
-                            <p>Оборудование Beninger, Monforst, Ostoff, Ramisch Guarneri отвечает за финишную обработку и усиление текстиля. </p>
+                            <p>Оборудование <span className="roboto">Beninger</span> , <span className="roboto">Monforst</span> , <span className="roboto">Ostoff</span> , <span className="roboto">Ramisch</span> <span className="roboto">Guarneri</span>   отвечает за финишную обработку и усиление текстиля. </p>
                         </div>
                     </div>
                 </div>

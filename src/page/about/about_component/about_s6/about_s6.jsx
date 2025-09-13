@@ -40,14 +40,11 @@ const AboutS6 = () => {
     return (
         <div className={"about_s6"}>
             <div className="container">
-
-                <iframe width="100%" height="500px"
-                        style={{borderRadius:"25px" , border:"none" , outline:"none"}}
-                        src="https://www.youtube.com/embed/h1tzuNdNXaY?si=BaVs9Rm13XDUzPo5"
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/gr9ZqjSdhFc?si=7bxF8Xg3Hw3gDeUp"
                         title="YouTube video player" frameBorder="0"
+                        style={{borderRadius: "25px", border: "none", outline: "none"}}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-
                 <div className="about_brand_title">
                     Наши фабрики
                 </div>

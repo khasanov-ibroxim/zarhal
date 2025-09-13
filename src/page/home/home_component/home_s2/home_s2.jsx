@@ -2,10 +2,12 @@ import React from 'react';
 import "./home_s2.css"
 import CheckroomOutlinedIcon from '@mui/icons-material/CheckroomOutlined';
 import izdeliya from "@/assets/home/home_s2/izdeliya.png"
-import siryo from "@/assets/home/home_s2/siryo.png"
-import tkan from "@/assets/home/home_s2/tkan.png"
-import volokna from "@/assets/home/home_s2/volokna.png"
 
+
+import i1 from "@/assets/home/home_s2/cotton.png"
+import i2 from "@/assets/home/home_s2/cotton_kip.png"
+import i3 from "@/assets/home/home_s2/thread.png"
+import i4 from "@/assets/home/home_s2/sewing.png"
 
 const HomeS2 = () => {
     return (
@@ -15,7 +17,7 @@ const HomeS2 = () => {
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <img src={siryo} alt=""/>
+                                <img src={i1} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
                                 <h2>12 000 тонн</h2>
@@ -26,7 +28,7 @@ const HomeS2 = () => {
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <img src={volokna} alt=""/>
+                                <img src={i2} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
                                 <h2>4 000 тонн</h2>
@@ -37,7 +39,7 @@ const HomeS2 = () => {
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <img src={volokna} alt=""/>
+                                <img src={i3} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
                                 <h2>3 500 тонн</h2>
@@ -48,7 +50,7 @@ const HomeS2 = () => {
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <img src={tkan} alt=""/>
+                                <img src={izdeliya} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
                                 <h2>32 млн м²</h2>
@@ -59,7 +61,7 @@ const HomeS2 = () => {
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
-                                <img src={izdeliya} alt=""/>
+                                <img src={i4} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
                                 <h2>10 млн штук </h2>

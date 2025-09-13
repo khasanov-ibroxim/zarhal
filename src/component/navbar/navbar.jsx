@@ -82,6 +82,7 @@ const Navbar = () => {
                             <div className="nav_top_right_item_text">
                                 <p>Есть вопросы ?</p>
                                 <h4>+998652220707</h4>
+                                <h4>+998772729922</h4>
                             </div>
                         </div>
                     </div>

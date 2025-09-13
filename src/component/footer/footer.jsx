@@ -43,10 +43,10 @@ const Footer = () => {
                                 </div>
 
                                 <div className="footer_item_content">
-                                    <a href="#" className={"footer_tell"}>+998 65 222 07 07</a>
+                                    <a href="tel:+998652220707" className={"footer_tell"}>+998 65 222 07 07</a>
+                                    <a href="tel:+998772729922" className={"footer_tell"}>+998 77 272 99 22</a>
                                     <a href="#" className={"footer_email"}>info@zarhalgroup.uz</a>
-                                    <p>Узбекистан , г.Бухара <br/>
-                                        ул. Саноатчилар, 2</p>
+                                    <p>Узбекистан , г.Бухара </p>
                                 </div>
                             </div>
                         </div>

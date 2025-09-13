@@ -64,7 +64,7 @@ const Contact = () => {
                                                 </div>
                                                 <div className="contact_info_item_right">
                                                     <h4>Адрес</h4>
-                                                    <p>Республика Узбекистан, г.Бухара, ул.Саноатчилар 2</p>
+                                                    <p>Республика Узбекистан, г.Бухара</p>
                                                 </div>
                                             </div>
                                             <div className="contact_info_item">
@@ -74,6 +74,7 @@ const Contact = () => {
                                                 <div className="contact_info_item_right">
                                                     <h4>Телефон/Email</h4>
                                                     <p>+998652220707</p>
+                                                    <p>+998772729922</p>
                                                     <p>info@zarhalgroup.uz</p>
                                                 </div>
                                             </div>
