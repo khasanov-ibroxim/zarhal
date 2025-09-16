@@ -33,7 +33,7 @@ const HomeHeader = () => {
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
-                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
+                                <Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">
@@ -60,7 +60,7 @@ const HomeHeader = () => {
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
-                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
+                                <Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">
@@ -87,7 +87,7 @@ const HomeHeader = () => {
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
-                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
+                                <Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">
@@ -114,7 +114,7 @@ const HomeHeader = () => {
                             </div>
                             <div className="h-header-top-btns">
                                 <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
-                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
+                                <Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">

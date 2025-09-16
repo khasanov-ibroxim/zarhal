@@ -54,7 +54,6 @@ const HomeS7 = () => {
                             <div className="h7_item_bottom">
                                 <h1>{t("home.s7.i1.title")}</h1>
                                 <p>{t("home.s7.i1.desc")}</p>
-                                <Link to={CONTACT}>{t("home.s7.link")}</Link>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -66,7 +65,6 @@ const HomeS7 = () => {
                             <div className="h7_item_bottom">
                                 <h1>{t("home.s7.i2.title")}</h1>
                                 <p>{t("home.s7.i2.desc")}</p>
-                                <Link to={CONTACT}>{t("home.s7.link")}</Link>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -78,7 +76,6 @@ const HomeS7 = () => {
                             <div className="h7_item_bottom">
                                 <h1>{t("home.s7.i3.title")}</h1>
                                 <p>{t("home.s7.i3.desc")}</p>
-                                <Link to={CONTACT}>{t("home.s7.link")}</Link>
                             </div>
                         </div>
                     </SwiperSlide>

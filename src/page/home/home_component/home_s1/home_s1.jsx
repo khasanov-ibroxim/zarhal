@@ -12,6 +12,7 @@ import fabric from "@/assets/home/home_s1/fabric.png"
 import eco from "@/assets/home/home_s1/eco-friendly.png"
 import yarn from "@/assets/home/home_s1/yarn-ball.png"
 import {useTranslation} from "react-i18next";
+import {CONTACT, PRODUCTION} from "@/utils/consts.jsx";
 
 
 const HomeS1 = () => {
@@ -20,7 +21,7 @@ const HomeS1 = () => {
         <div className={"h_s1 container"}>
 
             <div className="h_s1_top">
-                <div className="h_s1_top_item">
+                <Link to={PRODUCTION.replace(":id" , 1)} className="h_s1_top_item">
                     <div className="h_s1_top_item_left">
                         <img src={xlopzavod} alt=""/>
                     </div>
@@ -35,8 +36,8 @@ const HomeS1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="h_s1_top_item">
+                </Link>
+                <Link to={PRODUCTION.replace(":id" , 2)} className="h_s1_top_item">
                     <div className="h_s1_top_item_left">
                         <img src={yarn} alt=""/>
                     </div>
@@ -51,10 +52,10 @@ const HomeS1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
             <div className="h_s1_top h_s1_top_2">
-                <div className="h_s1_top_item">
+                <Link to={PRODUCTION.replace(":id" , 3)} className="h_s1_top_item">
                     <div className="h_s1_top_item_left">
                         <img src={fabric} alt=""/>
                     </div>
@@ -69,8 +70,8 @@ const HomeS1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="h_s1_top_item">
+                </Link>
+                <Link to={PRODUCTION.replace(":id" , 4)} className="h_s1_top_item">
                     <div className="h_s1_top_item_left">
                         <img src={eco} alt=""/>
                     </div>
@@ -85,7 +86,7 @@ const HomeS1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
 
             <div className="h_s1_content">
@@ -111,7 +112,7 @@ const HomeS1 = () => {
                                         <li><CheckIcon/>{t("home.s1.l3")}</li>
                                         <li><CheckIcon/>{t("home.s1.l4")}</li>
                                     </ul>
-                                    <Link to={"#"} className="h_s1_content_box_bottom_left_link">{t("home.s1.link")}</Link>
+                                    <Link to={CONTACT} onClick={() => window.scrollTo({top: 0, behavior: "smooth"})} className="h_s1_content_box_bottom_left_link">{t("home.s1.link")}</Link>
                                 </div>
                                 <div className="h_s1_content_box_bottom_right">
                                     <div className="h_s1_content_box_bottom_right_element"></div>

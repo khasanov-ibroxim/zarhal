@@ -31,7 +31,7 @@ const HomeS4 = () => {
                                 <div className="h4_item_box_item">
                                     <div className="h4_item_box_item_top">4 000 {t("home.s4.tn")} {t("home.s4.i2")}</div>
                                     <div className="h4_item_box_item_line">
-                                        <div className="h4_line" style={{width:"100%"}}>
+                                        <div className="h4_line" >
                                             <span className={"h4_line_text"} ></span>
                                             <span className={"h4_line_bg"} style={{width:"80%"}}></span>
                                         </div>
@@ -40,7 +40,7 @@ const HomeS4 = () => {
                                 <div className="h4_item_box_item">
                                     <div className="h4_item_box_item_top">3 500 {t("home.s4.tn")}  {t("home.s4.i3")}</div>
                                     <div className="h4_item_box_item_line">
-                                        <div className="h4_line" style={{width:"100%"}}>
+                                        <div className="h4_line" >
                                             <span className={"h4_line_text"} ></span>
                                             <span className={"h4_line_bg"} style={{width:"90%"}}></span>
                                         </div>
@@ -49,7 +49,7 @@ const HomeS4 = () => {
                                 <div className="h4_item_box_item">
                                     <div className="h4_item_box_item_top">32 {t("home.s4.m2")}  {t("home.s4.i4")}</div>
                                     <div className="h4_item_box_item_line">
-                                        <div className="h4_line" style={{width:"100%"}}>
+                                        <div className="h4_line" >
                                             <span className={"h4_line_text"} ></span>
                                             <span className={"h4_line_bg"} style={{width:"100%"}}></span>
                                         </div>
@@ -58,13 +58,15 @@ const HomeS4 = () => {
                                 <div className="h4_item_box_item">
                                     <div className="h4_item_box_item_top">10 {t("home.s4.shtuk")}  {t("home.s4.i5")}</div>
                                     <div className="h4_item_box_item_line">
-                                        <div className="h4_line" style={{width:"100%"}}>
+                                        <div className="h4_line" >
                                             <span className={"h4_line_text"} ></span>
                                             <span className={"h4_line_bg"} style={{width:"100%"}}></span>
                                         </div>
                                     </div>
                                 </div>
-                                <Link to={PRODUCTION}>{t("home.s4.link")}</Link>
+                                <Link to={PRODUCTION.replace(":id" , 1)}
+                                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                >{t("home.s4.link")}</Link>
                             </div>
 
                         </div>

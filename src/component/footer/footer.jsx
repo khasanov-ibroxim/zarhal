@@ -21,7 +21,7 @@ const Footer = () => {
                         <h2>{t("footer.title")}</h2>
                     </span>
                     <span className="footer_title_right">
-                        <Link to={CONTACT}>{t("footer.link")}</Link>
+
                     </span>
                 </div>
 

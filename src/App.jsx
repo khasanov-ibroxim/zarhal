@@ -4,6 +4,7 @@ import {Index_Router} from "./utils/consts.jsx";
 import AOS from "aos";
 import Navbar from "@/component/navbar/navbar.jsx";
 import Footer from "@/component/footer/footer.jsx";
+import ScrollToTop from "@/component/ScrollToTop.jsx";
 
 function App() {
     const location = useLocation();
@@ -22,15 +23,19 @@ function App() {
         }
     }, []);
     return (
-        <Routes>
-            {Index_Router.map(({Path, Component}, index) => (
-                <Route path={Path} element={<>
-                    <Navbar/>
-                    <Component/>
-                    <Footer/>
-                </>} key={index}/>
-            ))}
-        </Routes>
+        <>
+            <ScrollToTop />
+            <Routes>
+                {Index_Router.map(({Path, Component}, index) => (
+                    <Route path={Path} element={<>
+                        <Navbar/>
+                        <Component/>
+                        <Footer/>
+                    </>} key={index}/>
+                ))}
+            </Routes>
+        </>
+
     );
 }
 

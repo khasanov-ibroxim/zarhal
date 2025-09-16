@@ -50,7 +50,7 @@ const AboutS2 = () => {
                                 </ul>
                                 <p>{t("about.s2.desc")}</p>
                                 <div className="about_s2_footer_btns">
-                                    <Link to={CONTACT} className={"about_s2_footer_btn_1"}>{t("about.s2.link1")}</Link>
+                                    <Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className={"about_s2_footer_btn_1"}>{t("about.s2.link1")}</Link>
                                     <Link to={CONTACT}
                                           onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
                                           className={"about_s2_footer_btn_2"}>{t("about.s2.link2")}</Link>
