@@ -15,7 +15,7 @@ const HomeS2 = () => {
     return (
         <div className={"h_2"}>
             <div className="container h-100">
-                <div className="row pt-5 pb-5 d-flex justify-content-center align-items-center h-100">
+                <div className="row pt-5  d-flex justify-content-center align-items-center h-100">
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">
@@ -50,7 +50,7 @@ const HomeS2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row pt-5 pb-5 d-flex justify-content-center align-items-center h-100">
+                <div className="row  d-flex justify-content-center align-items-center">
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <div className="h_2_item">
                             <div className="h_2_item_top">

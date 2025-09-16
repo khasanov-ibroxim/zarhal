@@ -3,7 +3,7 @@ import "./about_s6.css"
 import {Swiper, SwiperSlide} from "swiper/react";
 import img_1 from "@/assets/about/about_s6/DSC03779.jpg"
 import img_2 from "@/assets/about/about_s6/DSC03060.jpg"
-import img_3 from "@/assets/about/about_s6/DSC03349.jpg"
+import img_3 from "@/assets/about/about_s6/DSC033352.jpg"
 
 import l1 from "@/assets/about/about_s6/brand/bosso.png"
 import l2 from "@/assets/about/about_s6/brand/bzt.png"
