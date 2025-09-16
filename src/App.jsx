@@ -13,6 +13,14 @@ function App() {
         AOS.refresh();
     }, [location.pathname]);
 
+
+    useEffect(() => {
+       const lang_id = window.localStorage.getItem("selectedLanguage")
+        if (lang_id === "1"){
+       document.body.classList.add("roboto");
+
+        }
+    }, []);
     return (
         <Routes>
             {Index_Router.map(({Path, Component}, index) => (

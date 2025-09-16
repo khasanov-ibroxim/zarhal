@@ -9,6 +9,12 @@ import {Link, useLocation} from "react-router-dom"
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import {Production_db} from "@/page/production/production_db.jsx";
+import {useLanguage} from "@/utils/lang/LangContext.jsx";
+import {useTranslation} from "react-i18next";
+import {Dropdown, Space} from "antd";
+import {languages} from "@/utils/lang/langs.jsx";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
 
 const Navbar = () => {
     const location = useLocation()
@@ -17,8 +23,10 @@ const Navbar = () => {
     const [scrollDirection, setScrollDirection] = useState(false);
     const [atTop, setAtTop] = useState(true);
 
+    const {handleLanguageChange, selectedLanguage} = useLanguage();
+    const {t} = useTranslation();
 
-    const production_pages = Production_db
+    const production_pages = Production_db(t)
         .map(item => ({
             id: item.id,
             page_name: item.page_name
@@ -54,7 +62,7 @@ const Navbar = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-
+    console.log(languages)
     return (
         <nav>
             <div className="container">
@@ -66,21 +74,21 @@ const Navbar = () => {
                         <div className="nav_top_right_item">
                             <div className="nav_top_right_item_icon"><EmailIcon/></div>
                             <div className="nav_top_right_item_text">
-                                <p>Отправить письмо</p>
+                                <p>{t("navbar.nav_top.mail")}</p>
                                 <h4>info@zarhalgroup.uz</h4>
                             </div>
                         </div>
                         <div className="nav_top_right_item">
                             <div className="nav_top_right_item_icon"><QueryBuilderIcon/></div>
                             <div className="nav_top_right_item_text">
-                                <p>Часы работы</p>
-                                <h4>Пн – Пт с 09-00 до 18-00</h4>
+                                <p>{t("navbar.nav_top.time")}</p>
+                                <h4>{t("navbar.nav_top.time_d")}</h4>
                             </div>
                         </div>
                         <div className="nav_top_right_item">
                             <div className="nav_top_right_item_icon"><CallIcon/></div>
                             <div className="nav_top_right_item_text">
-                                <p>Есть вопросы ?</p>
+                                <p>{t("navbar.nav_top.tell")}</p>
                                 <h4>+998652220707</h4>
                                 <h4>+998772729922</h4>
                             </div>
@@ -96,44 +104,59 @@ const Navbar = () => {
                             className={`d-flex justify-content-between align-items-center w-100 ${!atTop && 'container'}`}>
                             <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                                 <Link to={HOME}
-                                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                      onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
                                       className={`nav_menu_item ${location.pathname === HOME && "activeLink"}`}>
-                                    Главная
+                                    {t("navbar.home")}
                                     <span></span>
                                 </Link>
                                 <Link
-                                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                    onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
                                     to={ABOUT} className="nav_menu_item">
-                                    О нас
+                                    {t("navbar.about")}
                                     <span></span>
                                 </Link>
                                 <div className="nav_menu_item submenu">
-                                    производство
+                                    {t("navbar.production")}
                                     <span></span>
                                     <ul className="nav_menu_subitem_box">
-                                        {production_pages.map((itemProduction , index)=>(
+                                        {production_pages.map((itemProduction, index) => (
                                             <li><Link
-                                                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                                                to={PRODUCTION.replace(":id" , itemProduction.id)}>{itemProduction.page_name}</Link></li>
+                                                onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                                to={PRODUCTION.replace(":id", itemProduction.id)}>{itemProduction.page_name}</Link>
+                                            </li>
                                         ))}
                                     </ul>
                                 </div>
 
                                 <Link to={CONTACT}
-                                      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                      onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
                                       className="nav_menu_item">
-                                    Контакты
+                                    {t("navbar.contact")}
                                     <span></span>
                                 </Link>
+                                <div className="lang_nav nav_menu_item submenu">
+                                    {selectedLanguage?.icon && (<img src={selectedLanguage?.icon} alt=""/>)}
+                                    <span></span>
+                                    <ul className="nav_menu_subitem_box roboto" >
+                                        {languages.map((item, index) => (
+                                            <li><div
+                                                onClick={() => handleLanguageChange(item)}
+                                                >{item.label}</div>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="hidden_logo" style={isMobile ? { display: "flex" } : { display: "none" }}>
+                            <div className="hidden_logo" style={isMobile ? {display: "flex"} : {display: "none"}}>
                                 <img src={logo} alt=""/>
                             </div>
-                            <div className="nav_end">
-                                <Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={isMobile ? { display: "none" } : { display: "flex" }}>Свяжитесь</Link>
+
+                            <div className="nav_end" style={{display: "flex", gap: "15px"}}>
+                                <Link to={CONTACT} onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                      style={isMobile ? {display: "none"} : {display: "flex"}}>{t("navbar.btn")}</Link>
 
                                 <div className="navburger" onClick={toggleMenu}>
-                                    {isMenuOpen ? <CloseIcon /> : <MenuIcon />}
+                                    {isMenuOpen ? <CloseIcon/> : <MenuIcon/>}
                                 </div>
                             </div>
                         </div>

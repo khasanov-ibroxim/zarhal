@@ -8,20 +8,20 @@ import h7_3 from "@/assets/home/home_s7/DSC02935.jpg"
 
 
 import {Link} from "react-router-dom"
+import {useTranslation} from "react-i18next";
+import {CONTACT} from "@/utils/consts.jsx";
 
 const HomeS7 = () => {
+    const {t} = useTranslation();
     return (
         <div className={"h_7 container"}>
             <div className="h7_title">
                 <div className="h7_title_left">
                     {/*<span className={"subtitle"}>Контроль на каждом этапе</span>*/}
-                    <h1>Контроль на <br/> каждом этапе</h1>
+                    <h1 dangerouslySetInnerHTML={{__html:t("home.s7.title")}}></h1>
                 </div>
                 <div className="h7_title_right">
-                    <p>Мы обеспечиваем полный производственный цикл — от выращивания хлопка до выпуска готовой
-                        продукции, строго соблюдая мировые стандарты качества. <br/>
-                        Экологичное производство, инновационные технологии и индивидуальный подход к каждому заказу.
-                    </p>
+                    <p dangerouslySetInnerHTML={{__html:t("home.s7.p")}}></p>
                 </div>
             </div>
 
@@ -52,9 +52,9 @@ const HomeS7 = () => {
                                 <img src={h7_1} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
-                                <h1>Своё сырьё</h1>
-                                <p>Мы выращиваем хлопок – это позволяет нам контролировать качество с самых первых этапов.</p>
-                                <Link to={"#"}>Подробно</Link>
+                                <h1>{t("home.s7.i1.title")}</h1>
+                                <p>{t("home.s7.i1.desc")}</p>
+                                <Link to={CONTACT}>{t("home.s7.link")}</Link>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -64,9 +64,9 @@ const HomeS7 = () => {
                                 <img src={h7_2} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
-                                <h1>Технологичное производство</h1>
-                                <p>Современное оборудование гарантирует точность и стабильность на всех стадиях – от волокна до готовых изделий.</p>
-                                <Link to={"#"}>Подробно</Link>
+                                <h1>{t("home.s7.i2.title")}</h1>
+                                <p>{t("home.s7.i2.desc")}</p>
+                                <Link to={CONTACT}>{t("home.s7.link")}</Link>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -76,9 +76,9 @@ const HomeS7 = () => {
                                 <img src={h7_3} alt=""/>
                             </div>
                             <div className="h7_item_bottom">
-                                <h1>Экологичность — в основе наших принципов.</h1>
-                                <p>Ответственное использование ресурсов, снижение отходов и экологичные технологии переработки позволяют нам производить текстиль с заботой о будущем.</p>
-                                <Link to={"#"}>Подробно</Link>
+                                <h1>{t("home.s7.i3.title")}</h1>
+                                <p>{t("home.s7.i3.desc")}</p>
+                                <Link to={CONTACT}>{t("home.s7.link")}</Link>
                             </div>
                         </div>
                     </SwiperSlide>

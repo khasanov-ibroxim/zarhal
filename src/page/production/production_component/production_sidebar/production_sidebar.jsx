@@ -11,13 +11,13 @@ import {Production_db} from "@/page/production/production_db.jsx";
 import {useParams} from "react-router-dom";
 import {PRODUCTION} from "@/utils/consts.jsx";
 import {Link} from "react-router-dom"
+import {useTranslation} from "react-i18next";
 
 
 const ProductionSidebar = () => {
     const {id} = useParams();
-
-    const pageNames = Production_db
-        .filter(item => item.id && item.page_name)
+    const {t } = useTranslation();
+    const pageNames = Production_db(t)
         .map(item => ({
             id: item.id,
             page_name: item.page_name
@@ -42,18 +42,17 @@ const ProductionSidebar = () => {
                 <div className="sidebar_question_img"></div>
                 <div className="sidebar_question_opacity"></div>
                 <div className="sidebar_question_text">
-                    <h1>Как нас найти?</h1>
-                    <p>Наше производство удобно расположено — <br/> к нам легко добраться.
-                    </p>
+                    <h1>{t("production.sidebar.box.title")}</h1>
+                    <p dangerouslySetInnerHTML={{__html:t("production.sidebar.box.p")}}></p>
                     <div className="sidebar_question_tell"><PhoneIcon/> +998 65 222 07 07</div>
                 </div>
             </div>
 
             <div className="sidebar_contact">
-                <h1>Контакты</h1>
+                <h1>{t("production.sidebar.contact")}</h1>
                 <div className="sidebar_contact_item">
                     <FmdGoodOutlinedIcon/>
-                    <p>Республика Узбекистан, г.Бухара</p>
+                    <p>{t("production.sidebar.address")}</p>
 
                 </div>
                 <div className="sidebar_contact_item">
@@ -67,7 +66,7 @@ const ProductionSidebar = () => {
                 </div>
                 <div className="sidebar_contact_item">
                     <AccessAlarmOutlinedIcon/>
-                    <p>Пн – Пт с 09-00 до 18-00</p>
+                    <p>{t("production.sidebar.time")}</p>
                 </div>
                 <div className="sidebar_contact_line"></div>
             </div>

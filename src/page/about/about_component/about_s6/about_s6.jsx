@@ -15,10 +15,11 @@ import l7 from "@/assets/about/about_s6/brand/GS.png"
 
 
 import {Autoplay} from "swiper/modules";
+import {useTranslation} from "react-i18next";
 
 
 const AboutS6 = () => {
-
+    const {t} = useTranslation();
     const about_s6 = [
         {
             item_img: img_1,
@@ -46,7 +47,7 @@ const AboutS6 = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 <div className="about_brand_title">
-                    Наши фабрики
+                    {t("about.s6.fabric")}
                 </div>
                 <div className="about_brand_box">
                     <div className="about_s6_brand_row">
@@ -64,8 +65,8 @@ const AboutS6 = () => {
 
 
                 <div className="about_s6_title">
-                    <div className="subtitle">Прогресс</div>
-                    <h1>Наша команда в работе!</h1>
+                    <div className="subtitle">{t("about.s6.subtitle")}</div>
+                    <h1>{t("about.s6.title")}</h1>
                 </div>
 
                 <Swiper

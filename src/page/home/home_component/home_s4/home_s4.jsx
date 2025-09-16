@@ -2,8 +2,11 @@ import React from 'react';
 import "./home_s4.css"
 import {Link} from "react-router-dom"
 import h4_img from "@/assets/home/home_s4/DSC03552.jpg"
+import {useTranslation} from "react-i18next";
+import {PRODUCTION} from "@/utils/consts.jsx";
 
 const HomeS4 = () => {
+    const {t} = useTranslation()
     return (
         <div className={"container"}>
             <div className="h_4">
@@ -11,13 +14,13 @@ const HomeS4 = () => {
                     <div className="col-lg-6">
                         <div className="h4_item">
                             <div className="h4_item_text">
-                                <span className="subtitle">Качество & Масштаб</span>
-                                <h2>Мы растём вместе с доверием наших партнёров и устойчивым расширением производства — сохраняя качество, на котором строятся долгосрочные отношения.</h2>
-                                <p>Каждое изделие — результат точности, устойчивости и полного контроля на всех этапах</p>
+                                <span className="subtitle">{t("home.s4.subtitle")}</span>
+                                <h2>{t("home.s4.title")}</h2>
+                                <p>{t("home.s4.p")}</p>
                             </div>
                             <div className="h4_item_box">
                                 <div className="h4_item_box_item">
-                                    <div className="h4_item_box_item_top">12 000 тн – хлопкового сырца</div>
+                                    <div className="h4_item_box_item_top">12 000 {t("home.s4.tn")} {t("home.s4.i1")}</div>
                                     <div className="h4_item_box_item_line">
                                         <div className="h4_line">
                                             <span className={"h4_line_text"}></span>
@@ -26,7 +29,7 @@ const HomeS4 = () => {
                                     </div>
                                 </div>
                                 <div className="h4_item_box_item">
-                                    <div className="h4_item_box_item_top">4 000 тн хлопкового волокна</div>
+                                    <div className="h4_item_box_item_top">4 000 {t("home.s4.tn")} {t("home.s4.i2")}</div>
                                     <div className="h4_item_box_item_line">
                                         <div className="h4_line" style={{width:"100%"}}>
                                             <span className={"h4_line_text"} ></span>
@@ -35,7 +38,7 @@ const HomeS4 = () => {
                                     </div>
                                 </div>
                                 <div className="h4_item_box_item">
-                                    <div className="h4_item_box_item_top">3 500 тн  пряжи</div>
+                                    <div className="h4_item_box_item_top">3 500 {t("home.s4.tn")}  {t("home.s4.i3")}</div>
                                     <div className="h4_item_box_item_line">
                                         <div className="h4_line" style={{width:"100%"}}>
                                             <span className={"h4_line_text"} ></span>
@@ -44,7 +47,7 @@ const HomeS4 = () => {
                                     </div>
                                 </div>
                                 <div className="h4_item_box_item">
-                                    <div className="h4_item_box_item_top">32 млн м2  ткань</div>
+                                    <div className="h4_item_box_item_top">32 {t("home.s4.m2")}  {t("home.s4.i4")}</div>
                                     <div className="h4_item_box_item_line">
                                         <div className="h4_line" style={{width:"100%"}}>
                                             <span className={"h4_line_text"} ></span>
@@ -53,7 +56,7 @@ const HomeS4 = () => {
                                     </div>
                                 </div>
                                 <div className="h4_item_box_item">
-                                    <div className="h4_item_box_item_top">10 млн штук  готовых швейных изделий</div>
+                                    <div className="h4_item_box_item_top">10 {t("home.s4.shtuk")}  {t("home.s4.i5")}</div>
                                     <div className="h4_item_box_item_line">
                                         <div className="h4_line" style={{width:"100%"}}>
                                             <span className={"h4_line_text"} ></span>
@@ -61,7 +64,7 @@ const HomeS4 = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <Link to={"#"}>Производство</Link>
+                                <Link to={PRODUCTION}>{t("home.s4.link")}</Link>
                             </div>
 
                         </div>

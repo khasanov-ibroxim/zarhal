@@ -11,13 +11,16 @@ import icon3 from "@/assets/home/home_s5/quality-product.png"
 import icon4 from "@/assets/home/home_s5/product.png"
 
 import {Link} from "react-router-dom"
+import {useTranslation} from "react-i18next";
+import {CONTACT} from "@/utils/consts.jsx";
 
 const HomeS5 = () => {
+    const {t} = useTranslation();
     return (
         <div className={"h_5 container"}>
             <div className="h5_title">
-                <span className={"subtitle"}>Проект будущего</span>
-                <h1>Чем важен полный цикл текстиля для Узбекистана сегодня?</h1>
+                <span className={"subtitle"}>{t("home.s5.subtitle")}</span>
+                <h1>{t("home.s5.title")}</h1>
             </div>
 
             <div className="h5_content">
@@ -29,8 +32,8 @@ const HomeS5 = () => {
                                 <div className="h_5_item_top_element">01</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Полный цикл</h2>
-                                <p>Производство 60 млн м² суровых и крашенных тканей в год.</p>
+                                <h2>{t("home.s5.content.i1.title")}</h2>
+                                <p>{t("home.s5.content.i1.desc")}</p>
                             </div>
                         </div>
                     </div>
@@ -41,8 +44,8 @@ const HomeS5 = () => {
                                 <div className="h_5_item_top_element">02</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Экспортный фокус</h2>
-                                <p>Современные станки — ткани до 420 см для мирового рынка.</p>
+                                <h2>{t("home.s5.content.i2.title")}</h2>
+                                <p>{t("home.s5.content.i2.desc")}</p>
                             </div>
                         </div>
                     </div>
@@ -53,8 +56,8 @@ const HomeS5 = () => {
                                 <div className="h_5_item_top_element">03</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Готовый продукт</h2>
-                                <p>10 млн текстильных изделий ежегодно.</p>
+                                <h2>{t("home.s5.content.i3.title")}</h2>
+                                <p>{t("home.s5.content.i3.desc")}</p>
                             </div>
                         </div>
                     </div>
@@ -65,8 +68,8 @@ const HomeS5 = () => {
                                 <div className="h_5_item_top_element">04</div>
                             </div>
                             <div className="h_5_item_bottom">
-                                <h2>Новые рабочие места</h2>
-                                <p>Более 1000 человек заняты в регионах.</p>
+                                <h2>{t("home.s5.content.i4.title")}</h2>
+                                <p>{t("home.s5.content.i4.desc")}</p>
                             </div>
                         </div>
                     </div>
@@ -78,8 +81,8 @@ const HomeS5 = () => {
                     <div className="h5_box_left_opacity"></div>
                     <img src={h5_img} alt="Zarhal"/>
                     <div className="h5_box_left_item">
-                        <h1>Наше оборудование — ключ к качеству и эффективности на каждом этапе</h1>
-                        <Link to={"#"}>Свяжитесь</Link>
+                        <h1 dangerouslySetInnerHTML={{__html:t("home.s5.box.title")}}></h1>
+                        <Link to={CONTACT}>{t("home.s5.box.link")}</Link>
                     </div>
                 </div>
                 <div className="h5_box_right">
@@ -88,29 +91,29 @@ const HomeS5 = () => {
                             <img src={iconWool} alt=""/>
                         </div>
                         <div className="h5_box_right_item_content">
-                            <h1>Для агро-обработки</h1>
-                            <p> <span className={"roboto"}>John Deere</span>, <span className={"roboto"}>New Holland</span>  используется для агро-обработки хлопка — от посева до сбора урожая.</p>
+                            <h1>{t("home.s5.box.i1.title")}</h1>
+                            <p dangerouslySetInnerHTML={{__html:t("home.s5.box.i1.desc")}}></p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
                         <div className="h5_box_right_element"><img src={icon2} alt=""/></div>
                         <div className="h5_box_right_item_content">
-                            <h1>Для переработки и пряжи</h1>
-                            <p>Оборудование от <span className="roboto">Trutzschler</span>  и <span className="roboto">Rieter</span>  обеспечивает первичную очистку и прядение с высокой точностью и стабильностью. Это залог однородной, прочной нити без дефектов.</p>
+                            <h1>{t("home.s5.box.i2.title")}</h1>
+                            <p dangerouslySetInnerHTML={{__html: t("home.s5.box.i2.desc")}}></p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
                         <div className="h5_box_right_element"><img src={icon3} alt=""/></div>
                         <div className="h5_box_right_item_content">
-                            <h1>Для качества и жаккарда</h1>
-                            <p>Станки <span className={"roboto"}>Picanol</span>, <span className="roboto">Itema</span>  и <span className="roboto">Staubli</span>  позволяют выпускать сложные узорчатые, жаккардовые и технические ткани. Высокая скорость и гибкость преимущество для крупных заказов.</p>
+                            <h1>{t("home.s5.box.i3.title")}</h1>
+                            <p dangerouslySetInnerHTML={{__html: t("home.s5.box.i3.desc")}}></p>
                         </div>
                     </div>
                     <div className="h5_box_right_item">
                         <div className="h5_box_right_element"><img src={icon4} alt=""/></div>
                         <div className="h5_box_right_item_content">
-                            <h1>Для отделки</h1>
-                            <p>Оборудование <span className="roboto">Beninger</span> , <span className="roboto">Monforst</span> , <span className="roboto">Ostoff</span> , <span className="roboto">Ramisch</span> <span className="roboto">Guarneri</span>   отвечает за финишную обработку и усиление текстиля. </p>
+                            <h1>{t("home.s5.box.i4.title")}</h1>
+                            <p dangerouslySetInnerHTML={{__html: t("home.s5.box.i4.desc")}}></p>
                         </div>
                     </div>
                 </div>

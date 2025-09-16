@@ -5,13 +5,22 @@ import Production_content from "@/page/production/production_component/productio
 import {useNavigate, useParams} from "react-router-dom";
 import {Production_db} from "@/page/production/production_db.jsx";
 import {HOME} from "@/utils/consts.jsx";
+import {useTranslation} from "react-i18next";
 
 const Production = () => {
     const {id} = useParams()
+    const {t} = useTranslation()
     const navigate = useNavigate()
-    const currentProduct = Production_db.find(itemProduct => itemProduct.id === Number(id))
+
+
+    const currentProduct = Production_db(t).find(
+        itemProduct => itemProduct.id === Number(id)
+    ) || null;
+
+
     if (!currentProduct) {
-        return window.location.assign(HOME)
+        navigate(HOME);
+        return null;
     }
 
     return (

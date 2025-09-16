@@ -10,15 +10,17 @@ import h6_6 from "@/assets/home/home_s6/6.jpg"
 import {Autoplay} from "swiper/modules";
 import {Link} from "react-router-dom"
 import { Image } from 'antd';
+import {useTranslation} from "react-i18next";
 
 
 const HomeS6 = () => {
+    const {t} = useTranslation();
     return (
         <div className={'h_6'}>
             <div className="h_6_content">
                 <div className="h5_title">
-                    <span className={"subtitle"}>Современные технологии</span>
-                    <h1>Точность и ответственность — на каждом этапе.</h1>
+                    <span className={"subtitle"}>{t("home.s6.subtitle")}</span>
+                    <h1>{t("home.s6.title")}</h1>
                 </div>
 
                 <div className="h_6_swiper_box">

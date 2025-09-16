@@ -2,9 +2,11 @@ import React from 'react';
 import "./production_content.css"
 
 import CheckIcon from '@mui/icons-material/Check';
+import {useTranslation} from "react-i18next";
 
 
 const ProductionContent = ({item}) => {
+    const {t} = useTranslation();
     return (
         <div className={"production_content_box"}>
             <h1>{item.h_1}</h1>

@@ -8,8 +8,10 @@ import i1 from "@/assets/home/home_s2/cotton.png"
 import i2 from "@/assets/home/home_s2/cotton_kip.png"
 import i3 from "@/assets/home/home_s2/thread.png"
 import i4 from "@/assets/home/home_s2/sewing.png"
+import {useTranslation} from "react-i18next";
 
 const HomeS2 = () => {
+    const {t} = useTranslation()
     return (
         <div className={"h_2"}>
             <div className="container h-100">
@@ -20,8 +22,8 @@ const HomeS2 = () => {
                                 <img src={i1} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>12 000 тонн</h2>
-                                <p>хлопкового сырца</p>
+                                <h2>12 000 {t("home.s2.ton")}</h2>
+                                <p>{t("home.s2.i1")}</p>
                             </div>
                         </div>
                     </div>
@@ -31,8 +33,8 @@ const HomeS2 = () => {
                                 <img src={i2} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>4 000 тонн</h2>
-                                <p>хлопкового волокна</p>
+                                <h2>4 000 {t("home.s2.ton")}</h2>
+                                <p>{t("home.s2.i2")}</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +44,8 @@ const HomeS2 = () => {
                                 <img src={i3} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>3 500 тонн</h2>
-                                <p>пряжи</p>
+                                <h2>3 500 {t("home.s2.ton")}</h2>
+                                <p>{t("home.s2.i3")}</p>
                             </div>
                         </div>
                     </div>
@@ -53,8 +55,8 @@ const HomeS2 = () => {
                                 <img src={izdeliya} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>32 млн м²</h2>
-                                <p>Ткань</p>
+                                <h2>32 {t("home.s2.m2")}</h2>
+                                <p>{t("home.s2.i4")}</p>
                             </div>
                         </div>
                     </div>
@@ -64,8 +66,8 @@ const HomeS2 = () => {
                                 <img src={i4} alt=""/>
                             </div>
                             <div className="h_2_item_bottom">
-                                <h2>10 млн штук </h2>
-                                <p>готовых швейных изделий</p>
+                                <h2>10 {t("home.s2.shtuk")} </h2>
+                                <p>{t("home.s2.i5")}</p>
                             </div>
                         </div>
                     </div>

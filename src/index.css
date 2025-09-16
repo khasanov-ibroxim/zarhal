@@ -5,12 +5,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
 }
 
 * {
-    font-family: "Barlow Condensed", sans-serif;
-    font-style: normal;
+
     transition: .4s;
 }
 
@@ -25,6 +25,6 @@ body {
 }
 
 .roboto {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
 
 }

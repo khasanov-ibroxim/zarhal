@@ -11,48 +11,51 @@ import proizvodstva from "@/assets/home/home_s3/proizvodstva.png"
 import i1 from "@/assets/home/home_s3/cotton1.png"
 import i2 from "@/assets/home/home_s3/cotton.png"
 import i3 from "@/assets/home/home_s3/yarn.png"
+import {useTranslation} from "react-i18next";
+import {CONTACT} from "@/utils/consts.jsx";
 
 const HomeS3 = () => {
+    const {t} = useTranslation()
     return (
         <div className={"h_3"}>
             <div className="container">
                 <div className="h3_title">
                     <div className="h3_title_left">
-                        <span className={"subtitle"}>Производство & Цикл</span>
-                        <h2>Каждый этап под контролем —<br/> от поля до продукта.</h2>
+                        <span className={"subtitle"}>{t("home.s3.subtitle")}</span>
+                        <h2 dangerouslySetInnerHTML={{__html:t("home.s3.title")}}></h2>
                     </div>
                     <div className="h3_title_right">
-                        <Link to={"#"}>Контакты </Link>
+                        <Link to={CONTACT}>{t("home.s3.link")}</Link>
                     </div>
                 </div>
 
                 <div className="h3_container">
-                    <div className="row justify-content-center align-items-center d-flex">
+                    <div className="row justify-content-center d-flex">
                         <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={i1} alt={"zarhal siryo"}/>
-                                <h2>Приём сырья</h2>
-                                <p>Каждый год мы принимаем до 12 000 тонн высококачественного-органического хлопка для переработки.</p>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <h2>{t("home.s3.i1.h2")}</h2>
+                                <p>{t("home.s3.i1.p")}</p>
+                                <Link to={CONTACT}>{t("home.s3.i_link")}</Link>
                             </div>
                         </div>
                         <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={i2} alt={"zarhal siryo"}/>
-                                <h2> Изготовление волокна</h2>
-                                <p>На современных мощностях мы получаем в год более 4000 тонн прочного и чистого волокна.</p>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <h2>{t("home.s3.i2.h2")}</h2>
+                                <p>{t("home.s3.i2.p")}</p>
+                                <Link to={CONTACT}>{t("home.s3.i_link")}</Link>
                             </div>
                         </div>
                         <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={i3} alt={"zarhal siryo"}/>
-                                <h2>Изготовление пряжи</h2>
-                                <p>На современном оборудовании мы получаем в год до 3500 тонн чистого и прочного волокна.</p>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <h2>{t("home.s3.i3.h2")}</h2>
+                                <p>{t("home.s3.i3.p")}</p>
+                                <Link to={CONTACT}>{t("home.s3.i_link")}</Link>
                             </div>
                         </div>
                     </div>
@@ -61,19 +64,18 @@ const HomeS3 = () => {
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={proizvodstva} alt={"zarhal siryo"}/>
-                                <h2>Производство ткани</h2>
-                                <p>Из собственного сырья мы изготавливаем в год 32 млн м² качественной ткани разных
-                                    типов.</p>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <h2>{t("home.s3.i4.h2")}</h2>
+                                <p>{t("home.s3.i4.p")}</p>
+                                <Link to={CONTACT}>{t("home.s3.i_link")}</Link>
                             </div>
                         </div>
                         <div className="col-lg-3 mt-4">
                             <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={product} alt={"zarhal siryo"}/>
-                                <h2>Готовая продукция</h2>
-                                <p>Благодаря швейным цехам мы выпускаем до 10 млн единиц швейных изделий в год.</p>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <h2>{t("home.s3.i5.h2")}</h2>
+                                <p>{t("home.s3.i5.p")}</p>
+                                <Link to={CONTACT}>{t("home.s3.i_link")}</Link>
                             </div>
                         </div>
                     </div>

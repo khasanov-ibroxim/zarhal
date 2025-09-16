@@ -3,8 +3,10 @@ import "./contact.css"
 import header_img from "@/assets/contact/DSC02904.jpg"
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
+    const {t} = useTranslation();
     return (
         <div>
             <div className="contact_header">
@@ -17,23 +19,23 @@ const Contact = () => {
                 <div className="contact_content">
                     <div className="contact_form">
                         <div className="contact_title">
-                            <h1>Свяжитесь с нами</h1>
-                            <p>Оставьте заявку — мы свяжемся с вами</p>
+                            <h1>{t("contact.title")}</h1>
+                            <p>{t("contact.subtitle")}</p>
                         </div>
                         <div className="contact_box d-flex justify-content-center align-items-center flex-column ">
                             <div className="input_box">
-                                <input type="text" placeholder={"Имя "}/>
-                                <input type="text" placeholder={"Email"}/>
-                                <input type="text" placeholder={"Телефон"}/>
+                                <input type="text" placeholder={t("contact.name")}/>
+                                <input type="text" placeholder={t("contact.email")}/>
+                                <input type="text" placeholder={t("contact.tel")}/>
                             </div>
                             <div className="input_box mt-4">
-                                <input type="text" placeholder={"Компания"}/>
+                                <input type="text" placeholder={t("contact.company")}/>
 
                             </div>
                             <div className="input_box mt-4">
-                                <textarea rows={7} placeholder={"Сообщение"}/>
+                                <textarea rows={7} placeholder={t("contact.msg")}/>
                             </div>
-                            <button className={"contact_btn"}>Отправить заявку</button>
+                            <button className={"contact_btn"}>{t("contact.send")}</button>
                         </div>
                     </div>
 
@@ -49,22 +51,20 @@ const Contact = () => {
                             <div className="col-lg-7">
                                 <div className="contact_info_box">
                                     <div className="contact_info_title">
-                                        <div className="subtitle">Контакты</div>
-                                        <h1>Как нас найти?</h1>
-                                        <p>Наше производство удобно расположено — к нам легко добраться. Мы всегда рады
-                                            гостям и готовы показать весь путь создания нашей продукции — от хлопка до
-                                            готового изделия.</p>
+                                        <div className="subtitle">{t("contact.box.subtitle")}</div>
+                                        <h1>{t("contact.box.title")}</h1>
+                                        <p>{t("contact.box.p")}</p>
                                     </div>
                                     <div className="contact_info_box_content">
-                                        <h2>Главный офис</h2>
+                                        <h2>{t("contact.box.office")}</h2>
                                         <div className="contact_info_item_box">
                                             <div className="contact_info_item">
                                                 <div className="contact_info_item_left">
                                                     <LocationOnOutlinedIcon/>
                                                 </div>
                                                 <div className="contact_info_item_right">
-                                                    <h4>Адрес</h4>
-                                                    <p>Республика Узбекистан, г.Бухара</p>
+                                                    <h4>{t("contact.box.address_title")}</h4>
+                                                    <p>{t("contact.box.address")}</p>
                                                 </div>
                                             </div>
                                             <div className="contact_info_item">
@@ -72,7 +72,7 @@ const Contact = () => {
                                                     <EmailOutlinedIcon/>
                                                 </div>
                                                 <div className="contact_info_item_right">
-                                                    <h4>Телефон/Email</h4>
+                                                    <h4>{t("contact.box.tel")}</h4>
                                                     <p>+998652220707</p>
                                                     <p>+998772729922</p>
                                                     <p>info@zarhalgroup.uz</p>

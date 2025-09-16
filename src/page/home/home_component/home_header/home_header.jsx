@@ -9,8 +9,11 @@ import header_icon_1 from "@/assets/home/home_header/h_header_icon_1.png"
 import header_icon_2 from "@/assets/home/home_header/h_header_icon_2.png"
 import {Link} from "react-router-dom";
 import GroupsIcon from '@mui/icons-material/Groups';
+import {useTranslation} from "react-i18next";
+import {CONTACT, PRODUCTION} from "@/utils/consts.jsx";
 
 const HomeHeader = () => {
+    const {t} = useTranslation();
     return (
         <div className={"home_header"}>
             <div className="carousel_opacity"></div>
@@ -23,19 +26,19 @@ const HomeHeader = () => {
                         <div className="animate-left h-header-top">
                             <div className="h-header-top_icon">
                                 <img src={header_icon_1} alt=""/>
-                                <p>Качество. Экология</p>
+                                <p>{t("home.home_header.p")}</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
+                                <h1 dangerouslySetInnerHTML={{__html:t("home.home_header.h1")}}></h1>
                             </div>
                             <div className="h-header-top-btns">
-                                <Link to={"#"}>Производство</Link>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
+                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Производим с душой <br/> и уважением к будущему</h3>
+                                <h3 dangerouslySetInnerHTML={{__html:t("home.home_header.h3")}}></h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>
@@ -50,19 +53,19 @@ const HomeHeader = () => {
                         <div className="animate-left h-header-top">
                             <div className="h-header-top_icon">
                                 <img src={header_icon_1} alt=""/>
-                                <p>Качество. Экология</p>
+                                <p>{t("home.home_header.p")}</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
+                                <h1 dangerouslySetInnerHTML={{__html:t("home.home_header.h1")}}></h1>
                             </div>
                             <div className="h-header-top-btns">
-                                <Link to={"#"}>Производство</Link>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
+                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Производим с душой <br/> и уважением к будущему</h3>
+                                <h3 dangerouslySetInnerHTML={{__html:t("home.home_header.h3")}}></h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>
@@ -77,19 +80,19 @@ const HomeHeader = () => {
                         <div className="animate-left h-header-top">
                             <div className="h-header-top_icon">
                                 <img src={header_icon_1} alt=""/>
-                                <p>Качество. Экология</p>
+                                <p>{t("home.home_header.p")}</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
+                                <h1 dangerouslySetInnerHTML={{__html:t("home.home_header.h1")}}></h1>
                             </div>
                             <div className="h-header-top-btns">
-                                <Link to={"#"}>Производство</Link>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
+                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Производим с душой <br/> и уважением к будущему</h3>
+                                <h3 dangerouslySetInnerHTML={{__html:t("home.home_header.h3")}}></h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>
@@ -104,19 +107,19 @@ const HomeHeader = () => {
                         <div className="animate-left h-header-top">
                             <div className="h-header-top_icon">
                                 <img src={header_icon_1} alt=""/>
-                                <p>Качество. Экология</p>
+                                <p>{t("home.home_header.p")}</p>
                             </div>
                             <div className="h-header-top-text">
-                                <h1>Экологичное производство в гармонии с природой<br/> — от посева до готовых изделий.</h1>
+                                <h1 dangerouslySetInnerHTML={{__html:t("home.home_header.h1")}}></h1>
                             </div>
                             <div className="h-header-top-btns">
-                                <Link to={"#"}>Производство</Link>
-                                <Link to={"#"}>Свяжитесь</Link>
+                                <Link to={PRODUCTION.replace(":id", 1)}>{t("home.home_header.link1")}</Link>
+                                <Link to={CONTACT}>{t("home.home_header.link2")}</Link>
                             </div>
                         </div>
                         <div className="h-header-bottom animate-top">
                             <div className="h-header-bottom_box">
-                                <h3>Производим с душой <br/> и уважением к будущему</h3>
+                                <h3 dangerouslySetInnerHTML={{__html:t("home.home_header.h3")}}></h3>
                                 <div className="h-header-bottom_box_icon">
                                     <GroupsIcon/>
                                 </div>
@@ -125,6 +128,7 @@ const HomeHeader = () => {
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
+
             </Carousel>
         </div>
     );
