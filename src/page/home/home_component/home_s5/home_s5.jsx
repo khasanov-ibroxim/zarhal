@@ -82,7 +82,7 @@ const HomeS5 = () => {
                     <img src={h5_img} alt="Zarhal"/>
                     <div className="h5_box_left_item">
                         <h1 dangerouslySetInnerHTML={{__html:t("home.s5.box.title")}}></h1>
-                        <Link to={CONTACT}>{t("home.s5.box.link")}</Link>
+                        <a href={CONTACT}>{t("home.s5.box.link")}</a>
                     </div>
                 </div>
                 <div className="h5_box_right">

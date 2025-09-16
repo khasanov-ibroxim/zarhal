@@ -64,9 +64,9 @@ const HomeS4 = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <Link to={PRODUCTION.replace(":id" , 1)}
+                                <a href={PRODUCTION.replace(":id" , 1)}
                                       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                                >{t("home.s4.link")}</Link>
+                                >{t("home.s4.link")}</a>
                             </div>
 
                         </div>

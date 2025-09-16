@@ -24,7 +24,6 @@ function App() {
     }, []);
     return (
         <>
-            <ScrollToTop />
             <Routes>
                 {Index_Router.map(({Path, Component}, index) => (
                     <Route path={Path} element={<>
