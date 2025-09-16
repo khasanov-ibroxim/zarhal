@@ -5,6 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import logo from "@/assets/logoZarhal.png"
 import {ABOUT, CONTACT, HOME, PRODUCTION} from "@/utils/consts.jsx";
 import {useTranslation} from "react-i18next";
@@ -34,6 +35,7 @@ const Footer = () => {
                                     <Link to={"#"} className="footer_social_item"><TelegramIcon/></Link>
                                     <Link to={"#"} className="footer_social_item"><FacebookIcon/></Link>
                                     <Link to={"#"} className="footer_social_item"><WhatsAppIcon/></Link>
+                                    <Link to={"https://youtu.be/gr9ZqjSdhFchttps://youtu.be/gr9ZqjSdhFc"} className="footer_social_item"><YouTubeIcon/></Link>
                                 </div>
                             </div>
                         </div>

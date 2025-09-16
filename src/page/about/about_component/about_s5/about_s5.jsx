@@ -14,20 +14,7 @@ const AboutS5 = () => {
                     <h1>{t("about.s5.title")}</h1>
                     <p>{t("about.s5.p")}</p>
                 </div>
-                <div className="about_s5_bottom">
-                    <div className="about_s5_bottom_item">
-                        <p>{t("about.s5.i1")}</p>
-                        <div className="about_s5_bottom_item_bar" style={{width: "85%"}}>
-                            <span>85%</span>
-                        </div>
-                    </div>
-                    <div className="about_s5_bottom_item">
-                        <p>{t("about.s5.i2")}</p>
-                        <div className="about_s5_bottom_item_bar" style={{width: "70%"}}>
-                            <span>70%</span>
-                        </div>
-                    </div>
-                </div>
+
             </div>
             <div className="about_s5_right ">
                 <img src={r_img} alt=""/>
