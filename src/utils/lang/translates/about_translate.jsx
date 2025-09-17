@@ -10,7 +10,8 @@ export const about_translate = {
             box_title:`В настоящее время в состав <span className="roboto">«ZARHAL GROUP»</span>  входят несколько ключевых предприятий. В частности:`,
             p1:`ООО <span className="roboto">«Kamalak Shabnam Teks»</span>  начало свою деятельность в 2010 году. На
                                             сегодняшний день производственная мощность предприятия составляет 3 500 тонн
-                                            пряжи и 32,0 млн кв. метров тканых материалов в год.
+                                            пряжи и 32,0 млн кв. метров тканых материалов в год. <br/>
+                                            <a target="_blank" href="https://lightca.news/tag/curt-bauer-2/">https://lightca.news/tag/curt-bauer-2/</a>
                                         `,
             p2:`В 2015 году был создан хлопкоперерабатывающий кластер ООО <span className="roboto">«Buxoro Zarhal Teks»</span> . Компания на основе передовых агротехнических подходов обеспечивает переработку 12 000 тонн экологически чистого органического хлопка в год, в результате чего формируется устойчивая производственная система с мощностью выпуска 4 000 тонн волокна.`,
             p3:`В 2020 году было основано ткацкое предприятие ООО <span className="roboto">«Olot spinner»</span> , где внедрение передовых технологий и современного оборудования позволило значительно расширить производственный потенциал. Сегодня мощность предприятия составляет 20 млн кв. метров продукции в год, что вывело его на новый уровень.`,
@@ -63,7 +64,8 @@ export const about_translate = {
             title:`The activities of ZARHAL GROUP in the textile industry began in 2002.`,
             title_desc:`From the very first days of its establishment, the company has chosen quality, trust, and a modern approach as its core principles, which continue to drive its successful operations.`,
             box_title:`At present, ZARHAL GROUP includes several key enterprises, in particular:`,
-            p1:`LLC “Kamalak Shabnam Teks” began its operations in 2010. Today, the company’s production capacity reaches 3,500 tons of yarn and 32.0 million square meters of woven fabrics per year.`,
+            p1:`LLC “Kamalak Shabnam Teks” began its operations in 2010. Today, the company’s production capacity reaches 3,500 tons of yarn and 32.0 million square meters of woven fabrics per year. <br/>
+                                            <a target="_blank" href="https://lightca.news/tag/curt-bauer-2/">https://lightca.news/tag/curt-bauer-2/</a>`,
             p2:`In 2015, the cotton processing cluster LLC “Buxoro Zarhal Teks” was established. Based on advanced agrotechnical approaches, the company processes 12,000 tons of eco-friendly organic cotton annually, resulting in a sustainable production system with a capacity of 4,000 tons of fiber.`,
             p3:`In 2020, the weaving enterprise LLC “Olot Spinner” was founded, where the implementation of advanced technologies and modern equipment significantly expanded production potential. Today, the enterprise’s capacity stands at 20 million square meters of products per year, taking it to a new level.`,
             p4:`In 2021, the company entered the garment manufacturing sector by establishing LLC “Bosso Teks”, marking a new stage of development. Now the company produces not only fabrics but also finished products: special tablecloths and napkins for restaurants and hotels, as well as high-quality home textile goods.`,

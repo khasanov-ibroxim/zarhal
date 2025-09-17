@@ -37,7 +37,6 @@ const HomeS3 = () => {
                                 <img src={i1} alt={"zarhal siryo"}/>
                                 <h2>{t("home.s3.i1.h2")}</h2>
                                 <p>{t("home.s3.i1.p")}</p>
-                                <a href={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.s3.i_link")}</a>
                             </div>
                         </div>
                         <div className="col-lg-3 mt-4">
@@ -46,7 +45,6 @@ const HomeS3 = () => {
                                 <img src={i2} alt={"zarhal siryo"}/>
                                 <h2>{t("home.s3.i2.h2")}</h2>
                                 <p>{t("home.s3.i2.p")}</p>
-                                <a href={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.s3.i_link")}</a>
                             </div>
                         </div>
                         <div className="col-lg-3 mt-4">
@@ -55,7 +53,6 @@ const HomeS3 = () => {
                                 <img src={i3} alt={"zarhal siryo"}/>
                                 <h2>{t("home.s3.i3.h2")}</h2>
                                 <p>{t("home.s3.i3.p")}</p>
-                                <a href={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.s3.i_link")}</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +63,6 @@ const HomeS3 = () => {
                                 <img src={proizvodstva} alt={"zarhal siryo"}/>
                                 <h2>{t("home.s3.i4.h2")}</h2>
                                 <p>{t("home.s3.i4.p")}</p>
-                                <a href={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("home.s3.i_link")}</a>
                             </div>
                         </div>
                         <div className="col-lg-3 mt-4">

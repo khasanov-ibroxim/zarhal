@@ -32,7 +32,10 @@ const AboutS2 = () => {
                             <div className="about_s2_footer">
                                 <ul>
                                     <li><CheckIcon/>
-                                        <div dangerouslySetInnerHTML={{__html:t("about.s2.p1")}}></div>
+                                        <div dangerouslySetInnerHTML={{__html: t("about.s2.p1")}}>
+
+
+                                        </div>
 
                                     </li>
                                     <li><CheckIcon/>

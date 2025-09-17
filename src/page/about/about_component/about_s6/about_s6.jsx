@@ -12,6 +12,7 @@ import l4 from "@/assets/about/about_s6/brand/ksht.png"
 import l5 from "@/assets/about/about_s6/brand/langheinrich.png"
 import l6 from "@/assets/about/about_s6/brand/oc.png"
 import l7 from "@/assets/about/about_s6/brand/GS.png"
+import l8 from "@/assets/about/about_s6/brand/sp.png"
 
 
 import {Autoplay} from "swiper/modules";
@@ -54,12 +55,13 @@ const AboutS6 = () => {
                         <img src={l1} alt=""/>
                         <img src={l2} alt=""/>
                         <img src={l3} alt=""/>
+                        <img src={l4} alt=""/>
                     </div>
                     <div className="about_s6_brand_row">
-                        <img src={l4} alt=""/>
                         <img src={l5} alt=""/>
                         <img src={l6} alt=""/>
                         <img src={l7} alt=""/>
+                        <img src={l8} alt=""/>
                     </div>
                 </div>
 
