@@ -58,7 +58,7 @@ const HomeS3 = () => {
                     </div>
                     <div className="row justify-content-center align-items-center d-flex">
                         <div className="col-lg-3  mt-4">
-                            <div className="h3_item">
+                            <div className="h3_item" style={{height:"365px"}}>
                                 <div className="h3_item_element"></div>
                                 <img src={proizvodstva} alt={"zarhal siryo"}/>
                                 <h2>{t("home.s3.i4.h2")}</h2>
