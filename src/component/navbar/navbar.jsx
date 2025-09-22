@@ -4,7 +4,7 @@ import logo from "@/assets/logoZarhal.png"
 import EmailIcon from '@mui/icons-material/Email';
 import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 import CallIcon from '@mui/icons-material/Call';
-import {ABOUT, CONTACT, HOME, PRODUCTION} from "@/utils/consts.jsx";
+import {ABOUT, BLOG, CONTACT, HOME, PRODUCTION} from "@/utils/consts.jsx";
 import {Link, useLocation} from "react-router-dom"
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -62,7 +62,6 @@ const Navbar = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-    console.log(languages)
     return (
         <nav>
             <div className="container">
@@ -132,6 +131,12 @@ const Navbar = () => {
                                       onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
                                       className="nav_menu_item">
                                     {t("navbar.contact")}
+                                    <span></span>
+                                </Link>
+                                <Link to={BLOG}
+                                      onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                      className="nav_menu_item">
+                                    BLOG
                                     <span></span>
                                 </Link>
                                 <div className="lang_nav nav_menu_item submenu">
