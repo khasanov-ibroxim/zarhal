@@ -234,7 +234,7 @@ nav {
 }
 
 .hidden_logo {
-    padding-left: 30px;
+
     height: 100%;
     width: 20%;
 }
@@ -261,6 +261,7 @@ nav {
 @media screen and (max-width: 800px) {
     .navburger {
         display: flex;
+        right: 0;
     }
 
     .nav_menu {

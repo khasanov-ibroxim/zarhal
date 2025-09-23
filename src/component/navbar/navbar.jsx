@@ -103,13 +103,19 @@ const Navbar = () => {
                             className={`d-flex justify-content-between align-items-center w-100 ${!atTop && 'container'}`}>
                             <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                                 <Link to={HOME}
-                                      onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                      onClick={() => {
+                                          window.scrollTo({top: 0, behavior: "smooth"})
+                                          setIsMenuOpen(false)
+                                      }}
                                       className={`nav_menu_item ${location.pathname === HOME && "activeLink"}`}>
                                     {t("navbar.home")}
                                     <span></span>
                                 </Link>
                                 <Link
-                                    onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                    onClick={() => {
+                                        window.scrollTo({top: 0, behavior: "smooth"})
+                                        setIsMenuOpen(false)
+                                    }}
                                     to={ABOUT} className="nav_menu_item">
                                     {t("navbar.about")}
                                     <span></span>
@@ -120,7 +126,10 @@ const Navbar = () => {
                                     <ul className="nav_menu_subitem_box">
                                         {production_pages.map((itemProduction, index) => (
                                             <li><Link
-                                                onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                                onClick={() => {
+                                                    window.scrollTo({top: 0, behavior: "smooth"})
+                                                    setIsMenuOpen(false)
+                                                }}
                                                 to={PRODUCTION.replace(":id", itemProduction.id)}>{itemProduction.page_name}</Link>
                                             </li>
                                         ))}
@@ -128,24 +137,33 @@ const Navbar = () => {
                                 </div>
 
                                 <Link to={CONTACT}
-                                      onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                      onClick={() => {
+                                          window.scrollTo({top: 0, behavior: "smooth"})
+                                          setIsMenuOpen(false)
+                                      }}
                                       className="nav_menu_item">
                                     {t("navbar.contact")}
                                     <span></span>
                                 </Link>
                                 <Link to={BLOG}
-                                      onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
+                                      onClick={() => {
+                                          window.scrollTo({top: 0, behavior: "smooth"})
+                                          setIsMenuOpen(false)
+                                      }}
                                       className="nav_menu_item">
                                     BLOG
                                     <span></span>
                                 </Link>
                                 <div className="lang_nav nav_menu_item submenu">
-                                    {selectedLanguage?.icon && (<img src={selectedLanguage?.icon} alt=""/>)}
+                                    {selectedLanguage?.label && (<>{selectedLanguage?.label} <KeyboardArrowDownIcon/></>)}
                                     <span></span>
                                     <ul className="nav_menu_subitem_box roboto" >
                                         {languages.map((item, index) => (
                                             <li><div
-                                                onClick={() => handleLanguageChange(item)}
+                                                onClick={() => {
+                                                    handleLanguageChange(item)
+                                                    setIsMenuOpen(false)
+                                                } }
                                                 >{item.label}</div>
                                             </li>
                                         ))}

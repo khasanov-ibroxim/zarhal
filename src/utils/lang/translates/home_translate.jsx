@@ -108,7 +108,7 @@ export const home_translate = {
                 },
                 i2:{
                     title:"Экспортный фокус",
-                    desc:"Современные станки — ткани до 420 см для мирового рынка."
+                    desc:"Современные станки — ткани до 400 см для мирового рынка."
                 },
                 i3:{
                     title:"Готовый продукт",
@@ -120,7 +120,7 @@ export const home_translate = {
                 },
             },
             box:{
-                title:"Наше оборудование — ключ к качеству и эффективности на каждом этапе",
+                title:"Наше оборудование — <br/> ключ к качеству и эффективности <br/> на каждом этапе",
                 link:"Свяжитесь",
                 i1:{
                     title:"Для агро-обработки",
@@ -132,11 +132,11 @@ export const home_translate = {
                 },
                 i3:{
                     title:"Для качества и жаккарда",
-                    desc:`Станки <span className={"roboto"}>Picanol</span>, <span className="roboto">Itema</span>  и <span className="roboto">Staubli</span>  позволяют выпускать сложные узорчатые, жаккардовые и технические ткани. Высокая скорость и гибкость преимущество для крупных заказов.`
+                    desc:`Станки <span className={"roboto"}>Picanol</span> , <span className="roboto">Itema</span> , <span className="roboto">Bonas</span>  и <span className="roboto">Staubli</span>  позволяют выпускать сложные узорчатые, жаккардовые и технические ткани. Высокая скорость и гибкость преимущество для крупных заказов.`
                 },
                 i4:{
                     title:"Для отделки",
-                    desc:`Оборудование <span className="roboto">Beninger</span> , <span className="roboto">Monforst</span> , <span className="roboto">Ostoff</span> , <span className="roboto">Ramisch</span> <span className="roboto">Guarneri</span>   отвечает за финишную обработку и усиление текстиля. `
+                    desc:`Оборудование <span className="roboto">Beninger</span> , <span className="roboto">Monforst</span> , <span className="roboto">Ostoff</span> , <span className="roboto">Ramisch</span> <span className="roboto">Guarneri</span>   отвечает за финишную обработку и усиление ткани до 320см. `
                 },
             }
         },
@@ -292,11 +292,11 @@ Thanks to our sewing facilities, we produce up to 10 million garments per year.`
                 },
                 i3:{
                     title:"For Quality and Jacquard",
-                    desc:`Machines from Picanol, Itema, and Stäubli make it possible to produce complex patterned, jacquard, and technical fabrics. High speed and flexibility are key advantages for large-scale orders.`
+                    desc:`Picanol, Itema, Bonas and Staubli looms enable the production of complex patterned, jacquard and technical fabrics. Their high speed and flexibility are advantages for large orders.`
                 },
                 i4:{
                     title:"For Finishing",
-                    desc:`Equipment from Benninger, Monforts, Ostoff, and Ramisch Guarneri is responsible for finishing and reinforcing textiles.`
+                    desc:`The Beninger, Monforst, Ostoff and Ramisch Guarneri machines are responsible for finishing and reinforcing fabric up to 320 cm.`
                 },
             }
         },

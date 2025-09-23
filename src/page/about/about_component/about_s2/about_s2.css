@@ -112,4 +112,13 @@
         padding: 0;
         margin-top: 20px;
     }
+    .about_s2_left_title h1{
+        font-size: 19px;
+    }
+    .about_s2_body p{
+        font-size: 14px;
+    }
+    .about_s3_title h1{
+        font-size: 35px;
+    }
 }

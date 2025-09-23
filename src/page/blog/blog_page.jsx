@@ -33,7 +33,7 @@ const BlogPage = () => {
                 <div className="contact_opacity"></div>
                 <img src={header_img} alt="contact"/>
                 <div className="about_header_title">
-                    <h1 style={{textAlign:"center", fontSize:"35px"}}>{currentBlog.title}</h1>
+                    <h1 style={{textAlign:"center", fontSize:"20px"}}>{currentBlog.title}</h1>
                     <div className="about_header_subtitle">
                         <Link to={HOME}>{t("about.header.link")}</Link>
                         <span></span>

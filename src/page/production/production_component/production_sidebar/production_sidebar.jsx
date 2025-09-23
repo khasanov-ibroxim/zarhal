@@ -44,7 +44,7 @@ const ProductionSidebar = () => {
                 <div className="sidebar_question_text">
                     <h1>{t("production.sidebar.box.title")}</h1>
                     <p dangerouslySetInnerHTML={{__html:t("production.sidebar.box.p")}}></p>
-                    <div className="sidebar_question_tell"><PhoneIcon/> +998 65 222 07 07</div>
+
                 </div>
             </div>
 

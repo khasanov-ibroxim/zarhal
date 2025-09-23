@@ -8,18 +8,19 @@ import img_3 from "@/assets/about/about_s6/DSC033352.jpg"
 import l1 from "@/assets/about/about_s6/brand/bzt.png"
 import l2 from "@/assets/about/about_s6/brand/bodimax.png"
 import l3 from "@/assets/about/about_s6/brand/ksht.png"
-import l4 from "@/assets/about/about_s6/brand/oc.png"
-import l5 from "@/assets/about/about_s6/brand/sp.png"
-import l6 from "@/assets/about/about_s6/brand/langheinrich.png"
-import l7 from "@/assets/about/about_s6/brand/bosso.png"
-import l8 from "@/assets/about/about_s6/brand/GS.png"
+import l4 from "@/assets/about/about_s6/brand/curt_bauer.png"
+import l5 from "@/assets/about/about_s6/brand/oc.png"
+import l6 from "@/assets/about/about_s6/brand/sp.png"
+import l7 from "@/assets/about/about_s6/brand/langheinrich.png"
+import l8 from "@/assets/about/about_s6/brand/bosso.png"
+import l9 from "@/assets/about/about_s6/brand/GS.png"
 
 
 import {Autoplay} from "swiper/modules";
 import {useTranslation} from "react-i18next";
 
 
-const AboutS6 = () => {
+const   AboutS6 = () => {
     const {t} = useTranslation();
     const about_s6 = [
         {
@@ -42,11 +43,13 @@ const AboutS6 = () => {
     return (
         <div className={"about_s6"}>
             <div className="container">
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/gr9ZqjSdhFc?si=7bxF8Xg3Hw3gDeUp"
+                <iframe width="100%" height="500"
+                        src="https://www.youtube.com/embed/W-7ttBgkWYs?si=OEYW8JGR_gJe5juX&amp;controls=0"
                         title="YouTube video player" frameBorder="0"
                         style={{borderRadius: "25px", border: "none", outline: "none"}}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                
                 <div className="about_brand_title">
                     {t("about.s6.fabric")}
                 </div>
@@ -62,6 +65,7 @@ const AboutS6 = () => {
                         <img src={l6} alt=""/>
                         <img src={l7} alt=""/>
                         <img src={l8} alt=""/>
+                        <img src={l9} alt=""/>
                     </div>
                 </div>
 
