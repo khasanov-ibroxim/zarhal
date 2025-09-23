@@ -50,6 +50,8 @@
     cursor: pointer;
     padding-bottom: 10px;
     border-bottom: 1.5px solid #5BC679;
+    text-decoration: none;
+    color: #002C42;
 }
 .resent_left{
     height: 80px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link, useNavigate, useParams} from "react-router-dom";
 import {Production_db} from "@/page/production/production_db.jsx";
-import {ABOUT, HOME} from "@/utils/consts.jsx";
+import {ABOUT, BLOG_POST, HOME} from "@/utils/consts.jsx";
 import {Blog_db} from "@/page/blog/blog_db.jsx";
 import {useTranslation} from "react-i18next";
 import header_img from "@/assets/about/about_s1/DSC03588.jpg";
@@ -54,12 +54,12 @@ const BlogPage = () => {
                     <div className="blog_sidebar">
                         <div className="blog_resent">
                             {Blog_pages.map((itemBlog, i) => (
-                                <div className="resent_item">
+                                <Link to={BLOG_POST.replace(":id" , itemBlog.id)} className="resent_item">
                                     <img src={itemBlog.blog_img} alt=""/>
                                     <div className="resent_right">
                                         {itemBlog.title}
                                     </div>
-                                </div>
+                                </Link>
                             ))}
 
                         </div>
