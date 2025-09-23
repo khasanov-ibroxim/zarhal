@@ -151,7 +151,7 @@ const Navbar = () => {
                                           setIsMenuOpen(false)
                                       }}
                                       className="nav_menu_item">
-                                    BLOG
+                                    {t("blog.page_title")}
                                     <span></span>
                                 </Link>
                                 <div className="lang_nav nav_menu_item submenu">

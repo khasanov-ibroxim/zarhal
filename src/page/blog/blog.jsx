@@ -24,11 +24,11 @@ const Blog = () => {
                 <div className="contact_opacity"></div>
                 <img src={header_img} alt="contact"/>
                 <div className="about_header_title">
-                    <h1>Blog</h1>
+                    <h1>{t("blog.page_title")}</h1>
                     <div className="about_header_subtitle">
                         <Link to={HOME}>{t("about.header.link")}</Link>
                         <span></span>
-                        <Link to={BLOG} className={"activeText"}>Blog</Link>
+                        <Link to={BLOG} className={"activeText"}>{t("blog.page_title")}</Link>
                     </div>
                 </div>
             </div>

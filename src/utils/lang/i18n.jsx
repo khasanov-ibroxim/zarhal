@@ -7,6 +7,7 @@ import {contact_translate} from "@/utils/lang/translates/contact_translate.jsx";
 
 import {production_translate} from "@/utils/lang/translates/production_translate.jsx";
 import {about_translate} from "@/utils/lang/translates/about_translate.jsx";
+import {blog_translate} from "@/utils/lang/translates/blog_translate.jsx";
 
 
 
@@ -23,6 +24,7 @@ i18n
                 translation: {
                     home: home_translate.ru,
                     about:about_translate.ru,
+                    blog:blog_translate.ru,
                     contact: contact_translate.ru,
 
                     production: production_translate.ru,
@@ -68,6 +70,7 @@ i18n
                 translation: {
                     home: home_translate.en,
                     about:about_translate.en,
+                    blog:blog_translate.en,
                     contact: contact_translate.en,
 
                     production: production_translate.en,

@@ -37,7 +37,7 @@ const BlogPage = () => {
                     <div className="about_header_subtitle">
                         <Link to={HOME}>{t("about.header.link")}</Link>
                         <span></span>
-                        <Link to={ABOUT} className={"activeText"}>Blog</Link>
+                        <Link to={ABOUT} className={"activeText"}>{t("blog.page_title")}</Link>
 
                     </div>
                 </div>
