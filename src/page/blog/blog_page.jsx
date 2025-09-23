@@ -55,9 +55,7 @@ const BlogPage = () => {
                         <div className="blog_resent">
                             {Blog_pages.map((itemBlog, i) => (
                                 <div className="resent_item">
-                                    <div className="resent_left">
-                                        <img src={itemBlog.blog_img} alt=""/>
-                                    </div>
+                                    <img src={itemBlog.blog_img} alt=""/>
                                     <div className="resent_right">
                                         {itemBlog.title}
                                     </div>
