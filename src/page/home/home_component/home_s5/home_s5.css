@@ -124,7 +124,7 @@
     width: 50%;
     right: 0;
     background: #5BC679;
-    padding: 50px 100px;
+    padding: 20px 100px;
     border-radius: 20px;
 }
 
@@ -195,7 +195,7 @@
 
 @media  screen and  (max-width: 1200px){
 .h5_box_right{
-    padding: 50px;
+    padding: 0 50px;
 }
 }
 @media  screen and  (max-width: 1000px){
@@ -218,7 +218,7 @@
     .h5_box_right{
         position: static;
         width: 100%;
-        padding: 30px;
+        padding: 0 20px;
     }
     .h5_box_right_item{
         position: static;
