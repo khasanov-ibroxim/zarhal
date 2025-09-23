@@ -3,7 +3,7 @@ import React from 'react';
 import "./blog.css"
 import header_img from "@/assets/about/about_s1/DSC03588.jpg";
 import {Link} from "react-router-dom";
-import {ABOUT, BLOG_POST, HOME} from "@/utils/consts.jsx";
+import {ABOUT, BLOG, BLOG_POST, HOME} from "@/utils/consts.jsx";
 import {useTranslation} from "react-i18next";
 import {Production_db} from "@/page/production/production_db.jsx";
 import {Blog_db} from "@/page/blog/blog_db.jsx";
@@ -28,7 +28,7 @@ const Blog = () => {
                     <div className="about_header_subtitle">
                         <Link to={HOME}>{t("about.header.link")}</Link>
                         <span></span>
-                        <Link to={ABOUT} className={"activeText"}>Blog</Link>
+                        <Link to={BLOG} className={"activeText"}>Blog</Link>
                     </div>
                 </div>
             </div>
