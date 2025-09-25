@@ -3,6 +3,6 @@ export const blog_translate = {
         page_title:"Блог"
     },
     en:{
-        page_title:"Блог"
+        page_title:"Blog"
     }
 }

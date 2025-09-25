@@ -268,7 +268,7 @@ Thanks to our sewing facilities, we produce up to 10 million garments per year.`
                 },
                 i2:{
                     title:"Export Focus",
-                    desc:"Modern equipment — fabrics up to 420 cm wide for the global market."
+                    desc:"Modern equipment — fabrics up to 400 cm wide for the global market."
                 },
                 i3:{
                     title:"Finished Product",

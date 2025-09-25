@@ -58,15 +58,20 @@ const HomeS3 = () => {
                     </div>
                     <div className="row justify-content-center align-items-center d-flex">
                         <div className="col-lg-3  mt-4">
-                            <div className="h3_item" style={{height:"365px"}}>
+                            <div className="h3_item" style={{minHeight: "365px"}}>
                                 <div className="h3_item_element"></div>
                                 <img src={proizvodstva} alt={"zarhal siryo"}/>
                                 <h2>{t("home.s3.i4.h2")}</h2>
                                 <p>{t("home.s3.i4.p")}</p>
+                                <a href={CONTACT}
+                                   onClick={() => window.scrollTo({
+                                    top: 0,
+                                    behavior: "smooth"
+                                })}>{t("home.s3.i_link")}</a>
                             </div>
                         </div>
                         <div className="col-lg-3 mt-4">
-                            <div className="h3_item">
+                        <div className="h3_item">
                                 <div className="h3_item_element"></div>
                                 <img src={product} alt={"zarhal siryo"}/>
                                 <h2>{t("home.s3.i5.h2")}</h2>
