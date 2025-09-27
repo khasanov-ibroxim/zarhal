@@ -64,6 +64,13 @@ i18n
                             l4:"Готовая продукция",
                         },
                     },
+                    errors: {
+                        success: "A message has been sent, we will contact you shortly",
+                        name_empty: "Your name cannot be empty",
+                        name_error: "You typed your name incorrectly",
+                        tell_error: "Your phone number is incorrect",
+                        server_error: "A system error has occurred"
+                    }
                 }
             },
             en: {
@@ -110,6 +117,13 @@ i18n
                             l4:"Finished Products",
                         },
                     },
+                    errors: {
+                        success: "A message has been sent, we will contact you shortly",
+                        name_empty: "Your name cannot be empty",
+                        name_error: "You typed your name incorrectly",
+                        tell_error: "Your phone number is incorrect",
+                        server_error: "A system error has occurred"
+                    }
                 }
             },
         },

@@ -1,14 +1,95 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./contact.css"
 import header_img from "@/assets/contact/DSC02904.jpg"
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import {useTranslation} from "react-i18next";
+import {message} from "antd";
+import axios from "axios";
+
 
 const Contact = () => {
     const {t} = useTranslation();
+    const [username, setUsername] = useState("");
+    const [tell, setTell] = useState("");
+    const [email, setEmail] = useState("");
+    const [userMessage, setMsg] = useState("");
+    const [messageApi, contextHolder] = message.useMessage();
+    const [disabled, setDisabled] = useState(false);
+
+    const checkForm = () => {
+        setDisabled(true);
+
+        const hasNumber = /\d/;
+
+        if (!username || username.trim().length === 0) {
+            messageApi.open({
+                type: 'error',
+                content: t('errors.name_empty'),
+            });
+            setDisabled(false);
+            return;
+        }
+
+        if (username.trim().length <= 3 || hasNumber.test(username)) {
+            messageApi.open({
+                type: 'error',
+                content: t('errors.name_error'),
+            });
+            setDisabled(false);
+            return;
+        }
+
+        if (!tell || tell.trim().length < 8) {
+            messageApi.open({
+                type: 'error',
+                content: t('errors.tell_error'),
+            });
+            setDisabled(false);
+            return;
+        }
+
+        // To'g'ri xabar tuzamiz
+        let msg = "";
+        msg += `------------------\n`;
+        msg += `Имя: ${username}\n`;
+        msg += `Номер телефона: ${tell}\n`;
+        msg += `Email: ${email || '-'}\n`;
+        msg += `Сообщение: ${userMessage || '-'}\n`; // agar xohlasang textarea qiymatini ham qo‘shamiz
+
+        const TOKEN = "8220236367:AAFTQ9t6T9CO8w1RGMDCyjmgdue8P_oGOKM";
+        const CHAT_ID = "-1003047838699";
+
+        axios.post(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
+            chat_id: CHAT_ID,
+            parse_mode: 'html',
+            text: msg
+        }).then((res) => {
+            if (res?.status === 200) {
+                messageApi.open({
+                    type: 'success',
+                    content: t('errors.success'),
+                });
+                setTimeout(() => {
+                    setMsg('');
+                    setTell('');
+                    setEmail('');
+                    setUsername('');
+                    setDisabled(false);
+                }, 1800);
+            }
+        }).catch((e) => {
+            messageApi.open({
+                type: 'error',
+                content: t('errors.server_error'),
+            });
+            setDisabled(false);
+        });
+    };
+
     return (
         <div>
+            {contextHolder}
             <div className="contact_header">
                 <div className="contact_opacity"></div>
                 <img src={header_img} alt="contact"/>
@@ -24,18 +105,18 @@ const Contact = () => {
                         </div>
                         <div className="contact_box d-flex justify-content-center align-items-center flex-column ">
                             <div className="input_box">
-                                <input type="text" placeholder={t("contact.name")}/>
-                                <input type="text" placeholder={t("contact.email")}/>
-                                <input type="text" placeholder={t("contact.tel")}/>
+                                <input type="text" maxLength={13} placeholder={t("contact.name")} onChange={(e) => setUsername(e.target.value)} />
+                                <input type="email" placeholder={t("contact.email")} onChange={(e) => setEmail(e.target.value)}/>
+                                <input type="tel" maxLength={16} placeholder={t("contact.tel")} onChange={(e) => setTell(e.target.value)}/>
                             </div>
                             <div className="input_box mt-4">
                                 <input type="text" placeholder={t("contact.company")}/>
 
                             </div>
                             <div className="input_box mt-4">
-                                <textarea rows={7} placeholder={t("contact.msg")}/>
+                                <textarea rows={7} placeholder={t("contact.msg")} onChange={(e) => setMsg(e.target.value)}/>
                             </div>
-                            <button className={"contact_btn"}>{t("contact.send")}</button>
+                            <button className={"contact_btn"} onClick={checkForm} disabled={disabled}>{t("contact.send")}</button>
                         </div>
                     </div>
 
