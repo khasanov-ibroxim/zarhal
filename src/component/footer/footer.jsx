@@ -7,7 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import logo from "@/assets/logoZarhal.png"
-import {ABOUT, CONTACT, HOME, PRODUCTION} from "@/utils/consts.jsx";
+import {ABOUT, BLOG, CONTACT, HOME, PRODUCTION} from "@/utils/consts.jsx";
 import {useTranslation} from "react-i18next";
 
 const Footer = () => {
@@ -65,6 +65,7 @@ const Footer = () => {
                                    <ul>
                                        <li><Link to={HOME} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("footer.f2.l1")}</Link></li>
                                        <li><Link to={ABOUT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("footer.f2.l2")}</Link></li>
+                                       <li><Link to={BLOG} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("blog.page_title")}</Link></li>
                                        <li><Link to={CONTACT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>{t("footer.f2.l3")}</Link></li>
                                    </ul>
                                 </div>
