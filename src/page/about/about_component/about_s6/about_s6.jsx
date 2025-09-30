@@ -63,7 +63,6 @@ const   AboutS6 = () => {
                     <div className="about_s6_brand_row">
                         <img src={l5} alt=""/>
                         <img src={l6} alt=""/>
-                        <img src={l7} alt=""/>
                         <img src={l8} alt=""/>
                         <img src={l9} alt=""/>
                     </div>

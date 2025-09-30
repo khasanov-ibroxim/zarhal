@@ -31,10 +31,10 @@ const Footer = () => {
                             <div className="footer_item_1">
                                 <img src={logo} alt="Zarhal" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}/>
                                 <div className="footer_social mt-5">
-                                    <Link to={"#"} className="footer_social_item"><InstagramIcon/></Link>
-                                    <Link to={"#"} className="footer_social_item"><TelegramIcon/></Link>
+                                    <Link to={"https://www.instagram.com/zarhalgroup?igsh=emV5NXg1MWFxbnl0"} className="footer_social_item"><InstagramIcon/></Link>
+                                    <Link to={"https://t.me/zarhalgroupuz"} className="footer_social_item"><TelegramIcon/></Link>
                                     <Link to={"#"} className="footer_social_item"><FacebookIcon/></Link>
-                                    <Link to={"#"} className="footer_social_item"><WhatsAppIcon/></Link>
+                                    <Link to={"https://wa.me/qr/RJOPEGJYPE7CA1"} className="footer_social_item"><WhatsAppIcon/></Link>
                                     <Link to={"https://youtu.be/gr9ZqjSdhFchttps://youtu.be/gr9ZqjSdhFc"} className="footer_social_item"><YouTubeIcon/></Link>
                                 </div>
                             </div>
