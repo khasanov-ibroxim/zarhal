@@ -9,9 +9,9 @@ export const blog_translate = {
 Проект способствует диверсификации промышленности Узбекистана, увеличению экспортного потенциала и привлечению прямых иностранных инвестиций.`
         },
         i2:{
-            title:`Мы почти завершили подготовку полей для выращивания органического хлопка`,
+            title:`Мы начали подготовку полей для выращивания органического хлопка`,
             full_desc:`
-        Мы почти завершили подготовку полей для выращивания органического хлопка — и уже с 2026 года начнем выпуск продукции, изготовленной органического сырья.
+        Мы начали подготовку полей для выращивания органического хлопка — и уже с 2026 года начнем выпуск продукции, изготовленной органического сырья.
         Это не просто новый этап, а наша инвестиция в чистое будущее и экологически ответственное производство.`
         },
     },
@@ -27,8 +27,8 @@ The project will not only create 785 new jobs, but will also bring cutting-edge 
 It contributes to the diversification of Uzbekistan’s industry, the growth of export potential, and the attraction of foreign direct investment.`
         },
         i2:{
-            title:`We are almost finished preparing the fields for growing organic cotton `,
-            full_desc:`We are almost finished preparing the fields for growing organic cotton — and starting from 2026, we will begin producing goods made from organic raw materials. This is not just a new stage, but our investment in a clean future and environmentally responsible production.`
+            title:`We are  started preparing the fields for growing organic cotton `,
+            full_desc:`We are almost started preparing the fields for growing organic cotton — and starting from 2026, we will begin producing goods made from organic raw materials. This is not just a new stage, but our investment in a clean future and environmentally responsible production.`
         },
     }
 }
