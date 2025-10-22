@@ -16,7 +16,10 @@ export const about_translate = {
             p2:`В 2015 году был создан хлопкоперерабатывающий кластер ООО <span className="roboto">«Buxoro Zarhal Teks»</span> . Компания на основе передовых агротехнических подходов обеспечивает переработку 12 000 тонн экологически чистого органического хлопка в год, в результате чего формируется устойчивая производственная система с мощностью выпуска 4 000 тонн волокна.`,
             p3:`В 2020 году было основано ткацкое предприятие ООО <span className="roboto">«Olot spinner»</span> , где внедрение передовых технологий и современного оборудования позволило значительно расширить производственный потенциал. Сегодня мощность предприятия составляет 20 млн кв. метров продукции в год, что вывело его на новый уровень.`,
             p4:`В 2021 году компания сделала шаг в сферу швейного производства, создав ООО <span className="roboto">«Bosso Teks»</span> , и вышла на новый этап развития. Теперь компания производит не только ткани, но и готовые изделия: специальные скатерти и салфетки для ресторанов и гостиниц, а также высококачественные товары для домашнего текстиля.`,
-            p5:`В 2022 году было создано совместное узбекско-германское предприятие ООО <span className="roboto">«LEICHTER KAMALAK TEXTILIEN»</span> . В сотрудничестве с зарубежными партнёрами успешно налажен экспорт высококачественной хлопковой пряжи и готовой продукции с изысканным дизайном, благодаря внедрению передовых европейских технологий.`,
+            p5:`<span className="roboto">LEICHTER KAMALAK TEXTILIEN</span>  — совместное узбекско-германское предприятие, основанное в 2022 году.
+Объединив опыт и традиции немецкого качества с богатым потенциалом текстильной промышленности Узбекистана, компания создает продукцию премиального уровня.
+<br/>
+В партнерстве с <span className="roboto">LANGHEINRICH</span> налажен экспорт высококачественной хлопковой пряжи и готовых изделий с утончённым дизайном. Использование передовых европейских технологий позволяет нам воплощать в жизнь самые высокие стандарты качества, эстетики и надежности.`,
             desc:"Мы не останавливаемся на достигнутом — компания стремительно развивается и постоянно движется к новым успехам. Оставайтесь с нами — впереди вас ждут новые яркие проекты и возможности!",
             link1:"Свяжитесь",
             link2:"Контакты",
@@ -67,7 +70,10 @@ export const about_translate = {
             p2:`In 2015, the cotton processing cluster LLC “Buxoro Zarhal Teks” was established. Based on advanced agrotechnical approaches, the company processes 12,000 tons of eco-friendly organic cotton annually, resulting in a sustainable production system with a capacity of 4,000 tons of fiber.`,
             p3:`In 2020, the weaving enterprise LLC “Olot Spinner” was founded, where the implementation of advanced technologies and modern equipment significantly expanded production potential. Today, the enterprise’s capacity stands at 20 million square meters of products per year, taking it to a new level.`,
             p4:`In 2021, the company entered the garment manufacturing sector by establishing LLC “Bosso Teks”, marking a new stage of development. Now the company produces not only fabrics but also finished products: special tablecloths and napkins for restaurants and hotels, as well as high-quality home textile goods.`,
-            p5:`In 2022, the joint Uzbek-German enterprise LLC “LEICHTER KAMALAK TEXTILIEN” was created. In cooperation with international partners, the company successfully launched the export of high-quality cotton yarn and finished products with exquisite designs, thanks to the introduction of advanced European technologies.`,
+            p5:`<span className="roboto">LEICHTER KAMALAK TEXTILIEN</span> — a joint Uzbek-German enterprise founded in 2022.
+Combining the experience and traditions of German quality with the rich potential of Uzbekistan’s textile industry, the company produces premium-level products.
+<br/>
+In partnership with <span className="roboto">LANGHEINRICH</span>, the company exports high-quality cotton yarn and finished products with refined design. The use of advanced European technologies enables us to achieve the highest standards of quality, aesthetics, and reliability.`,
             desc:"We never stop at what has been achieved — the company is developing rapidly and constantly moving towards new successes. Stay with us — exciting new projects and opportunities lie ahead!",
             link1:"Contact Us",
             link2:"Contacts",
