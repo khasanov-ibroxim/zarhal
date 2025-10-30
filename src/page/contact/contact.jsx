@@ -6,7 +6,8 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import {useTranslation} from "react-i18next";
 import {message} from "antd";
 import axios from "axios";
-
+import emailjs from "@emailjs/browser";
+import { Spin } from 'antd';
 
 const Contact = () => {
     const {t} = useTranslation();
@@ -14,14 +15,22 @@ const Contact = () => {
     const [tell, setTell] = useState("");
     const [email, setEmail] = useState("");
     const [userMessage, setMsg] = useState("");
+    const [company, setCompany] = useState("");
     const [messageApi, contextHolder] = message.useMessage();
     const [disabled, setDisabled] = useState(false);
+
 
     const checkForm = () => {
         setDisabled(true);
 
         const hasNumber = /\d/;
+        const isValidEmail = (email) => {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        };
+        const isNumeric = (str) => /^\+?\d+$/.test(str);
 
+        // 1️⃣ Name tekshirish
         if (!username || username.trim().length === 0) {
             messageApi.open({
                 type: 'error',
@@ -40,7 +49,8 @@ const Contact = () => {
             return;
         }
 
-        if (!tell || tell.trim().length < 8) {
+        // 2️⃣ Telefon tekshirish
+        if (!tell || tell.trim().length < 8 || !isNumeric(tell)) {
             messageApi.open({
                 type: 'error',
                 content: t('errors.tell_error'),
@@ -49,13 +59,34 @@ const Contact = () => {
             return;
         }
 
+        // 3️⃣ Email tekshirish
+        if (!email || email.trim().length === 0) {
+            messageApi.open({
+                type: 'error',
+                content: t('errors.email_error'),
+            });
+            setDisabled(false);
+            return;
+        }
+
+        if (!isValidEmail(email)) {
+            messageApi.open({
+                type: 'error',
+                content: t('errors.email_error'),
+            });
+            setDisabled(false);
+            return;
+        }
+
+
         // To'g'ri xabar tuzamiz
         let msg = "";
         msg += `------------------\n`;
         msg += `Имя: ${username}\n`;
         msg += `Номер телефона: ${tell}\n`;
-        msg += `Email: ${email || '-'}\n`;
-        msg += `Сообщение: ${userMessage || '-'}\n`; // agar xohlasang textarea qiymatini ham qo‘shamiz
+        msg += `Почта: ${email || '-'}\n`;
+        msg += `Компания: ${company || '-'}\n`;
+        msg += `Сообщение: ${userMessage || '-'}\n`;
 
         const TOKEN = "8220236367:AAFTQ9t6T9CO8w1RGMDCyjmgdue8P_oGOKM";
         const CHAT_ID = "-1003047838699";
@@ -75,6 +106,7 @@ const Contact = () => {
                     setTell('');
                     setEmail('');
                     setUsername('');
+                    setCompany('');
                     setDisabled(false);
                 }, 1800);
             }
@@ -86,6 +118,7 @@ const Contact = () => {
             setDisabled(false);
         });
     };
+
 
     return (
         <div>
@@ -105,18 +138,23 @@ const Contact = () => {
                         </div>
                         <div className="contact_box d-flex justify-content-center align-items-center flex-column ">
                             <div className="input_box">
-                                <input type="text" maxLength={13} placeholder={t("contact.name")} onChange={(e) => setUsername(e.target.value)} />
-                                <input type="email" placeholder={t("contact.email")} onChange={(e) => setEmail(e.target.value)}/>
-                                <input type="tel" maxLength={16} placeholder={t("contact.tel")} onChange={(e) => setTell(e.target.value)}/>
+                                <input type="text" value={username} maxLength={13} placeholder={t("contact.name")}
+                                       onChange={(e) => setUsername(e.target.value)}/>
+                                <input type="email" value={email} placeholder={t("contact.email")}
+                                       onChange={(e) => setEmail(e.target.value)}/>
+                                <input type="tel" value={tell} maxLength={16} placeholder={t("contact.tel")}
+                                       onChange={(e) => setTell(e.target.value)}/>
                             </div>
                             <div className="input_box mt-4">
-                                <input type="text" placeholder={t("contact.company")}/>
+                                <input type="text" value={company} onChange={(e)=>setCompany(e.target.value)}  placeholder={t("contact.company")}/>
 
                             </div>
                             <div className="input_box mt-4">
-                                <textarea rows={7} placeholder={t("contact.msg")} onChange={(e) => setMsg(e.target.value)}/>
+                                <textarea rows={7} placeholder={t("contact.msg")}
+                                          onChange={(e) => setMsg(e.target.value)}/>
                             </div>
-                            <button className={"contact_btn"} onClick={checkForm} disabled={disabled}>{t("contact.send")}</button>
+                            <button className={"contact_btn"} onClick={checkForm}
+                                    disabled={disabled}>{disabled ? <Spin/> : t("contact.send")}</button>
                         </div>
                     </div>
 

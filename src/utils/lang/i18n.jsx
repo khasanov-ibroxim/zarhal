@@ -65,11 +65,12 @@ i18n
                         },
                     },
                     errors: {
-                        success: "A message has been sent, we will contact you shortly",
-                        name_empty: "Your name cannot be empty",
-                        name_error: "You typed your name incorrectly",
-                        tell_error: "Your phone number is incorrect",
-                        server_error: "A system error has occurred"
+                        success: "✅ Сообщение отправлено, мы свяжемся с вами в ближайшее время.",
+                        name_empty: "🤷‍♂️ Ваше имя не может быть пустым",
+                        name_error: "🤞 Вы неправильно ввели свое имя.",
+                        tell_error: "😒 Ваш номер телефона неверный",
+                        server_error: "😁 Произошла системная ошибка.",
+                        email_error:"😢 Почтовый адрес неверный"
                     }
                 }
             },
@@ -118,11 +119,12 @@ i18n
                         },
                     },
                     errors: {
-                        success: "A message has been sent, we will contact you shortly",
-                        name_empty: "Your name cannot be empty",
-                        name_error: "You typed your name incorrectly",
-                        tell_error: "Your phone number is incorrect",
-                        server_error: "A system error has occurred"
+                        success: "✅ A message has been sent, we will contact you shortly",
+                        name_empty: "🤷‍♂️ Your name cannot be empty",
+                        name_error: "🤞 You typed your name incorrectly",
+                        tell_error: "😒 Your phone number is incorrect",
+                        server_error: "😁 A system error has occurred",
+                        email_error:"😢 The mailing address is incorrect"
                     }
                 }
             },
