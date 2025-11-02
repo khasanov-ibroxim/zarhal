@@ -74,7 +74,7 @@ export const home_translate = {
             },
             i3:{
                 h2:"Изготовление пряжи",
-                p:"На современном оборудовании мы получаем в год до 3500 тонн чистого и прочного волокна."
+                p:"На современном оборудовании мы получаем в год до 3500 тонн чистой пряжи."
             },
             i4:{
                 h2:"Производство ткани",
@@ -234,7 +234,7 @@ from field to product.`,
             },
             i3:{
                 h2:"Yarn Production",
-                p:"Using advanced equipment, we produce up to 3,500 tons of clean and durable yarn per year."
+                p:"With our modern equipment, we produce up to 3,500 tons of pure yarn per year."
             },
             i4:{
                 h2:"Fabric Production",
