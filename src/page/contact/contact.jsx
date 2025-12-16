@@ -192,7 +192,7 @@ const Contact = () => {
                                                 </div>
                                                 <div className="contact_info_item_right">
                                                     <h4>{t("contact.box.tel")}</h4>
-                                                    <p>+998652220707</p>
+                                                    <p>+998553120707</p>
                                                     <p>+998772729922</p>
                                                     <p>info@zarhalgroup.uz</p>
                                                 </div>

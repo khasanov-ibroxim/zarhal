@@ -88,7 +88,7 @@ const Navbar = () => {
                             <div className="nav_top_right_item_icon"><CallIcon/></div>
                             <div className="nav_top_right_item_text">
                                 <p>{t("navbar.nav_top.tell")}</p>
-                                <h4>+998652220707</h4>
+                                <h4>+998553120707</h4>
                                 <h4>+998772729922</h4>
                             </div>
                         </div>

@@ -61,7 +61,7 @@ const ProductionSidebar = () => {
                 </div>
                 <div className="sidebar_contact_item">
                     <PhoneIphoneOutlinedIcon/>
-                    <p><a href="tel:+998652220707">+998652220707</a> <br/>
+                    <p><a href="tel:+998553120707">+998553120707</a> <br/>
                         <a href="tel:+998772729922">+998772729922</a></p>
                 </div>
                 <div className="sidebar_contact_item">
